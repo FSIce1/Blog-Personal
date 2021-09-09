@@ -23,7 +23,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="../../css/fuentes/fuentes.css">
+    <link rel="stylesheet" href="../../css/fuentes/fuentes.css?v=<?php echo time(); ?>">
 
     
     <!-- Para la caché -->
@@ -160,7 +160,7 @@
                         <img src="../../img/prueba/javascript.png" alt="Javascript">
                         <p>Javascript</p>
                     </a>
-                    <a href="articulos__tema.php" class="tema">
+                    <a href="tema/articulos__tema.php" class="tema">
                         <img src="../../img/prueba/css.png" alt="Css">
                         <p>Css</p>
                     </a>

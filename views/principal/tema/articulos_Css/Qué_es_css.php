@@ -7,7 +7,7 @@
     <title>Artículo</title>
 
 
-    <link rel="icon" type="image/png" href="../../../img/logo_v1.png">
+    <link rel="icon" type="image/png" href="../../../../img/logo_v1.png">
 
     <!-- Estilos -->
 
@@ -15,24 +15,17 @@
     <link rel="stylesheet" href="../../css/texto.css">
     -->
     
-    <link rel="stylesheet" href="../../../css/styles.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="../../../css/main/articulo.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="../../../css/switch.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="../../../css/main/aside.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../../../../css/styles.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../../../../css/main/articulo.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../../../../css/switch.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../../../../css/main/aside.css?v=<?php echo time(); ?>">
 
     
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
-
-
+    <link rel="stylesheet" href="../../../../css/fuentes/fuentes.css?v=<?php echo time(); ?>">
 
     <!-- Para la caché -->
     <meta http-equiv="Expires" content="0">
@@ -51,13 +44,13 @@
 
     <?php
 
-    $nivel = 1;
+    $nivel = 2;
 
     //! HEADER
-    require ('../../components/header.php');
+    require ('../../../components/header.php');
 
     //! BARRA DE NAVEGACIÓN
-    require('../../components/barraNavegacion.php');
+    require('../../../components/barraNavegacion.php');
 
     ?>
 
@@ -68,7 +61,7 @@
                 
                 <div class="container__articulo">
                     <div class="tema">
-                        <img src="../../../img/prueba/css.png" alt="Css">
+                        <img src="../../../../img/prueba/css.png" alt="Css">
     
                         <div class="tema__informacion">
                             <h3>Npm tutorial add()</h3>
@@ -87,19 +80,19 @@
                         
                     <div class="articulos-relacionados">
                         <a href="#">
-                            <img src="../../../img/prueba/css.png" alt="Imagen1">
+                            <img src="../../../../img/prueba/css.png" alt="Imagen1">
                             <h3>Centrar un div</h3>
                             <p>Al centrar con el positión sidajasdk kasdkasnd aksdlsad alskdjaskd laskjdkjlasjd asjkdsad </p>
                         </a>
                         
                         <a href="#">
-                            <img src="../../../img/prueba/javascript.png" alt="Imagen2">
+                            <img src="../../../../img/prueba/javascript.png" alt="Imagen2">
                             <h3>Css</h3>
                             <p>Al centrar con el positión sidajasdk kasdkasnd aksdlsad alskdjaskd laskjdkjlasjd asjkdsad </p>
                         </a>
                         
                         <a href="#">
-                            <img src="../../../img/prueba/node.png" alt="Imagen3">
+                            <img src="../../../../img/prueba/node.png" alt="Imagen3">
                             <h3>Css</h3>
                             <p>Al centrar con el positión sidajasdk kasdkasnd aksdlsad alskdjaskd laskjdkjlasjd asjkdsad </p>
                         </a>
@@ -120,7 +113,7 @@
                 <a href="https://www.youtube.com/watch?v=6oKCZGeAH0c&ab_channel=ElJard%C3%ADndelc%C3%B3digo" target="__blanck" class="youtube-link" data-id="FMNuTj89RzU" rel="nofollow noopener noreferrer">
                     <picture>
                         <!-- <source srcset="https://i3.ytimg.com/vi_webp/FMNuTj89RzU/mqdefault.webp" type="image/webp"> -->
-                        <img class="cover" alt="Creando calculadora en JAVA 👀 - Parte 1 (Diseño)" src="../../../img/videos-youtube/calculadora.jpg">
+                        <img class="cover" alt="Creando calculadora en JAVA 👀 - Parte 1 (Diseño)" src="../../../../img/videos-youtube/calculadora.jpg">
                     </picture>
                     <h4>Creando calculadora en JAVA 👀 - Parte 1 (Diseño)</h4>
                 </a>
@@ -130,7 +123,7 @@
                 <a href="https://www.youtube.com/watch?v=HVizjMAMLHc" target="__blanck" class="youtube-link" data-id="FMNuTj89RzU" rel="nofollow noopener noreferrer">
                     <picture>
                         <!-- <source srcset="https://i3.ytimg.com/vi_webp/FMNuTj89RzU/mqdefault.webp" type="image/webp"> -->
-                        <img class="cover" alt="Juego Piedra , Papel, Tijera, Lagarto, Spock 💻 hecho en JAVA" src="../../../img/videos-youtube/piedra-papel-tijera.jpg">
+                        <img class="cover" alt="Juego Piedra , Papel, Tijera, Lagarto, Spock 💻 hecho en JAVA" src="../../../../img/videos-youtube/piedra-papel-tijera.jpg">
                     </picture>
                     <h4>Juego Piedra , Papel, Tijera, Lagarto, Spock 💻 hecho en JAVA</h4>
                 </a>
@@ -140,7 +133,7 @@
                 <a href="https://www.youtube.com/watch?v=f6rP8eRafMY" target="__blanck" class="youtube-link" data-id="FMNuTj89RzU" rel="nofollow noopener noreferrer">
                     <picture>
                         <!-- <source srcset="https://i3.ytimg.com/vi_webp/FMNuTj89RzU/mqdefault.webp" type="image/webp"> -->
-                        <img class="cover" alt="Creando primer login en JAVA 💻" src="../../../img/videos-youtube/primer-login.png">
+                        <img class="cover" alt="Creando primer login en JAVA 💻" src="../../../../img/videos-youtube/primer-login.png">
                     </picture>
                     <h4>Creando primer login en JAVA 💻</h4>
                 </a>
@@ -153,10 +146,10 @@
 
     <?php
     //! FOOTER
-    require('../../components/footer.php');
+    require('../../../components/footer.php');
     ?>
 
-    <script src="../../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>
+    <script src="../../../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>
     
     <script>
         const $miCheckbox = document.querySelector("#punto__switch");

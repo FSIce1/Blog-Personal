@@ -7,7 +7,7 @@
     <title>Tema Css</title>
 
 
-    <link rel="icon" type="image/png" href="../../img/logo_v1.png">
+    <link rel="icon" type="image/png" href="../../../img/logo_v1.png">
 
     <!-- Estilos -->
 
@@ -15,23 +15,16 @@
     <link rel="stylesheet" href="../../css/texto.css">
     -->
     
-    <link rel="stylesheet" href="../../css/styles.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="../../css/main/articulos__tema.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="../../css/switch.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../../../css/styles.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../../../css/main/articulos__tema.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../../../css/switch.css?v=<?php echo time(); ?>">
 
     
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
-
-
+    <link rel="stylesheet" href="../../../css/fuentes/fuentes.css?v=<?php echo time(); ?>">
 
     <!-- Para la caché -->
     <meta http-equiv="Expires" content="0">
@@ -50,13 +43,13 @@
 
     <?php
     
-    $nivel = 0;
+    $nivel = 1;
 
     //! HEADER
-    require('../components/header.php');
+    require('../../components/header.php');
 
     //! BARRA DE NAVEGACIÓN
-    require('../components/barraNavegacion.php');
+    require('../../components/barraNavegacion.php');
 
     ?>
 
@@ -65,7 +58,7 @@
         <div class="container">
             
             <div class="tema">
-                <img src="../../img/prueba/css.png" alt="Css">
+                <img src="../../../img/prueba/css.png" alt="Css">
 
                 <div class="tema__informacion">
                     <h3>Css</h3>
@@ -78,7 +71,7 @@
             <div class="articulos">
                 
                 <a class="articulo" href="articulos_Css/Qué_es_css.php">
-                    <img src="../../img/prueba/css.png" alt="">
+                    <img src="../../../img/prueba/css.png" alt="">
 
                     <div class="articulo__info">
                         <h3>¿Qué es Css?</h3>
@@ -87,7 +80,7 @@
                 </a>
 
                 <div class="articulo">
-                    <img src="../../img/prueba/css.png" alt="">
+                    <img src="../../../img/prueba/css.png" alt="">
 
                     <div class="articulo__info">
                         <h3>Como centrar un div</h3>
@@ -96,25 +89,7 @@
                 </div>
 
                 <div class="articulo">
-                    <img src="../../img/prueba/css.png" alt="">
-
-                    <div class="articulo__info">
-                        <h3>Como centrar un div</h3>
-                        <span>Hace 3 semanas</span>
-                    </div>
-                </div>
-                
-                <div class="articulo">
-                    <img src="../../img/prueba/css.png" alt="">
-
-                    <div class="articulo__info">
-                        <h3>Como centrar un div</h3>
-                        <span>Hace 3 semanas</span>
-                    </div>
-                </div>
-
-                <div class="articulo">
-                    <img src="../../img/prueba/css.png" alt="">
+                    <img src="../../../img/prueba/css.png" alt="">
 
                     <div class="articulo__info">
                         <h3>Como centrar un div</h3>
@@ -123,7 +98,7 @@
                 </div>
                 
                 <div class="articulo">
-                    <img src="../../img/prueba/css.png" alt="">
+                    <img src="../../../img/prueba/css.png" alt="">
 
                     <div class="articulo__info">
                         <h3>Como centrar un div</h3>
@@ -132,7 +107,25 @@
                 </div>
 
                 <div class="articulo">
-                    <img src="../../img/prueba/css.png" alt="">
+                    <img src="../../../img/prueba/css.png" alt="">
+
+                    <div class="articulo__info">
+                        <h3>Como centrar un div</h3>
+                        <span>Hace 3 semanas</span>
+                    </div>
+                </div>
+                
+                <div class="articulo">
+                    <img src="../../../img/prueba/css.png" alt="">
+
+                    <div class="articulo__info">
+                        <h3>Como centrar un div</h3>
+                        <span>Hace 3 semanas</span>
+                    </div>
+                </div>
+
+                <div class="articulo">
+                    <img src="../../../img/prueba/css.png" alt="">
 
                     <div class="articulo__info">
                         <h3>Como centrar un div</h3>
@@ -148,10 +141,10 @@
 
     <?php
     //! FOOTER
-    require('../components/footer.php');
+    require('../../components/footer.php');
     ?>
 
-    <script src="../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>
+    <script src="../../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>
     
     <script>
         const $miCheckbox = document.querySelector("#punto__switch");
