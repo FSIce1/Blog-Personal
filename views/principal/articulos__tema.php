@@ -49,14 +49,16 @@
     ?> 
 
     <?php
+    
+    $nivel = 0;
+
     //! HEADER
-    require('../components/header.html');
+    require('../components/header.php');
 
     //! BARRA DE NAVEGACIÓN
-    require('../components/barraNavegacion.html');
+    require('../components/barraNavegacion.php');
 
     ?>
-
 
     <main>
         
@@ -75,14 +77,14 @@
 
             <div class="articulos">
                 
-                <div class="articulo">
+                <a class="articulo" href="articulos_Css/Qué_es_css.php">
                     <img src="../../img/prueba/css.png" alt="">
 
                     <div class="articulo__info">
-                        <h3>Como centrar un div</h3>
-                        <span>Hace 3 semanas</span>
+                        <h3>¿Qué es Css?</h3>
+                        <span>Hace 1 minuto</span>
                     </div>
-                </div>
+                </a>
 
                 <div class="articulo">
                     <img src="../../img/prueba/css.png" alt="">
@@ -146,7 +148,7 @@
 
     <?php
     //! FOOTER
-    require('../components/footer.html');
+    require('../components/footer.php');
     ?>
 
     <script src="../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>

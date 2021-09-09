@@ -1,8 +1,19 @@
+<?php
+    $ruta = '';
+    $i = 0;
+    while($i < $nivel){
+        $ruta = '../' . $ruta; 
+        $i++;
+    }
+    $ruta = "$ruta";
+?>
+
 <header>
 
     <div class="icono">
+        <?php echo "<img class='lol' src='".$ruta."../../img/logo_v1.png' alt=''>" ?>
 
-        <img class="lol" src="../../img/logo_v1.png" alt="Logo Principal">
+        <!-- <img class="lol" src="<?php $ruta ?>" alt="Logo Principal"> -->
         
         <p>Luis Felipe Siesquen Valdivia</p>
     </div>

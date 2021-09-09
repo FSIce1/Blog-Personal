@@ -46,11 +46,14 @@
 
 
     <?php
+
+    $nivel = 0;
+    
     //! HEADER
-    require('../components/header.html');
+    require('../components/header.php');
 
     //! BARRA DE NAVEGACIÓN
-    require('../components/barraNavegacion.html');
+    require('../components/barraNavegacion.php');
 
     ?>
 
@@ -149,31 +152,31 @@
             <section>
                 <p class="titulo">Artículos por temas</p>
                 <div class="seccion">
-                    <a href="articulos__tema.php" class="tema">
-                        <img src="../../img/prueba/css.png" alt="Imagen1">
-                        <p>Css</p>
+                    <a class="tema">
+                        <img src="../../img/prueba/html.png" alt="Html">
+                        <p>Html</p>
                     </a>
                     <a class="tema">
-                        <img src="../../img/prueba/javascript.png" alt="Imagen2">
+                        <img src="../../img/prueba/javascript.png" alt="Javascript">
                         <p>Javascript</p>
                     </a>
-                    <a class="tema">
-                        <img src="../../img/prueba/node.png" alt="Imagen3">
-                        <p>Node</p>
+                    <a href="articulos__tema.php" class="tema">
+                        <img src="../../img/prueba/css.png" alt="Css">
+                        <p>Css</p>
                     </a>
                 </div>
 
                 <div class="seccion">
                     <a class="tema">
-                        <img src="../../img/prueba/react.png" alt="Imagen1">
+                        <img src="../../img/prueba/react.png" alt="React">
                         <p>React</p>
                     </a>
                     <a class="tema">
-                        <img src="../../img/prueba/php.png" alt="Imagen2">
+                        <img src="../../img/prueba/php.png" alt="Php">
                         <p>Php</p>
                     </a>
                     <a class="tema">
-                        <img src="../../img/prueba/java.png" alt="Imagen3">
+                        <img src="../../img/prueba/java.png" alt="Java">
                         <p>Java</p>
                     </a>
                 </div>
@@ -221,7 +224,7 @@
 
     <?php
     //! FOOTER
-    require('../components/footer.html');
+    require('../components/footer.php');
     ?>
 
     <script src="../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>

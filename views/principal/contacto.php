@@ -49,14 +49,17 @@
     ?> 
 
     <?php
+
+
+    $nivel = 0;
+
     //! HEADER
-    require('../components/header.html');
+    require('../components/header.php');
 
     //! BARRA DE NAVEGACIÓN
-    require('../components/barraNavegacion.html');
+    require('../components/barraNavegacion.php');
 
     ?>
-
 
     <main>
         <div class="container__contacto">
@@ -112,7 +115,7 @@
 
     <?php
     //! FOOTER
-    require('../components/footer.html');
+    require('../components/footer.php');
     ?>
 
     <script src="../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>
