@@ -66,7 +66,7 @@
                         </div>
 
                         <div class="articulo__informacion">
-                            <a href="articulo">Npm tutorial add()</a>
+                            <a href="articulo.php">Npm tutorial add()</a>
                             <span>Julio 12, 2019 . ☕️ 15 minutos de lectura</span>
                             <p>Optimizaciones de renderizado que surgen...</p>
                         </div>
@@ -149,7 +149,7 @@
             <section>
                 <p class="titulo">Artículos por temas</p>
                 <div class="seccion">
-                    <a href="articulos__tema" class="tema">
+                    <a href="articulos__tema.php" class="tema">
                         <img src="../../img/prueba/css.png" alt="Imagen1">
                         <p>Css</p>
                     </a>
