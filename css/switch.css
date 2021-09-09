@@ -1,0 +1,142 @@
+.switch {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-right: 20px;
+
+    --width-check: 10vmin;
+    --height-check: calc(var(--width-check)/2);
+}
+
+.switch>input {
+    display: none;
+}
+
+.caja__switch {
+    display: inline-block;
+    position: relative;
+    width: var(--width-check);
+    height: var(--height-check);
+    cursor: pointer;
+    border-radius: var(--height-check);
+    background-color: #fff;
+    box-shadow: 0 0 0 0.5vmin lightgray;
+
+}
+
+.punto__switch {
+    display: inline-block;
+    position: absolute;
+    width: calc((var(--width-check) / 2) + 1.5vmin);
+    height: calc(var(--height-check) + 1.5vmin);
+    border-radius: calc(var(--height-check) + 2vmin);
+    top: -1vmin;
+    transition:
+        left ease .8s .2s;
+    box-shadow: inset -1vmin -2vmin 0 rgba(0, 0, 0, .1);
+    z-index: 2;
+    overflow: hidden;
+    will-change: left;
+}
+
+.punto__switch::before,
+.punto__switch::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    transform-origin: 50% 50%;
+}
+
+.punto__switch::before {
+    --size-swicth: calc((var(--height-check) / 5));
+    width: var(--size-swicth);
+    height: var(--size-swicth);
+    border-radius: var(--size-swicth);
+    left: 25%;
+    top: 30%;
+    box-shadow: calc(var(--size-swicth) * 2) 0 0 0 white;
+    animation: .2s ease, .6s ease .2s;
+}
+
+.punto__switch::after {
+    --size-swicth: calc((var(--height-check) / 2));
+    width: var(--size-swicth);
+    height: calc(var(--size-swicth) / 2);
+    border-radius: 0 0 var(--size-swicth) var(--size-swicth);
+    left: 28%;
+    top: 55%;
+    animation: .6s ease .2s;
+    transition: border-radius ease .2s;
+    will-change: border-radius;
+}
+
+#punto__switch:not(checked)~.caja__switch .punto__switch {
+    background-color: var(--color-sad);
+    left: -10%;
+}
+
+#punto__switch:checked~.caja__switch .punto__switch {
+    background-color: var(--color-happy);
+    left: 50%;
+}
+
+#punto__switch:not(checked)~.caja__switch .punto__switch::before {
+    animation-name: blink, hide-right;
+}
+
+#punto__switch:checked~.caja__switch .punto__switch::before {
+    animation-name: blink2, hide-left;
+}
+
+#punto__switch:checked~.caja__switch .punto__switch::after {
+    animation-name: hide-left;
+    border-radius: 0 0 var(--size-swicth) var(--size-swicth);
+}
+
+#punto__switch:not(checked)~.caja__switch .punto__switch::after {
+    animation-name: hide-right;
+    border-radius: var(--size-swicth) var(--size-swicth) 0 0;
+}
+
+@keyframes blink {
+    50% {
+        transform: scaleY(0.1);
+    }
+}
+
+@keyframes blink2 {
+    50% {
+        transform: scaleY(0.1);
+    }
+}
+
+@keyframes hide-left {
+    30% {
+        transform: scaleX(0);
+        opacity: 0;
+        left: 100%;
+    }
+
+    50% {
+        transform: scaleX(1);
+        opacity: 0;
+        left: 0%;
+    }
+}
+
+@keyframes hide-right {
+    30% {
+        transform: scaleX(0);
+        opacity: 0;
+        left: 0%;
+    }
+
+    50% {
+        transform: scaleX(1);
+        opacity: 0;
+        left: 100%;
+    }
+}

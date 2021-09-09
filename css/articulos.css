@@ -1,0 +1,152 @@
+
+
+/*! MODO OSCURO */
+
+body.darkmode > .body > main > section > article > .articulo > .articulo__informacion > a{
+    color: var(--turquezaBajo);
+}
+
+body.darkmode > .body > main > section > article > .articulo > .articulo__informacion > a:hover{
+    color: var(--turqueza);
+}
+
+body.darkmode > .body > main > section > p {
+    color: var(--turqueza);
+}
+
+body.darkmode > .body > main > section > .seccion > .tema > p {
+    color: var(--blanco);
+}
+
+body.darkmode > .body > main > section > .seccion > .tema:hover  {
+    border: 2px solid var(--turqueza);
+}
+
+body.darkmode > .body > main > section > .titulo {
+    color: var(--blanco);
+}
+
+
+.body {
+    display: flex;
+}
+
+main {
+    width: 900px;
+}
+
+section {
+    height: auto;
+    
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+section > p {
+    font-family: 'Stardos Stencil', sans-serif;
+    font-size: 14px;
+}
+
+.titulo {
+    color: var(--negro);
+}
+
+.articulo {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.articulo__imagen {
+    margin-right: 15px;
+}
+
+.articulo__imagen > img {
+    width: 64px;
+    height: 64px;
+}
+
+.articulo__informacion {
+    display: flex;
+    flex-direction: column;
+}
+
+.articulo__informacion > a {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 36px;
+    color: var(--rosadoBajo);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.articulo__informacion > a:hover {
+    color: var(--rosado);
+}
+
+.articulo__informacion > span {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 12px;
+}
+
+.articulo__informacion > p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+}
+
+section > p {
+    color: var(--rosado);
+
+    margin-top: 30px;
+}
+
+/*! Para los temas relacionados*/
+
+.seccion {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.tema {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+    border-radius: 26px;
+    border: 2px solid #eee;
+
+    color: #111;
+    
+    height: 55px;
+    font-size: 1.3rem;
+    padding: 0 24px;
+    
+    /* position: relative; */
+    margin-right: 10px;
+    transition: all .3s ease;
+}
+
+section > p {
+    margin-bottom: 15px;
+}
+
+section > .seccion > .tema > p {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+section > .section > a, a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tema:hover {
+    border: 2px solid var(--rosado);
+}
+
+.tema > img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px; 
+}

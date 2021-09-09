@@ -1,0 +1,105 @@
+
+body.darkmode > main > .container > .tema > .tema__informacion > h3 {
+    color: var(--turqueza);
+}
+
+body.darkmode > main > .container > .tema > .tema__informacion > p {
+    color: var(--blanco);
+}
+
+body.darkmode > main > .container > .articulos > .articulo > .articulo__info > h3 {
+    color: var(--blanco);
+}
+
+body.darkmode > main > .container > .articulos > .articulo > .articulo__info > span {
+    color: var(--blanco);
+}
+
+.container {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 30px 100px 30px 100px;
+
+    color: var(--negro);
+}
+
+.tema {
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+.tema > img {
+    width: 100px;
+    height: 100px;
+    padding: 1em;
+
+}
+
+.tema__informacion > h3 {
+    
+    font-size: 40px;
+    font-family: 'Righteous';
+
+    padding: 2.5px;
+    
+    color: var(--rosado); 
+}
+
+.tema__informacion > p {
+    max-width: 70%;
+    padding: 2.5px;
+    text-align: justify;
+
+    font-family: 'Merriweather';
+}
+
+
+/*? Para los Artículos*/
+
+.articulos {
+    display: flex;
+    /* flex-direction: row; */
+
+    flex-wrap:wrap;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    margin: 20px;
+}
+
+.articulo > img {
+    width: 32px;
+    height: 32px;
+}
+
+.articulo__info {
+    margin-left: 10px;
+}
+
+.articulo__info > h3 {
+    font-size: 18px;
+    font-family: 'Merriweather';
+}
+
+.articulo__info > span {
+    font-size: 14px;
+    font-family: 'Merriweather';
+}
+
+/* .articulo:nth-child(3n) {
+    page-break-after: always; 
+    break-after: always; 
+    color: green;
+} */

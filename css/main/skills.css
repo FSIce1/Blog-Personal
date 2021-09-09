@@ -1,0 +1,326 @@
+body.darkmode>main>.container>.map>.adorno>.adorno-1 {
+    background: var(--turqueza);
+}
+
+body.darkmode>main>.container>.map>.adorno>.adorno-2 {
+    background: var(--rosadoBajo);
+}
+
+body.darkmode>main>.container>.map>h3 {
+    color: var(--blanco);
+}
+
+body.darkmode>main>.container>.map>h3>span {
+    color: var(--turquezaBajo);
+}
+
+body.darkmode>main>.container>.map>h3>span:hover {
+    color: var(--turqueza);
+}
+
+body.darkmode>main>.container>.map>p {
+    color: var(--blanco);
+}
+
+body.darkmode>main>.container>.habilidades {
+    color: var(--turquezaBajo);
+}
+
+body.darkmode>main>.container>.habilidades>span:hover {
+    color: var(--turqueza);
+}
+
+.container {
+    position: relative;
+    /* left: 100px; */
+
+    display: flex;
+
+    margin: 30px 0 30px 100px;
+
+    color: var(--negro);
+}
+
+.adorno {
+    position: absolute;
+    z-index: 3;
+}
+
+.adorno-1,
+.adorno-2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+    border-radius: 30px;
+    transform: matrix(-0.86, -0.48, 0.52, -0.87, 0, 0);
+}
+
+.adorno-1 {
+    left: 0px;
+    top: 20px;
+
+    background: var(--rosadoBajo);
+}
+
+.adorno-2 {
+    left: 5px;
+    top: 40px;
+
+    background: var(--turqueza);
+}
+
+.map>h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 64px;
+
+    margin-top: 160px;
+    margin-bottom: 10px;
+}
+
+.map>h3>span {
+    color: var(--rosadoBajo);
+}
+
+.map>h3>span:hover {
+    color: var(--rosado);
+    cursor: pointer;
+
+}
+
+.map>p {
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+}
+
+.habilidades {
+    color: var(--rosadoBajo);
+
+    position: relative;
+
+    left: 10%;
+}
+
+.habilidades>.lugar-2,
+.lugar-4,
+.lugar-6,
+.lugar-8,
+.lugar-10 {
+    position: absolute;
+    font-size: 48px;
+
+    font-family: 'Righteous';
+    line-height: 60px;
+}
+
+.habilidades>.lugar-1,
+.lugar-3,
+.lugar-5,
+.lugar-7,
+.lugar-9,
+.lugar-11,
+.lugar-13 {
+    position: absolute;
+    font-size: 24px;
+
+    font-family: 'Righteous';
+    line-height: 60px;
+}
+
+.habilidades>.lugar-1 {
+    left: 100px;
+    top: 20px;
+}
+
+.habilidades>span:hover {
+    color: var(--rosado);
+    cursor: pointer;
+}
+
+.habilidades>.lugar-2 {
+    left: 150px;
+    top: 80px;
+}
+
+
+.habilidades>.lugar-3 {
+    left: 450px;
+    top: 160px;
+}
+
+.habilidades>.lugar-4 {
+    left: 350px;
+    top: 250px;
+}
+
+.habilidades>.lugar-5 {
+    left: 200px;
+    top: 230px
+}
+
+.habilidades>.lugar-6 {
+    left: 220px;
+    top: 170px;
+}
+
+.habilidades>.lugar-7 {
+    left: 90px;
+    top: 160px;
+}
+
+.habilidades>.lugar-8 {
+    left: 100px;
+    top: 60px;
+}
+
+.habilidades>.lugar-9 {
+    left: 320px;
+    top: 80px;
+}
+
+.habilidades>.lugar-10 {
+    left: 450px;
+    top: 20px;
+}
+
+.habilidades>.lugar-11 {
+    left: 270px;
+    top: 20px;
+}
+
+.habilidades>.lugar-13 {
+    left: 120px;
+    top: 230px;
+}
+
+
+.borde-resplandor {
+    /* border: 0 solid; */
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+
+    /* transition: black 0.8s linear 0.2s; */
+}
+
+.borde-resplandor:hover {
+    /* border: 1px solid; */
+    /*box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+        0 0 20px rgba(255, 255, 255, 0.2);
+        */
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint);
+
+
+.habilidades1>span {
+    display: inline-block;
+    animation: smoky 5s 3s both;
+
+
+    font-size: 24px;
+
+    font-family: 'Righteous';
+
+    /* overflow: hidden; */
+    /* font: 5vw/100vh "Finger Paint"; */
+    /* text-align: center;
+    color: transparent;
+    backface-visibility: hidden; */
+
+}
+
+.habilidades1>span:nth-child(even) {
+    animation-name: smoky-mirror;
+}
+
+@keyframes smoky {
+    60% {
+        text-shadow: 0 0 40px whitesmoke;
+    }
+
+    to {
+        transform:
+            translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg) scale(1.5);
+        text-shadow: 0 0 20px whitesmoke;
+        opacity: 0;
+    }
+}
+
+@keyframes smoky-mirror {
+    60% {
+        text-shadow: 0 0 40px whitesmoke;
+    }
+
+    to {
+        transform:
+            translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg) scale(2);
+        text-shadow: 0 0 20px whitesmoke;
+        opacity: 0;
+    }
+}
+
+@for $item from 1 through 21 {
+    .habilidades1>span:nth-of-type(#{$item}) {
+        animation-delay: #{(3 + ($item/10))}s;
+    }
+}
+
+/*
+@keyframes tipsy {
+    0 {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) rotate(360deg);
+    }
+}
+
+
+.efecto {
+    color: #fffbf1;
+    text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+    font-size: 80px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -3px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.efecto:before,
+.efecto:after {
+    content: '';
+    padding: .9em .4em;
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    top: 50%;
+    display: block;
+    border: 15px solid red;
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    animation: 10s infinite alternate ease-in-out tipsy;
+}
+
+.efecto:before {
+    border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    z-index: -1;
+}
+
+.efecto:after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
+    box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+}
+*/

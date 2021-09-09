@@ -1,0 +1,31 @@
+
+/*! MODO OSCURO */
+
+body.darkmode > main > .texto > p > span {
+    color: var(--turqueza);
+}
+
+/*! Para el TEXTO PRINCIPAL*/
+
+.texto {
+    position: relative;
+}
+
+.texto > p {
+    font-family: 'Righteous', sans-serif;
+    font-size: 66px;
+    line-height: 90px;
+    /*Separación entre lineas*/
+
+    /* position: absolute;
+    left: 100px;
+    top: 50px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    top: 170px;
+}
+
+.texto > p > span {
+    color: var(--rosado);
+}

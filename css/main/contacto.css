@@ -1,0 +1,248 @@
+
+:root {
+    --letraCodigo: #5C5C5C;
+    --inputFondo: #2B2B2B;
+}
+
+body.darkmode > main >  .container__contacto {
+    background-color: var(--negro);
+}
+
+body.darkmode > main > .container__contacto > .contacto > h2 {
+    color: var(--turqueza);
+}
+
+body.darkmode > main > .container__contacto > .contacto > p {
+    color: var(--blanco);
+}
+
+body.darkmode > main > .container__contacto > .contacto > .formulario > input:focus{ 
+    outline: 1px solid var(--turqueza);
+}
+
+body.darkmode > main > .container__contacto > .contacto > .formulario > input{ 
+    border-bottom: 3px solid var(--turqueza);
+    color: var(--blanco);
+    background-color: var(--inputFondo);
+}
+
+body.darkmode > main > .container__contacto > .contacto > .formulario > input::placeholder{ 
+    color: var(--blanco)
+}
+
+body.darkmode > main > .container__contacto > .contacto > .formulario > textarea:focus{ 
+    outline: 1px solid var(--turqueza);
+}
+
+body.darkmode > main > .container__contacto > .contacto > .formulario > textarea{ 
+    border-bottom: 3px solid var(--turqueza);
+    background-color: var(--inputFondo);
+    color: var(--blanco);
+}
+
+body.darkmode > main > .container__contacto > .contacto > .formulario > textarea::placeholder{ 
+    color: var(--blanco);
+}
+
+body.darkmode > main > .container__contacto > .contacto > .formulario > .formulario__control > input:focus{ 
+    outline: 1px solid var(--turqueza);
+}
+
+
+body.darkmode > main > .container__contacto > .contacto > .formulario > .formulario__control > input{ 
+    border-bottom: 3px solid var(--turqueza);
+    background-color: var(--inputFondo);
+    color: var(--blanco);
+}
+
+body.darkmode > main > .container__contacto > .contacto > .formulario > .formulario__control > input::placeholder{ 
+    color: var(--blanco);
+}
+
+body.darkmode > main > .container__contacto > .contacto > .formulario > .boton{ 
+    color: var(--turqueza);
+    background: var(--negro);
+    border: 1px solid var(--turqueza);
+}
+
+body.darkmode > main > .container__contacto > .contacto > .formulario > .boton:hover{ 
+    color: var(--negro);
+    background: var(--turqueza);
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__contacto {
+    width: 70%;
+    height: auto;
+    margin: 0;
+    padding: 20px 0px;
+    background-color: var(--blanco);
+}
+
+.container__mapa {
+    height: auto;
+}
+
+.container__mapa > iframe {
+    height: 100%;
+}
+
+.contacto {
+    position: relative;
+
+    left: 80px;
+
+    display: flex;
+    flex-direction: column;
+
+    color: var(--letraCodigo);
+}
+
+code {
+    position: relative;
+    font-size: 20px;
+}
+
+/*? Para el 'html' */
+.contacto > code:nth-child(1){
+    left: 0px;
+}
+
+/*? Para el 'body' */
+.contacto > code:nth-child(2), code:nth-child(12){
+    left: 10px;
+    
+    padding: 10px 0px;
+}
+
+/*? Para el 'h2' */
+.contacto > code:nth-child(3), code:nth-child(5){
+    left: 20px;
+    
+    padding: 10px 0px;
+}
+
+.contacto > h2 {
+    position: relative;
+    left: 30px;
+
+    font-family: 'Righteous';
+    font-size: 48px;
+    
+    color: var(--rosado);
+}
+
+/*? Para el 'p' */
+.contacto > code:nth-child(6), code:nth-child(8){
+    left: 20px;
+    
+    padding: 10px 0px;
+}
+
+.contacto > p {
+    position: relative;
+    left: 30px;
+
+    font-family: 'Righteous';
+    font-size: 14px;
+
+    color: var(--negro);
+}
+
+/*? Para el 'form' */
+.contacto > code:nth-child(9), code:nth-child(11){
+    left: 20px;
+    padding: 10px 0px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    left: 30px;
+}
+
+input, textarea {
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Courier Prime', monospace;
+
+    background-color: var(--blanco);
+    color: var(--negro);
+    
+    border: none;
+    border-bottom: 3px solid var(--rosado);
+
+    margin: 5px 0px;
+}
+
+textarea {
+    padding-top: 10px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: var(--negro);
+}
+
+input:focus, textarea:focus{ 
+    outline: 1px solid var(--rosado);
+}
+
+.formulario__control {
+    display: flex;
+    flex-direction: row;
+}
+
+.formulario > .formulario__control > input{
+    width: 240px;
+    height: 50px;
+}
+
+.formulario > .formulario__control > input:nth-child(1){
+    margin-right: 5px;
+}
+
+.formulario > input, textarea{
+    width: 505px;
+}
+
+.formulario > input {
+    height: 50px;
+}
+
+.formulario > textarea {
+    height: 100px;
+}
+
+.boton {
+    padding: 0;
+    
+    text-align: center;
+
+    width: 210px !important;
+    height: 50px;
+    
+    background: var(--blanco);
+
+    color: var(--rosado);
+
+    border: 1px solid var(--rosado);
+    margin: 15px 0 10px 0;
+
+    cursor: pointer;
+}
+
+.boton:hover {
+    color: var(--blanco);
+    background-color: var(--rosado);
+    transition: .5s ease;
+
+}
+
