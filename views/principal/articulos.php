@@ -66,7 +66,7 @@
                         </div>
 
                         <div class="articulo__informacion">
-                            <a href="articulo.php">Npm tutorial add()</a>
+                            <a href="articulo">Npm tutorial add()</a>
                             <span>Julio 12, 2019 . ☕️ 15 minutos de lectura</span>
                             <p>Optimizaciones de renderizado que surgen...</p>
                         </div>
