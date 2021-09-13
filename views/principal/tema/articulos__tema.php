@@ -79,59 +79,42 @@
                     </div>
                 </a>
 
-                <div class="articulo">
+                <a class="articulo" href="articulos_Css/Selectores_basicos.php">
                     <img src="../../../img/prueba/css.png" alt="">
 
                     <div class="articulo__info">
-                        <h3>Como centrar un div</h3>
+                        <h3>Selectores Básicos</h3>
                         <span>Hace 3 semanas</span>
                     </div>
-                </div>
+                </a>
 
-                <div class="articulo">
+                <a class="articulo" href="articulos_Css/Selectores_avanzados.php">
                     <img src="../../../img/prueba/css.png" alt="">
 
                     <div class="articulo__info">
-                        <h3>Como centrar un div</h3>
+                        <h3>Selectores Avanzados</h3>
                         <span>Hace 3 semanas</span>
                     </div>
-                </div>
+                </a>
                 
-                <div class="articulo">
+                <a class="articulo" href="articulos_Css/Especificidad.php">
                     <img src="../../../img/prueba/css.png" alt="">
 
                     <div class="articulo__info">
-                        <h3>Como centrar un div</h3>
+                        <h3>Especificidad</h3>
                         <span>Hace 3 semanas</span>
                     </div>
-                </div>
+                </a>
 
-                <div class="articulo">
+                <a class="articulo" href="articulos_Css/Unidades_de_medida.php">
                     <img src="../../../img/prueba/css.png" alt="">
 
                     <div class="articulo__info">
-                        <h3>Como centrar un div</h3>
+                        <h3>Unidades de Medida</h3>
                         <span>Hace 3 semanas</span>
                     </div>
-                </div>
+                </a>
                 
-                <div class="articulo">
-                    <img src="../../../img/prueba/css.png" alt="">
-
-                    <div class="articulo__info">
-                        <h3>Como centrar un div</h3>
-                        <span>Hace 3 semanas</span>
-                    </div>
-                </div>
-
-                <div class="articulo">
-                    <img src="../../../img/prueba/css.png" alt="">
-
-                    <div class="articulo__info">
-                        <h3>Como centrar un div</h3>
-                        <span>Hace 3 semanas</span>
-                    </div>
-                </div>
                 
             </div>
 
