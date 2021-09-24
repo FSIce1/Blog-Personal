@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¿Qué es Css?</title>
+    <title>Bordes</title>
 
 
     <link rel="icon" type="image/png" href="../../../../img/logo_v1.png">
@@ -64,120 +64,133 @@
                         <img src="../../../../img/prueba/css.png" alt="Css">
     
                         <div class="tema__informacion">
-                            <h3>¿Qué es Css?</h3>
-                            <span>Septiembre 9, 2021. ☕ 15 minutos de lectura</span>
+                            <h3>Bordes</h3>
+                            <span>Septiembre 13, 2021. ☕ 15 minutos de lectura</span>
                         </div>
                         
                     </div>
-                    
+
                     <p>
-                        Css significa "Hojas de Estilo en Cascada" en sus siglas en inglés "Cascade Style Sheets". </br> 
-                        Css es utilizado para estilizar las páginas web creadas en código Html dándole así color, forma, 
-                        posición, fuente, animaciones entre características visuales.
+                        Permite modificar el aspecto de los 4 bordes de la caja de un elemento, 
+                        entre ellos la anchura, grosor, color y el estilo.
                     </p>
+                    
+                    <h3>Ancho</h3>
 
-                    <div class="container__articulo-imagen">
-                        <img src="../../../../img/tema/css/qué_es_css/Html + Css.png" alt="">
-                    </div>
+                    <p>
+                        Se definen 4 propiedades para controlar los márgentes horizontales y Verticales
+                    </p>
+                    
+                    <table class="tabla">
+                        
+                        <tr>
+                            <th>Propiedad</th>
+                            <th>border-top-width, border-right-width, border-bottom-width, border-left-width</th>
+                        </tr>
 
-                    <div class="nota">
-                        <p><strong>Nota: </strong>
-                            Como se puede apreciar en la imagen se unifica Html como Css para tener como resultado nuestras
-                            modificaciones visuales 
-                        </p>
-                    </div>
+                        <tr>
+                            <td>Valores</td>
+                            <td>( unidad de medida | thin(borde delgado) | medium(mediano) | thick(borde ancho) ) | inherit</td>
+                        </tr>
 
-                    <p>Se le denomina "estilos en cascada" porque se aplican de arriba hacia abajo, en el siguiente cuadro podemos ver un poco de código Css: </p>
+                        <tr>
+                            <td>Valor inicial</td>
+                            <td>Medium</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Descripción</td>
+                            <td>Establece el ancho de cada borde</td>
+                        </tr>
+
+                    </table>
 
                     <pre class="nota">
-<code><span class="selector">.container</span> {
-    <span class="propiedad">position: </span><span class="valor">relative</span>;
-
-    <span class="propiedad">display: </span><span class="valor">flex</span>;
-    <span class="propiedad">flex-direction: </span><span class="valor">column</span>;
-
-    <span class="propiedad">margin: </span><span class="valor">30</span><span class="px">px</span> <span class="valor">100</span><span class="px">px</span> <span class="valor">30</span><span class="px">px</span> <span class="valor">100</span><span class="px">px</span>;
-
-    <span class="propiedad">color: var</span>(--negro);
-}
-
-<span class="selector">.tema</span> {
-    <span class="propiedad">display: </span><span class="valor">flex</span>;
-
-    <span class="propiedad">flex-direction: </span><span class="valor">row</span>;
-    <span class="propiedad">align-items: </span><span class="valor">center</span>;
-
-    <span class="propiedad">margin-bottom: </span><span class="valor">30</span><span class="px">px</span>;
+<code><span class="px">#caja</span> {
+    <span class="propiedad">border-top-width: </span><span class="valor">20</span> <span class="px">px</span>;
+    <span class="propiedad">border-right-width: </span><span class="valor">1</span> <span class="px">em</span>;
+    <span class="propiedad">border-bottom-width: </span><span class="valor">thick</span>;
+    <span class="propiedad">border-left-width: </span><span class="valor">thin</span>;
 }</code></pre>
 
-                    <h3>¿Cómo añadir Css a nuestro documento Html?</h3>
-
-                    <p>
-                        Para poder vincular nuestro Css a un documento Html, primero debemos tener
-                        debemos añadir la siguiente línea dentro de <code><head></code> de documento
-                        HTML: 
-                    </p>
-
-                    <pre class="nota">
-<code>&#60;<span class="rosado">link</span> <span class="px">rel</span><span class="turqueza">=</span><span class="enlace">"stylesheet"</span> <span class="px">href</span><span class="turqueza">=</span><span class="enlace">"styles.css"</span>&#62;</code></pre>
-
-                    <div class="nota">
-                        Este link le dice al navegador que tenemos una hoja de estilo, con el atributo href 
-                        podemos indicar la ubicación de nuestro archivo y el atributo rel indica a realción del 
-                        documento enlazado con el actual.
+                    <div id="ejemplo_ancho">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus blanditiis officiis, repellendus minus sequi sint enim? Ea deleniti, similique consequatur facilis dicta sint qui laudantium adipisci praesentium cupiditate fuga unde.
                     </div>
-
-                    <h3>¿Cuál es la estructura de Css?</h3>
                     
-                    <div class="container__articulo-imagen">
-                        <img class="imagen_tipo_1" src="../../../../img/tema/css/qué_es_css/Css estructura.jpg" alt="">
-                    </div>
+
+
+                    <h3>Estilo</h3>
 
                     <p>
-                        En la imagen vemos la estructura Css. <br>
+                        Se establece el estilo de cada uno de los bordes
                     </p>
+                    
+                    <table class="tabla">
+                        
+                        <tr>
+                            <th>Propiedad</th>
+                            <th>border-top-style, border-right-style, border-bottom-style, border-left-style</th>
+                        </tr>
 
-                    <ul style="margin-left: 50px;">
-                        <li>
-                            <strong>Selector:</strong>
-                            <p>
-                                Es un elemento que es seleccionado para poder aplicarle un estilo en específico, 
-                                puede ser un h1, h2 o como en la imagen un p entre otros 
-                            </p>
-                        </li>
+                        <tr>
+                            <td>Valores</td>
+                            <td>none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset | inherit</td>
+                        </tr>
 
-                        <li>
-                            <strong>Propiedad:</strong>
-                            <p>
-                                Son las características que nos ofrece Css
-                            </p>
-                        </li>
+                        <tr>
+                            <td>Valor inicial</td>
+                            <td>none</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Descripción</td>
+                            <td>Establece el estilo en cada borde</td>
+                        </tr>
 
-                        <li>
-                            <strong>Valor de la propiedad:</strong>
-                            <p>
-                                Es lo que va ligado a la propiedad espcificándole un valor para así afectar 
-                                a su comportamiento 
-                            </p>
-                        </li>
+                    </table>
 
-                        <li>
-                            <strong>Declaración:</strong>
-                            <p>
-                                Estpa conformado por una propiedad y un valor, a esto se le denomina declaración; 
-                                en la imagen de ejemplo lo podemos apreciar.
-                            </p>
-                        </li>
-
-                    </ul>
-
-                    <div class="nota" style="margin-left: 50px;">
-                        En los archivos Css, se pueden hacer comentarios con los caracteres <code style="color: gray">/* */</code> con esto
-                        el navegador ignora todo lo que esté allí, mayormente usado para explicar pequeños fragmentos de código
+                    <div class="caja" style="border: none;">
+                        None
                     </div>
+
+                    <div class="caja" style="border: hidden;">
+                        Hidden
+                    </div>
+
+                    <div class="caja" style="border: dotted;">
+                        Dotted
+                    </div>
+                    
+                    <div class="caja" style="border: dashed;">
+                        Dashed
+                    </div>
+                    
+                    <div class="caja" style="border: solid;">
+                        Solid
+                    </div>
+                    
+                    <div class="caja" style="border: double;">
+                        Double
+                    </div>
+                    
+                    <div class="caja" style="border: groove;">
+                        Groove
+                    </div>
+                    
+                    <div class="caja" style="border: ridge;">
+                        Ridge
+                    </div>
+                    
+                    <div class="caja" style="border: inset;">
+                        Inset
+                    </div>
+                    
+                    <div class="caja" style="border: outset;">
+                        Outset
+                    </div>
+
 
                 </div>
-                
                 
                 <section>
                     <p class="titulo">Artículos por temas</p>

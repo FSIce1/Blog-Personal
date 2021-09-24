@@ -23,6 +23,16 @@ body.darkmode > .body > main > .container > .container__articulo > ul > li {
     color: var(--turqueza);
 }
 
+body.darkmode > .body > main > .container > .container__articulo > #ejemplo_ancho {
+    color: var(--blanco);
+    
+    border: solid var(--turqueza);
+    border-top-width: 20px;
+    border-right-width: 1em;
+    border-bottom-width: thick;
+    border-left-width: thin;
+}
+
 body.darkmode > .body > main > .container > .container__articulo > ul > li > strong {
     color: var(--turqueza);
 }
@@ -35,12 +45,64 @@ body.darkmode > .body > main > .container > .container__articulo > h3 {
     color: var(--turqueza);
 }
 
+body.darkmode > .body > main > .container > .container__articulo > .ejemplo {
+    background-color: var(--turqueza) !important;
+}
+
+body.darkmode > .body > main > .container > .container__articulo > .caja {
+    background-color: var(--turqueza) !important;
+}
+
 body.darkmode > .body > main > .container > .container__articulo > ul > * {
     color: var(--blanco);
 }
 
+
+
+body.darkmode > .body > main > .container > .container__articulo > .tabla th {
+    background-color: var(--turqueza);
+    color: var(--negro);
+}
+
+body.darkmode > .body > main > .container > .container__articulo > .tabla_ejemplo {
+    border: 1px solid var(--blanco);
+}
+
+body.darkmode > .body > main > .container > .container__articulo > .tabla_ejemplo td {
+    border: 1px solid var(--blanco);
+}
+
+body.darkmode > .body > main > .container > .container__articulo > .tabla_ejemplo th {
+    border: 1px solid var(--blanco);
+}
+
+
+body.darkmode > .body > main > .container > .container__articulo > .tabla_ejemplo tr {
+    color: var(--blanco);
+}
+
+body.darkmode > .body > main > .container > .container__articulo > .tabla td {
+    color: var(--blanco);
+}
+
+body.darkmode > .body > main > .container > .container__articulo > .tabla tr {
+    background-color: var(--negro);
+}
+
+body.darkmode > .body > main > .container > .container__articulo > .tabla tr:hover {
+    background-color: #464751;
+}
+
 body.darkmode > .body > main > .container > .container__articulo > .nota {
     border-left: 6px solid var(--turqueza);
+}
+
+body.darkmode > .body > main > .container > .container__articulo > .container__articulo-imagen > picture > .figure {
+    color: var(--blanco);
+}
+
+body.darkmode > .body > main > .container > .container__articulo > label {
+    color: var(--blanco);
 }
 
 body.darkmode > .body > main > .container > .container__articulo > pre.nota {
@@ -50,8 +112,6 @@ body.darkmode > .body > main > .container > .container__articulo > pre.nota {
 body.darkmode > .body > main > .container > section > .articulos-relacionados > a > h3 {
     color: var(--turquezaBajo);
 }
-
-
 
 body.darkmode > .body > main > .container > section > .articulos-relacionados > a > h3:hover {
     color: var(--turqueza);
@@ -197,6 +257,8 @@ main {
 }
 
 
+
+
 li {
     color: var(--rosado);
 }
@@ -229,13 +291,13 @@ li > p {
     width: 100%;
     display: flex;
     justify-content: center;
+
+    padding: 40px 0px;
 }
 
 .container__articulo-imagen > img {
     width: 400px; 
     height:150px;
-
-    padding: 40px 0px;
 }
 
 .container__articulo > ul {
@@ -266,6 +328,26 @@ li > p {
     height:300px;
 }
 
+.container__articulo-imagen > .imagen_tipo_2 {
+    width: 300px; 
+    height:250px;
+}
+
+.container__articulo-imagen > .imagen_tipo_3 { 
+    width: 450px; 
+    height: 300px;
+}
+
+.container__articulo-imagen > .imagen_tipo_4 { 
+    width: 400px; 
+    height: 300px;
+}
+
+.container__articulo-imagen > .imagen_tipo_5 { 
+    width: 600px; 
+    height: 100px;
+}
+
 .container__articulo > h3 {
     color: var(--rosado);
     font-weight: bold;
@@ -275,9 +357,40 @@ li > p {
     margin: 40px 0 20px 0;
 }
 
+.figure {
+    font-family: 'Righteous';
+    font-size: 14px;
+    color: var(--negro);
+}
+
 pre.nota {
     background-color: #F4F4F4;
     border-left: 6px solid #005282;
+}
+
+.tabla {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+
+    margin-block: 20px;
+}
+
+.tabla td, .tabla th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tabla tr:hover {
+    background-color: #ddd;
+}
+
+.tabla th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--rosado);
+    color: var(--blanco);
 }
 
 .propiedad {
@@ -306,4 +419,126 @@ pre.nota {
 
 .enlace {
     color: #8AC400;
+}
+
+#ejemplo_ancho {
+    border: solid var(--rosado);
+    margin: 50px;
+}
+
+#ejemplo_ancho {  
+    border-top-width: 20px;
+    border-right-width: 1em;
+    border-bottom-width: thick;
+    border-left-width: thin;
+}
+
+.caja {
+    width: 150px;
+    height: 30px;
+    margin-block: 10px;
+
+    margin-inline: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.tabla_ejemplo {
+    width: 250px;
+    border: 1px solid #000;
+}
+
+.tabla_ejemplo th, .tabla_ejemplo td {
+    border: 1px solid #000;
+}
+
+.colapsa {
+    border-collapse: collapse;
+}
+
+.espacio {
+    border-spacing: 5px;
+}
+
+.celda {
+    empty-cells: hide;
+}
+
+.caption {
+    caption-side: top;
+}
+
+.lista_ejemplo li {
+    color: var(--negro);
+}
+
+.margen_50 {
+    margin-left: 50px;
+}
+
+/*? Ejemplo artículo: "Flex" */
+
+.caja_flex {
+    background: lightgreen; 
+    width: 70px; 
+    height: 70px;
+    margin-right: 10px;
+    margin-block: 10px;
+    text-align: center;
+}
+
+
+.caja_flex2 {
+    background: lightgreen; 
+    height: 100px; 
+    width: 300px;
+    text-align: center;
+}
+
+.caja_flex3 {
+    background: lightgreen; 
+    height: 50px; 
+    width: 50px;
+    text-align: center;
+}
+
+.caja_flex4, .caja_flex4_2, .caja_flex4_3 {
+    background: lightgreen; 
+    text-align: center;
+    margin-right: 2px;
+    width: 25px;
+}
+
+.caja_flex4_3 {
+    height: 40px;
+    font-size: 150%;
+}
+
+.caja_flex4 { 
+    height: 25px; 
+}
+
+.caja_flex5, .caja_flex6 {
+    background: lightgreen; 
+    
+    text-align: center;
+
+    font-size: 14px;
+    margin-right: 2px;
+}
+
+.caja_flex5 {
+    height: 25px; 
+    width: 50px;    
+}
+
+.caja_ej {
+    width: 100%;
+    max-width: 300px;
+    background-color: lightcoral;
+}
+
+.grow {
+    flex-grow: 1;
 }

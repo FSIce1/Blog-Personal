@@ -313,16 +313,6 @@
                     </div>
                 </a>
                 
-                
-                <a class="articulo" href="articulos_Css/Grid.php">
-                    <img src="../../../img/prueba/css.png" alt="">
-
-                    <div class="articulo__info">
-                        <h3>Grid</h3>
-                        <span>Hace 3 semanas</span>
-                    </div>
-                </a>
-                
                 <a class="articulo" href="articulos_Css/Otros.php">
                     <img src="../../../img/prueba/css.png" alt="">
 

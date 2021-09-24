@@ -74,7 +74,9 @@
                         Estos selectores nos ayudan a simplificar nuestra hoja de estilo
                     </p>
 
-                    <ul>
+
+                    <!--Selector Hijo-->
+                    <ul style="margin-left: 50px">
                         <li>
                             <strong>Selector Hijo:</strong>
                             <p>
@@ -85,13 +87,14 @@
                         </li>
                     </ul>
 
-                    <pre class="nota">
+                    <pre class="nota" style="margin-left: 50px">
 <code><span class="rosado">p > span</span> {
     <span class="propiedad">color: </span><span class="valor">blue</span>;
-}</code></pre>
+}</code></pre><br>
 
 
-                    <ul>
+                    <!--Selector Adyacente-->
+                    <ul style="margin-left: 50px">
                         <li>
                             <strong>Selector adyacente:</strong>
                             <p>
@@ -102,36 +105,37 @@
                         </li>
                     </ul>
 
-                    <pre class="nota">
+                    <pre class="nota" style="margin-left: 50px">
 <code><span class="rosado">p + span</span> {
     <span class="propiedad">color: </span><span class="valor">blue</span>;
 }</code></pre>
 
 
-                    <ul>
+                    <!--Selector de atributos-->
+                    <ul style="margin-left: 50px">
                         <li>
                             <strong>Selector de atributos:</strong>
                             <p>
                                 Permiten seleccionar elementos en función de sus atributos 
                                 <br><br>
-                                <p style="margin-left: 20px">
-                                    [nombre_atributo]: Selecciona los elemento que tienen el atributo con el nombre
+                                <p style="margin-left: 30px">
+                                    <strong>[nombre_atributo]:</Strong> Selecciona los elemento que tienen el atributo con el nombre
                                     nombre_atributo.
                                     <br><br>
-                                    [nombre_atributo=valor]: Selecciona los elementos que tiene el atributo nombre_atributo
+                                    <strong>[nombre_atributo=valor]:</strong> Selecciona los elementos que tiene el atributo nombre_atributo
                                     con el valor igual a 'valor'.
                                     <br><br>
-                                    [nombre_atributo~=valor]:  Selecciona los elementos que tiene el atributo nombre_atributo 
+                                    <strong>[nombre_atributo~=valor]:</strong>  Selecciona los elementos que tiene el atributo nombre_atributo 
                                     y al menos uno de los valores del atributo valor.
                                     <br><br>
-                                    [nombre_atributo|=valor]: Selecciona los elementos que tiene el atributo nombre_atributo 
+                                    <strong>[nombre_atributo|=valor]:</strong> Selecciona los elementos que tiene el atributo nombre_atributo 
                                     y cuyo valor empiece por la palabra "valor".
                                 </p>
                             </p>
                         </li>
                     </ul>
 
-                    <pre class="nota">
+                    <pre class="nota" style="margin-left: 50px">
 <code><span class="comentario">/* Se muestran de color azul todos los enlaces que tengan
    un atributo "class", independientemente de su valor */</span>
 

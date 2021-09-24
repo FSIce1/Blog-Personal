@@ -15,22 +15,22 @@
         <div class="footer__servicios" style="color: black">
             <ul>
                 <li>
-                    <p>DESARROLLO DE APLICACIONES WEB</p>
+                    <p style="color: black">DESARROLLO DE APLICACIONES WEB</p>
                     <?php echo "<img src='".$ruta."../../img/footer/programacion-web.png' alt=''>" ?>
                 </li>
                 
                 <li>
-                    <p>DESARROLLO DE SISTEMAS WEB</p>
+                    <p style="color: black">DESARROLLO DE SISTEMAS WEB</p>
                     <?php echo "<img src='".$ruta."../../img/footer/programacion-web2.png' alt=''>" ?>
                 </li>
                 
                 <li>
-                    <p>DESARROLLO DE APLICACIONES DESKTOP</p>
+                    <p style="color: black">DESARROLLO DE APLICACIONES DESKTOP</p>
                     <?php echo "<img src='".$ruta."../../img/footer/programacion-desktop.png' alt=''>" ?>
                 </li>
 
                 <li>
-                    <p>DESARROLLO DE APLICACIONES MÓVILES</p>
+                    <p style="color: black">DESARROLLO DE APLICACIONES MÓVILES</p>
                     <?php echo "<img src='".$ruta."../../img/footer/programacion-movil.png' alt=''>" ?>
                 </li>
             </ul>
