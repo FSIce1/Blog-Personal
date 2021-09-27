@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="../../css/styles.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../css/main/contacto.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../css/switch.css?v=<?php echo time(); ?>">
-
+    <link rel="stylesheet" href="../../css/main/footer.css?v=<?php echo time(); ?>">
     
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

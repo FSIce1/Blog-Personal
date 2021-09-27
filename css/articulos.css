@@ -29,6 +29,7 @@ body.darkmode > .body > main > section > .titulo {
 
 .body {
     display: flex;
+    justify-content: space-between;
 }
 
 main {

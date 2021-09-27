@@ -764,3 +764,8 @@ body.darkmode > .body > main > .container > .container__articulo > .ejemplo_filt
     height: 300px;
     transform: rotate(360deg)
 }
+
+.body {
+    display: flex;
+    justify-content: space-between;
+}

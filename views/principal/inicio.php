@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../../css/styles.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../css/texto.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../css/switch.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../../css/main/footer.css?v=<?php echo time(); ?>">
 
     
     <!-- Fuentes -->
@@ -66,10 +67,14 @@
 
     </main>
 
+    <!--
+    <div class="footer_falso" style="width: 100%; background-color: green; height: 200px">
+            FOOTOER
+    </div>-->
 
     <?php
     //! FOOTER
-    require('../components/footer.php');
+        require('../components/footer.php');
     ?>
 
     <script src="../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>

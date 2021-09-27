@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="../../../../css/main/articulo.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../../../css/switch.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../../../css/main/aside.css?v=<?php echo time(); ?>">
-
+    <link rel="stylesheet" href="../../../../css/main/footer.css?v=<?php echo time(); ?>">
+    
     <link rel="stylesheet" href="../../../../css/main/grid.scss?v=<?php echo time(); ?>">
 
     

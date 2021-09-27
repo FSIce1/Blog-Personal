@@ -7,7 +7,7 @@
 
     margin-right: 20px;
 
-    --width-check: 10vmin;
+    --width-check: 8vmin;
     --height-check: calc(var(--width-check)/2);
 }
 
