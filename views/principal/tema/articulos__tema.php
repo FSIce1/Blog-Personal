@@ -277,6 +277,15 @@
                     </div>
                 </a>
                 
+                <a class="articulo" href="articulos_Css/Filtros.php">
+                    <img src="../../../img/prueba/css.png" alt="">
+
+                    <div class="articulo__info">
+                        <h3>Filtros</h3>
+                        <span>Hace 3 semanas</span>
+                    </div>
+                </a>
+                
                 <a class="articulo" href="articulos_Css/Listas.php">
                     <img src="../../../img/prueba/css.png" alt="">
 
@@ -303,6 +312,24 @@
                         <span>Hace 3 semanas</span>
                     </div>
                 </a>
+
+                <a class="articulo" href="articulos_Css/Animaciones.php">
+                    <img src="../../../img/prueba/css.png" alt="">
+
+                    <div class="articulo__info">
+                        <h3>Animaciones</h3>
+                        <span>Hace 3 semanas</span>
+                    </div>
+                </a>
+
+                <a class="articulo" href="articulos_Css/Responsive_design.php">
+                    <img src="../../../img/prueba/css.png" alt="">
+
+                    <div class="articulo__info">
+                        <h3>Responsive Design</h3>
+                        <span>Hace 3 semanas</span>
+                    </div>
+                </a>
                 
                 <a class="articulo" href="articulos_Css/Flex.php">
                     <img src="../../../img/prueba/css.png" alt="">
@@ -323,6 +350,15 @@
                     </div>
                 </a>
                 
+                <a class="articulo" href="articulos_Css/Enlaces_extras.php">
+                    <img src="../../../img/prueba/css.png" alt="">
+
+                    <div class="articulo__info">
+                        <h3>Enlaces Extras</h3>
+                        <span>Hace 2 semanas</span>
+                    </div>
+                </a>
+
                 <a class="articulo" href="articulos_Css/Otros.php">
                     <img src="../../../img/prueba/css.png" alt="">
 

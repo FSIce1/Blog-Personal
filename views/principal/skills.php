@@ -64,7 +64,7 @@
                     <div class="adorno-2"></div>
                 </div>
     
-                <h3>Skills <span>.map()</span> </h3>
+                <h3>Skills<span>.map()</span> </h3>
                 
                 <p>Habilidades técnicas que tengo <br />hasta la actualidad</p>
             
