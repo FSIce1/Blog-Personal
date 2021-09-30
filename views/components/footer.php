@@ -12,7 +12,7 @@
 
     <div class="footer__info">
         
-        <div class="footer__servicios" style="color: black">
+        <div class="footer__servicios">
             <ul>
                 <li>
                     <p style="color: black">DESARROLLO DE APLICACIONES WEB</p>
@@ -36,12 +36,14 @@
             </ul>
         </div>
 
-        <!-- <div class="linea"></div> -->
+        <div class="linea"></div>
         
+        <!--
         <div class="centra">
             <div class="linea"></div>
         </div>
-
+        -->
+        
         <div class="footer__abajo">
 
             <div class="footer__menu">
@@ -56,8 +58,6 @@
 
             <div class="footer__redes">
                 <ul>
-                    <!-- <li>Redes Sociales: </li> -->
-                    
                     <li><a href="https://github.com/FSIce1" target="__blank"><?php echo "<img src='".$ruta."../../img/iconos/github/github.svg' alt=''>" ?></a></li>
                     <li><a href="https://www.linkedin.com/in/luisfelipe1/" target="__blank"><?php echo "<img src='".$ruta."../../img/iconos/linkedin/linkedin.svg' alt=''>" ?></a></li>
                     <li><a href="https://www.instagram.com/luisfsv1/" target="__blank"><?php echo "<img src='".$ruta."../../img/iconos/instagram/instagram.svg' alt=''>" ?></a></li>
@@ -68,8 +68,10 @@
 
         </div>
 
-        <p style="color: black">Luis Felipe Siesquen | Todos los derechos reservados © 2021.</p>
-    
+        <p>Luis Felipe Siesquen | Todos los derechos reservados © 2021.</p>
+
+
+
     </div>
 
 </footer>

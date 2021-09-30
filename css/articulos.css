@@ -151,3 +151,22 @@ section > .section > a, a:hover {
     height: 32px;
     margin-right: 10px; 
 }
+
+
+/*TODO: Entre 768px y 1023x */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /*? Para el los artículos*/
+    .body {
+        display: flex;
+        flex-direction:column;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    
+}
+
+

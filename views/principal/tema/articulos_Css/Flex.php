@@ -347,7 +347,7 @@
                             </div>
                         </div><br>
 
-                        <div class="ejemplo margen_50" style="display: flex; flex-direction: row; justify-content: center;">
+                        <div class="ejemplo" style="display: flex; flex-direction: row; justify-content: center;">
                             
                             <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; flex-wrap: wrap; align-content: space-between;">
                                 <div class="caja_flex6">space</div>
@@ -434,9 +434,9 @@
 
                     </table>
 
-                    <div style="width: 100% ;display: flex; flex-direction: column; align-items: center;">
+                    <div class="margen_50" style="width: 100% ;display: flex; flex-direction: column; align-items: center;">
                         
-                        <div class="ejemplo margen_50" style="display: flex; flex-direction: row;">
+                        <div class="ejemplo" style="display: flex; flex-direction: row;">
                             
                             <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 100px; height: 100px; justify-content: flex-start;" >
                                 <div class="caja_flex3">flex-start</div>
@@ -452,21 +452,21 @@
                             
                         </div><br>
 
-                        <div class="ejemplo margen_50" style="display: flex; flex-direction: row;">
+                        <div class="ejemplo2">
                         
-                            <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; justify-content: space-between;">
+                            <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; justify-content: space-between;">
                                 <div class="caja_flex5">space</div>
                                 <div class="caja_flex4">-</div>
                                 <div class="caja_flex5">between</div>
                             </div>
                             
-                            <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; justify-content: space-around;">
+                            <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; justify-content: space-around;">
                                 <div class="caja_flex5">space</div>
                                 <div class="caja_flex4">-</div>
                                 <div class="caja_flex5">around</div>
                             </div>
                             
-                            <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; justify-content: space-evenly;">
+                            <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; justify-content: space-evenly;">
                                 <div class="caja_flex5">space</div>
                                 <div class="caja_flex4">-</div>
                                 <div class="caja_flex5">evenly</div>
@@ -513,20 +513,20 @@
 
                     </table>
 
-                    <div style="width: 100% ;display: flex; flex-direction: column; align-items: center;">
-                        <div class="ejemplo margen_50" style="display: flex; flex-direction: row;">
+                    <div class="margen_50" style="width: 100% ;display: flex; flex-direction: column; align-items: center;">
+                        <div class="ejemplo2">
                             
-                            <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: flex-start;">
+                            <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: flex-start;">
                                 <div class="caja_flex5">flex</div>
                                 <div class="caja_flex4">-</div>
                                 <div class="caja_flex5">start</div>
                             </div>
                             
-                            <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: center;">
+                            <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: center;">
                                 <div class="caja_flex5">center</div>
                             </div>
                             
-                            <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: flex-end;">
+                            <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: flex-end;">
                                 <div class="caja_flex5">flex</div>
                                 <div class="caja_flex4">-</div>
                                 <div class="caja_flex5">end</div>
@@ -534,7 +534,7 @@
                             
                         </div><br>
 
-                        <div class="ejemplo margen_50" style="display: flex; flex-direction: row;">
+                        <div class="ejemplo" style="display: flex; flex-direction: row;">
                             
                             <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: stretch;">
                                 <div class="caja_flex6">stretch 1</div>
@@ -597,23 +597,23 @@
 
                     </table>
 
-                    <div style="width: 100% ;display: flex; flex-direction: column; align-items: center;">
+                    <div class="margen_50" style="width: 100% ;display: flex; flex-direction: column; align-items: center;">
                         
-                        <div class="ejemplo margen_50" style="display: flex; flex-direction: row;">
+                        <div class="ejemplo2">
                             
-                            <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: flex-start;">
+                            <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: flex-start;">
                                 <div class="caja_flex5" style="align-self: flex-end;">flex</div>
                                 <div class="caja_flex4">-</div>
                                 <div class="caja_flex5">start</div>
                             </div>
                             
-                            <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: flex-end;">
+                            <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: flex-end;">
                                 <div class="caja_flex5" style="align-self: flex-start">flex</div>
                                 <div class="caja_flex4">-</div>
                                 <div class="caja_flex5">end</div>
                             </div>
                             
-                            <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: flex-end;">
+                            <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: flex-end;">
                                 <div class="caja_flex5">center</div>
                                 <div class="caja_flex4" style="align-self: center">-</div>
                                 <div class="caja_flex5">center</div>

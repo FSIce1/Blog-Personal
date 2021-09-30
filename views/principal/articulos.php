@@ -59,6 +59,7 @@
     ?>
 
     <div class="body">
+        
         <main>
             <section class="articulos">
                 <p>últimos artículos...</p>

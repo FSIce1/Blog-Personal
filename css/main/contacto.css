@@ -48,7 +48,6 @@ body.darkmode > main > .container__contacto > .contacto > .formulario > .formula
     outline: 1px solid var(--turqueza);
 }
 
-
 body.darkmode > main > .container__contacto > .contacto > .formulario > .formulario__control > input{ 
     border-bottom: 3px solid var(--turqueza);
     background-color: var(--inputFondo);
@@ -80,9 +79,10 @@ main {
 .container__contacto {
     width: 70%;
     height: auto;
-    margin: 0;
+    /* margin-left: 80px; */
     padding: 20px 0px;
-    background-color: var(--blanco);
+    padding-left: 80px;
+    background-color: var(--blancopuro);
 }
 
 .container__mapa {
@@ -94,9 +94,11 @@ main {
 }
 
 .contacto {
+    box-sizing: border-box;
     position: relative;
+    width: 100%;
 
-    left: 80px;
+    /* left: 80px; */
 
     display: flex;
     flex-direction: column;
@@ -161,14 +163,6 @@ code {
     padding: 10px 0px;
 }
 
-.formulario {
-    display: flex;
-    flex-direction: column;
-
-    position: relative;
-    left: 30px;
-}
-
 input, textarea {
     padding-left: 20px;
     font-size: 20px;
@@ -180,7 +174,7 @@ input, textarea {
     border: none;
     border-bottom: 3px solid var(--rosado);
 
-    margin: 5px 0px;
+    margin: 0px 0px;
 }
 
 textarea {
@@ -195,13 +189,24 @@ input:focus, textarea:focus{
     outline: 1px solid var(--rosado);
 }
 
+.formulario {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    /* left: 30px; */
+}
+
 .formulario__control {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    
+    margin: 5px 20px;
 }
 
 .formulario > .formulario__control > input{
-    width: 240px;
+    /* width: 240px; */
+    width: 50%;
     height: 50px;
 }
 
@@ -210,7 +215,9 @@ input:focus, textarea:focus{
 }
 
 .formulario > input, textarea{
-    width: 505px;
+    /*width: 505px*/
+    width: auto;
+    margin: 5px 20px;
 }
 
 .formulario > input {
@@ -221,12 +228,12 @@ input:focus, textarea:focus{
     height: 100px;
 }
 
-.boton {
+#boton {
     padding: 0;
     
     text-align: center;
 
-    width: 210px !important;
+    width: 210px;
     height: 50px;
     
     background: var(--blanco);
@@ -234,15 +241,58 @@ input:focus, textarea:focus{
     color: var(--rosado);
 
     border: 1px solid var(--rosado);
-    margin: 15px 0 10px 0;
+    margin: 15px 0 10px 20px;
 
     cursor: pointer;
 }
 
-.boton:hover {
+#boton:hover {
     color: var(--blanco);
     background-color: var(--rosado);
     transition: .5s ease;
+}
+
+
+/*TODO: Entre 1024px y 1200px */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+    .contacto > p {
+        font-size: 13px;
+    }
+
+    .contacto > h2 {
+        font-size: 44px;
+    }
 
 }
 
+/*TODO: Entre 768px y 1023x */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .container__contacto {
+        width: 80%;
+    }
+
+    .container__mapa {
+        padding-left: 70px;
+        height: 800px;
+    }
+
+    iframe {
+        margin-top: 20px; 
+        width: 100%;
+    }
+
+    code {
+        width: 100px;
+    }
+
+    .contacto > h2 {
+        width: 300px;
+    }
+
+}

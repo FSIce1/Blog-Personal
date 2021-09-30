@@ -76,17 +76,16 @@
                             
                         <div class="formulario__control">
 
-                                <input type="text" placeholder="Nombre">
-                            
-                                <input type="text" placeholder="Apellido">
-                                
+                            <input type="text" placeholder="Nombre">
+                            <input type="text" placeholder="Apellido">
+                        
                         </div>
 
                         <input type="email" placeholder="Email">
 
                         <textarea placeholder="Mensaje" rows="5"></textarea>
 
-                        <input type="button" class="boton" value="Enviar">
+                        <input type="button" id="boton" value="Enviar">
 
                     </form>
 

@@ -56,6 +56,7 @@
     ?>
 
     <div class="body">
+    
         <main>
             
             <div class="container">
@@ -167,7 +168,6 @@
         
         </main>
     
-        
         <aside>
     
             <h3>Últimos videos en youtube</h3>

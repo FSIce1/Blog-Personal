@@ -86,7 +86,7 @@
                     <div class="container__articulo-imagen">
                         <picture>
                             <img class="imagen_tipo_3" src="../../../../img/tema/css/modelos_de_caja/box_model.png" alt="">
-                            <p class="figure">Representación de un Box Model</p>
+                            <p class="figure" style="text-align: center">Representación de un Box Model</p>
                         </picture>
                     </div>
 

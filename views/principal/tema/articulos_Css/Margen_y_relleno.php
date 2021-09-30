@@ -71,6 +71,8 @@
                         
                     </div>
                     
+
+                    <!--MARGIN-->
                     <h3>Margin</h3>
 
                     <p>
@@ -105,12 +107,13 @@
                         <img class="imagen_tipo_4" src="../../../../img/tema/css/margen_y_relleno/margen.gif" alt="">
                     </div>
                     
+
+                    <!--PADDING-->
                     <h3>Padding</h3>
 
                     <p>
                         Controla los espacios dentro de la caja (relleno) horizontales y verticales de un elemento.
                     </p>    
-
 
                     <table class="tabla">
                         

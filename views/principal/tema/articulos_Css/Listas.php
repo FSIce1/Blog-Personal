@@ -133,7 +133,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" src="../../../../img/tema/css/listas/viñeta.png" alt="">
+                            <img class="imagen_tipo_3" width="400px" src="../../../../img/tema/css/listas/viñeta.png" alt="">
                             <p class="figure">Tipos de viñetas</p>
                         </picture>
                     </div>
@@ -176,7 +176,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" src="../../../../img/tema/css/listas/outside_inside.png" alt="">
+                            <img class="imagen_tipo_3" width="400px" src="../../../../img/tema/css/listas/outside_inside.png" alt="">
                             <p class="figure">Outside vs Inside</p>
                         </picture>
                     </div>
@@ -219,7 +219,7 @@
                     
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" src="../../../../img/tema/css/listas/viñeta_con_imagen.gif" alt="">
+                            <img class="imagen_tipo_3" width="400px" src="../../../../img/tema/css/listas/viñeta_con_imagen.gif" alt="">
                             <p class="figure">Viñeta con imagen</p>
                         </picture>
                     </div>

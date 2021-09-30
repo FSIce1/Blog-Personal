@@ -27,6 +27,8 @@ body.darkmode > main > .container > .articulos > .articulo > .articulo__info > s
     color: var(--blanco);
 }
 
+
+
 .container {
     position: relative;
 
@@ -84,6 +86,7 @@ a {
     /* flex-direction: row; */
 
     flex-wrap:wrap;
+    /* justify-content: space-between; */
 }
 
 .articulo {
@@ -136,3 +139,12 @@ a {
     break-after: always; 
     color: green;
 } */
+
+/*TODO: Entre 768px y 1023x */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .container {
+        width: 80%;
+    }
+    
+}

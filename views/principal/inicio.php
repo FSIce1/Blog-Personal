@@ -50,10 +50,9 @@
     require('../components/header.php');
 
     //! BARRA DE NAVEGACIÓN
-    require('../components/barraNavegacion.php');
+    //require('../components/barraNavegacion.php');
 
     ?>
-
 
     <main>
 
@@ -66,11 +65,6 @@
         </div>
 
     </main>
-
-    <!--
-    <div class="footer_falso" style="width: 100%; background-color: green; height: 200px">
-            FOOTOER
-    </div>-->
 
     <?php
     //! FOOTER

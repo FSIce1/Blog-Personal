@@ -23,6 +23,12 @@ html {
 
 }
 
+body {
+    transition: all 0.4s;
+    margin-bottom: 300px;
+    /* max-height: 100%; */
+}
+
 /*! MODO OSCURO */
 
 body.darkmode {
@@ -34,11 +40,6 @@ body.darkmode > header > .switch > #punto__switch:active {
     --color-sad: var(--rosado);
 }
 
-
-body {
-    transition: all 0.4s;
-    margin-bottom: 300px;
-}
 
 .root {
     position: relative;
@@ -95,7 +96,7 @@ nav {
     width: 60px;
     height: 450px;
 
-    background: var(--blancopuro);
+    background: var(--blanco);
     z-index: 1;
 }
 
@@ -112,240 +113,20 @@ nav>li>a>img {
     height: 32px;
 }
 
-/* .ima:hover {
-    background: url(../img/iconos/facebook/facebook-rosado.png) no-repeat !important;
-} */
 
 
-/*! Para el SWICTH*/
-/* 
-.swicth {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
+/*TODO: Entre 425px y 578px */
+@media screen and (min-width: 425px) and (max-width: 578px) {
 
-.swicth {
-    position: relative;
+    header>.icono>img {
+        width: 32px;
+        height: 32px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.switch>input {
-    display: none;
-}
-
-.caja__switch {
-    z-index: 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all .2s;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: var(--rosado);
-    box-shadow: 0 10px 10px 0 rgba(var(--rosado), 0.3);
-
-    position: absolute;
-
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-
-}
-
-.caja__switch>.punto__switch {
-    transition: all 0.2s ease-in-out;
-    height: 5px;
-    width: 5px;
-    background-color: transparent;
-    border: 8px solid var(--turqueza);
-    border-radius: 50%;
-    cursor: pointer;
-
-    animation: var(--rosado) .7s linear forwards;
-}
-
-.caja__switch:active {
-    width: 45px;
-    height: 45px;
-    box-shadow: 0 10px 10px 0 rgba(var(--rosado), 0.5);
-}
-
-.caja__switch:active>.punto__switch {
-    height: 17px;
-    width: 17px;
-}
-
-.switch>input:checked~.caja__switch>.punto__switch {
-    border: 8px solid var(--rosado);
-}
-
-.switch>input:checked+.caja__switch {
-    background-color: var(--turqueza);
-    box-shadow: 0 10px 10px 0 rgba(var(--turqueza), 0.3);
-}
-
-.input:checked :active {
-    box-shadow: 0 10px 10px 0 rgba(var(--turqueza), 0.5);
-}
-
-.input:checked>.punto__switch {
-    width: 0;
-    background-color: #fff;
-    border-color: transparent;
-    border-radius: 30px;
-    animation: green .7s linear forwards !important;
-}
-
-@keyframes red {
-    0% {
-        height: 30px;
-        width: 0;
-        border-width: 5px;
+        margin: 5px 10px;
     }
 
-    55% {
-        height: 13px;
-        width: 27px;
-        border-width: 10px;
+    header>.icono>p {
+        font-size: 20px;
     }
 
-    70% {
-        height: 20px;
-        width: 20px;
-        border-width: 10px;
-    }
-
-    85% {
-        height: 15px;
-        width: 25px;
-        border-width: 10px;
-    }
-
-    100% {
-        height: 20px;
-        width: 20px;
-        border-width: 10px;
-    }
 }
-
-@keyframes green {
-    0% {
-        height: 20px;
-        width: 20px;
-        border-width: 10px;
-    }
-
-    25%,
-    55%,
-    85% {
-        height: 30px;
-        width: 5px;
-        border-width: 5px;
-    }
-
-    40%,
-    70%,
-    100% {
-        height: 30px;
-        width: 0;
-        border-width: 5px;
-    }
-} */
-
-
-/*? PARA LOS TAMAÑOS DE PANTALLA */
-
-/*
-    280 -> Galaxy Fold
-    320 -> Iphone
-    360 -> Galaxy S5
-    380 -> iPhoneX
-    410 -> Pixel 2 
-    540 -> Surface Duo 
-    760 -> iPad
-    1024 -> iPadPro
-    1280 -> pantalla completa
-*/
-
-/*
-Para 280px
-@media only screen and (max-width: 280px) and (min-width: 5px) {
-    .linea {
-        border: 1px solid lightcoral;
-        width: 100px;
-    }
-}
-
-Para 320px
-@media only screen and (max-width: 320px) and (min-width: 281px) {
-    .linea {
-        border: 1px solid lightcoral;
-        width: 200px;
-    }
-}
-
-Para 360px
-@media only screen and (max-width: 360px) and (min-width: 321px) {
-    .linea {
-        border: 1px solid lightcoral;
-        width: 250px;
-    }
-}
-
-Para 380px
-@media only screen and (max-width: 380px) and (min-width: 361px) {
-    .linea {
-        border: 1px solid lightcoral;
-        width: 300px;
-    }
-}
-
-Para 410px
-@media only screen and (max-width: 410px) and (min-width: 381px) {
-    .linea {
-        border: 1px solid lightcoral;
-        width: 330px;
-    }
-}
-
-Para 540px
-@media only screen and (max-width: 540px) and (min-width: 411px) {
-    .linea {
-        border: 1px solid lightcoral;
-        width: 380px;
-    }
-}
-
-Para 760px
-@media only screen and (max-width: 760px) and (min-width: 541px) {
-    .linea {
-        border: 1px solid lightcoral;
-        width: 450px;
-    }
-}
-
-Para 1024px
-@media only screen and (max-width: 1024px) and (min-width: 761px) {
-    .linea {
-        border: 1px solid lightcoral;
-        width: 650px;
-    }
-}
-
-Para 1280px
-@media only screen and (max-width: 1280px) and (min-width: 1025px) {
-    .linea {
-        border: 1px solid lightcoral;
-        width: 800px;
-    }
-}
-
-*/

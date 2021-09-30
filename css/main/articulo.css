@@ -133,13 +133,23 @@ body.darkmode > .body > main > .container > section > p {
     color: var(--turqueza);
 }
 
+
+
+.body {
+    display: flex;
+}
+
+main {
+    width: 900px;
+}
+
 .container {
     position: relative;
 
     display: flex;
     flex-direction: column;
 
-    margin: 30px 100px 30px 100px;
+    margin: 30px 70px 30px 100px;
 
     color: var(--negro);
 }
@@ -157,7 +167,6 @@ body.darkmode > .body > main > .container > section > p {
     width: 100px;
     height: 100px;
     padding: 1em;
-
 }
 
 .tema__informacion > h3 {
@@ -178,7 +187,6 @@ body.darkmode > .body > main > .container > section > p {
     font-family: 'Merriweather';
 }
 
-
 .container__articulo > p {
     max-width: 100%;
     text-align: justify;
@@ -188,8 +196,8 @@ body.darkmode > .body > main > .container > section > p {
     line-height: 25px;
 }
 
-/*? Section*/
 
+/*? Section*/
 section {
     margin-top: 40px;
 }
@@ -254,18 +262,6 @@ section > p {
 
     line-height: 20px;
 }
-
-
-.body {
-    display: flex;
-}
-
-main {
-    width: 900px;
-}
-
-
-
 
 li {
     color: var(--rosado);
@@ -485,7 +481,12 @@ pre.nota {
     margin-left: 50px;
 }
 
-/*? Ejemplo artículo: "Flex" */
+/*? Artículo Flex */
+
+.ejemplo2 {
+    display: flex; 
+    flex-direction: row;
+}
 
 .caja_flex {
     background: lightgreen; 
@@ -595,7 +596,10 @@ pre.nota {
 }
 
 .ejemplo_filtros {
-    display: inline-flex;;
+    display: inline-flex;
+    /*Ver*/
+    justify-content: center;
+
     flex-wrap: wrap;
     gap: 10px;
     /* justify-content: space-around; */
@@ -768,4 +772,32 @@ body.darkmode > .body > main > .container > .container__articulo > .ejemplo_filt
 .body {
     display: flex;
     justify-content: space-between;
+}
+
+/*TODO: Entre 1024px y 1200px */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+    main {
+        width: 650px;
+    }
+
+    /*? Para el artículo flex*/
+    .ejemplo2 {
+        display: flex;
+        flex-direction:column;
+    }
+}
+
+/*TODO: Entre 768px y 1023x */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    main {
+        width: 100%;
+    }
+
+    .body {
+        display: flex;
+        flex-direction:column;
+    }
+
 }

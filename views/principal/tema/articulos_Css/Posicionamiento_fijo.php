@@ -78,7 +78,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" src="../../../../img/tema/css/posicionamiento/position_fixed.png" alt="">
+                            <img class="imagen_tipo_3" width="400px" src="../../../../img/tema/css/posicionamiento/position_fixed.png" alt="">
                             <p class="figure">Position fijo</p>
                         </picture>
                     </div>

@@ -106,3 +106,13 @@ body.darkmode > main > .container > h3 {
     width: 100px;
     border: 3px solid #bd3538;
 }
+
+/*TODO: Entre 768px y 1023x */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .proyectos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}

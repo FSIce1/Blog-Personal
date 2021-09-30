@@ -116,7 +116,7 @@
 
                     </table>
 
-                    <pre class="nota"><code>
+                    <pre class="nota margen_50"><code>
 <span class="rosado">h1, h2</span> {
     <span class="propiedad">color: </span><span class="valor">#FFF</span>;
 }
@@ -169,13 +169,13 @@
 
                     </table>
 
-                    <div class="nota">
+                    <div class="nota margen_50">
                         <p>
                             Ejemplos de nombres de familias tipográficas: "Arial", "Verdana", etc.<br>
                             Ejemplo de nombres genéricos de una familia tipográficas: sans serif (Tipo Arial), 
                             cursive(tipo Comic Sans), etc.
                         </p>
-                    </div>
+                    </div><br>
 
 
                     <!-- Font-Size -->

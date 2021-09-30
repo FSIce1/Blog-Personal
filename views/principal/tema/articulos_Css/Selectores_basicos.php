@@ -188,19 +188,20 @@
                     </ul>
 
                     <pre class="nota" style="margin-left: 50px;">
-<code>/* Todos los elementos de tipo "p" con atributo class="aviso" */
+<code>/* Todos los elementos de tipo "p" con atributo 
+class="aviso" */
 
     <span class="rosado">p</span><span class="selector">.aviso</span> { ... }
 
 
-/* Todos los elementos con atributo class="aviso" que estén dentro
-de cualquier elemento de tipo "p" */
+/* Todos los elementos con atributo class="aviso" que 
+estén dentro de cualquier elemento de tipo "p" */
 
     <span class="rosado">p</span> <span class="selector">.aviso</span> { ... }
 
 
-/* Todos los elementos "p" de la página y todos los elementos con
-atributo class="aviso" de la página */
+/* Todos los elementos "p" de la página y todos los 
+elementos con atributo class="aviso" de la página */
 
     <span class="rosado">p</span>, <span class="selector">.aviso</span> { ... }</code></pre>
 

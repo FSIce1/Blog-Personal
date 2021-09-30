@@ -152,8 +152,8 @@
 }
 
 
-<span class="comentario">/* Se muestran de color azul todos los enlaces que apunten
-   al sitio "http://www.ejemplo.com" */</span>
+<span class="comentario">/* Se muestran de color azul todos los enlaces que 
+    apunten al sitio "http://www.ejemplo.com" */</span>
 
 <span class="rosado">a[href="http://www.ejemplo.com"]</span> {
     <span class="propiedad">color: </span><span class="valor">blue</span>;
@@ -161,25 +161,25 @@
 
 
 <span class="comentario">/* Se muestran de color azul todos los enlaces que tengan 
-    un atributo "class" en el que al menos uno de sus valores
-    sea "externo" */</span>
+    un atributo "class" en el que al menos uno de sus 
+    valores sea "externo" */</span>
 
 <span class="rosado">a[class~="externo"]</span> {
     <span class="propiedad">color: </span><span class="valor">blue</span>;
 }
 
 
-<span class="comentario">/* Selecciona todos los elementos de la página cuyo atributo
-    "lang" sea igual a "en", es decir, todos los elementos en 
-   inglés */</span>
+<span class="comentario">/* Selecciona todos los elementos de la página cuyo 
+    atributo "lang" sea igual a "en", es decir, todos 
+    los elementos en inglés */</span>
 
 <span class="rosado">*[lang=en]</span> {
     <span class="propiedad">... </span>;
 }
 
 
-<span class="comentario">/* Selecciona todos los elementos de la página cuyo atributo
-   "lang" empiece por "es", es decir, "es", etc */</span>
+<span class="comentario">/* Selecciona todos los elementos de la página cuyo 
+    atributo "lang" empiece por "es", es decir, "es" */</span>
 
 <span class="rosado">*[lang|="es"]</span> {
     <span class="propiedad">color: </span><span class="valor">blue</span>;

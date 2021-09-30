@@ -55,45 +55,47 @@
 
     ?>
 
+        <main>
+    
+            <div class="container">
 
-    <main>
-        <div class="container">
-            <div class="map">
+                <div class="map">
                 
-                <div class="adorno">
-                    <div class="adorno-1"></div>
-                    <div class="adorno-2"></div>
+                    <div class="container__map">
+                        
+                        <div class="adorno">
+                            <div class="adorno-1"></div>
+                            <div class="adorno-2"></div>
+                        </div>
+            
+                        <h3>Skills<span>.map()</span> </h3>
+                        
+                        <p>Habilidades técnicas que tengo <br />hasta la actualidad</p>
+
+                    </div>
+                
                 </div>
     
-                <h3>Skills<span>.map()</span> </h3>
                 
-                <p>Habilidades técnicas que tengo <br />hasta la actualidad</p>
+                <div class="contenedor_habilidades">
+                    <div class="habilidades">
+                        <span class="lugar-1">Php</span>
+                        <span class="lugar-2" >Java</span>
+                        <span class="lugar-3" >Mysql</span>
+                        <span class="lugar-4" >Postgresql</span>
+                        <span class="lugar-5" >Laravel</span>
+                        <span class="lugar-6" >GitHub</span>
+                        <span class="lugar-7" >Html</span>
+                        <span class="lugar-9" >Javascript</span>
+                        <span class="lugar-10" >Git</span>
+                        <span class="lugar-11" >Css</span>
+                        <span class="lugar-13" >Jsp</span>
+                    </div>
+                </div>
             
             </div>
-
-            <div class="habilidades">
-                <span class="lugar-1">Php</span>
-                <span class="lugar-2" >Java</span>
-                <span class="lugar-3" >Mysql</span>
-                <span class="lugar-4" >Postgresql</span>
-                <span class="lugar-5" >Laravel</span>
-                <span class="lugar-6" >GitHub</span>
-                <span class="lugar-7" >Html</span>
-                <span class="lugar-9" >Javascript</span>
-                <span class="lugar-10" >Git</span>
-                <span class="lugar-11" >Css</span>
-                <span class="lugar-13" >Jsp</span>
-
-            </div>
-
-            <!-- <div class="habilidades1">
-                <span>C</span><span>S</span><span>S</span><span>&nbsp;</span><span>S</span><span>m</span><span>o</span><span>k</span><span>y</span><span>&nbsp;</span><span>T</span><span>e</span><span>x</span><span>t</span><span>&nbsp;</span><span>E</span><span>f</span><span>f</span><span>e</span><span>c</span><span>t</span>
-            </div> -->
-        
-        </div>
-        
-    
-    </main>
+            
+        </main>
 
     <?php
     //! FOOTER
