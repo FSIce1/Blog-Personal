@@ -356,21 +356,9 @@
                                 <div class="caja_flex6">space</div>
                                 <div class="caja_flex4_2">-</div>
                                 <div class="caja_flex6">between</div>
-                                <div class="caja_flex6">space</div>
-                                <div class="caja_flex4_2">-</div>
-                                <div class="caja_flex6">between</div>
-                                <div class="caja_flex6">space</div>
-                                <div class="caja_flex4_2">-</div>
-                                <div class="caja_flex6">between</div>
                             </div>
                             
                             <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; flex-wrap: wrap; align-content: space-around;">
-                                <div class="caja_flex6">space</div>
-                                <div class="caja_flex4_2">-</div>
-                                <div class="caja_flex6">around</div>
-                                <div class="caja_flex6">space</div>
-                                <div class="caja_flex4_2">-</div>
-                                <div class="caja_flex6">around</div>
                                 <div class="caja_flex6">space</div>
                                 <div class="caja_flex4_2">-</div>
                                 <div class="caja_flex6">around</div>
@@ -384,9 +372,6 @@
                             </div>
                             
                             <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; flex-wrap: wrap; align-content: stretch;">
-                                <div class="caja_flex6">stretch</div>
-                                <div class="caja_flex6">stretch</div>
-                                <div class="caja_flex6">stretch</div>
                                 <div class="caja_flex6">stretch</div>
                                 <div class="caja_flex6">stretch</div>
                                 <div class="caja_flex6">stretch</div>
@@ -436,17 +421,17 @@
 
                     <div class="margen_50" style="width: 100% ;display: flex; flex-direction: column; align-items: center;">
                         
-                        <div class="ejemplo" style="display: flex; flex-direction: row;">
+                        <div class="ejemplo">
                             
-                            <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 100px; height: 100px; justify-content: flex-start;" >
+                            <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 100px; height: 100px; justify-content: flex-start;" >
                                 <div class="caja_flex3">flex-start</div>
                             </div>
 
-                            <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 100px; height: 100px; justify-content: center;">
+                            <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 100px; height: 100px; justify-content: center;">
                                 <div class="caja_flex3">Center</div>
                             </div>
 
-                            <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 100px; height: 100px; justify-content: flex-end;">
+                            <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 100px; height: 100px; justify-content: flex-end;">
                                 <div class="caja_flex3">flex-end</div>
                             </div>
                             
@@ -534,15 +519,15 @@
                             
                         </div><br>
 
-                        <div class="ejemplo" style="display: flex; flex-direction: row;">
+                        <div class="ejemplo">
                             
-                            <div style="margin-right: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: stretch;">
+                            <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: stretch;">
                                 <div class="caja_flex6">stretch 1</div>
                                 <div class="caja_flex4_2">-</div>
                                 <div class="caja_flex6">stretch 2</div>
                             </div>
                             
-                            <div style="background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: baseline;">
+                            <div style="background-color: lightcoral; margin-top: 10px; display: flex; flex-direction: row; width: 230px; height: 100px; align-items: baseline;">
                                 <div class="caja_flex6">baseline 1</div>
                                 <div class="caja_flex4_3">-</div>
                                 <div class="caja_flex6">baseline 2</div>

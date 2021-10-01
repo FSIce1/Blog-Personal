@@ -77,3 +77,17 @@
 .item4 {
     grid-area: footer;
 }
+
+
+
+/*TODO: Entre 425px y 578px */
+@media screen and (min-width: 425px) and (max-width: 578px) {
+
+
+    .container_wrapper__auto_fit, 
+    .container_wrapper__auto_fill, 
+    .container_wrapper__fit_content {
+        width: 330px;
+    }
+
+}

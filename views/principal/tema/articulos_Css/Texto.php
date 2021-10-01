@@ -298,13 +298,6 @@
 
                     </table>
 
-                    <div class="container__articulo-imagen">
-                        <picture>
-                            <img class="imagen_tipo_3" width="300px" src="../../../../img/tema/css/texto/font_weight.png" alt="">
-                            <p class="figure">Tipos de estilos</p>
-                        </picture>
-                    </div>
-
                 </div>
                 
                 <section>

@@ -78,14 +78,14 @@
                     
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img width="400px" height="300px" src="../../../../img/tema/css/responsive_design/responsive2.gif" alt="">
+                            <img class="imagen_tipo_1" src="../../../../img/tema/css/responsive_design/responsive2.gif" alt="">
                             <p class="figure">Representación de una pantalla adaptándose a móvil</p>
                         </picture>
                     </div>
                     
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img width="400px" height="170px" src="../../../../img/tema/css/responsive_design/adaptive2.gif" alt="">
+                            <img class="imagen_tipo_6" src="../../../../img/tema/css/responsive_design/adaptive2.gif" alt="">
                             <p class="figure">Representación delas unidades relativas y estáticas</p>
                         </picture>
                     </div>
@@ -119,7 +119,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img width="400px" height="400px" src="../../../../img/tema/css/responsive_design/device_width.png" alt="">
+                            <img class="imagen_tipo_1" src="../../../../img/tema/css/responsive_design/device_width.png" alt="">
                             <p class="figure">COn esto preparamos la web para dispositivivos móviles</p>
                         </picture>
                     </div>

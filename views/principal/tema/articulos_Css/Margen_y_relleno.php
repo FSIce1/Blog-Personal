@@ -158,17 +158,20 @@
     <span class="propiedad">padding: </span><span class="valor">2<span class="px">em</span></span>;
 }
 
-<span class="comentario">/*Arriba y abajo = 2em, izquierda y derecha = 4em */</span>
+<span class="comentario">/*Arriba y abajo = 2em, izquierda 
+y derecha = 4em */</span>
 <span class="rosado">body</span> {
     <span class="propiedad">padding: </span><span class="valor">2<span class="px">em</span> 4<span class="px">em</span></span>;
 }
 
-<span class="comentario">/*Arriba, derecha = 4em, abajo e izquierda = 3em */</span>
+<span class="comentario">/*Arriba, derecha = 4em, abajo e 
+izquierda = 3em */</span>
 <span class="rosado">body</span> {
     <span class="propiedad">padding: </span><span class="valor">2<span class="px">em</span> 4<span class="px">em</span> 3<span class="px">em</span></span>;
 }
 
-<span class="comentario">/*Arriba = 2em, abajo = 4em, derecha = 3em e izquierda = 1em */</span>
+<span class="comentario">/*Arriba = 2em, abajo = 4em, 
+derecha = 3em e izquierda = 1em */</span>
 <span class="rosado">body</span> {
     <span class="propiedad">padding: </span><span class="valor">2<span class="px">em</span> 4<span class="px">em</span> 3<span class="px">em</span> 1<span class="px">em</span></span>;
 }

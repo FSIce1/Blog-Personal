@@ -174,7 +174,7 @@
                     
                     <pre class="nota" style="margin-left: 50px;">
 <code>&#60;<span class="rosado">body</span>&#62;
-    &#60;<span class="rosado">p</span> <span class="px">class</span><span class="turqueza">=</span><span class="enlace">"rojo"</span>&#62; texto de ejemplo &#60;/<span class="rosado">p</span>&#62;
+    &#60;<span class="rosado">p</span> <span class="px">class</span><span class="turqueza">=</span><span class="enlace">"rojo"</span>&#62; texto &#60;/<span class="rosado">p</span>&#62;
     &#60;<span class="rosado">p</span> <span class="px">class</span><span class="turqueza">=</span><span class="enlace">"rojo"</span>&#62;&#60;/<span class="rosado">p</span>&#62;
     &#60;<span class="rosado">p</span> <span class="px">class</span><span class="turqueza">=</span><span class="enlace">"rojo"</span>&#62;&#60;/<span class="rosado">p</span>&#62;
 &#60;<span class="rosado">/body</span>&#62;</code></pre>
@@ -188,20 +188,25 @@
                     </ul>
 
                     <pre class="nota" style="margin-left: 50px;">
-<code>/* Todos los elementos de tipo "p" con atributo 
+<code>/* Todos los elementos
+de tipo "p" con atributo 
 class="aviso" */
 
     <span class="rosado">p</span><span class="selector">.aviso</span> { ... }
 
 
-/* Todos los elementos con atributo class="aviso" que 
-estén dentro de cualquier elemento de tipo "p" */
+/* Todos los elementos 
+con atributo class="aviso"
+que estén dentro de cualquier 
+elemento de tipo "p" */
 
     <span class="rosado">p</span> <span class="selector">.aviso</span> { ... }
 
 
-/* Todos los elementos "p" de la página y todos los 
-elementos con atributo class="aviso" de la página */
+/* Todos los elementos "p" 
+de la página y todos los 
+elementos con atributo 
+class="aviso" de la página */
 
     <span class="rosado">p</span>, <span class="selector">.aviso</span> { ... }</code></pre>
 
@@ -214,7 +219,9 @@ elementos con atributo class="aviso" de la página */
                         </li>
                     </ul>
 
-                    <pre class="nota" style="margin-left: 50px;"><code>&#60;<span class="rosado">p</span> <span class="px">class</span><span class="turqueza">=</span><span class="enlace">"rojo margen tamaño"</span>&#62; texto de ejemplo &#60;/<span class="rosado">p</span>&#62;</code></pre><br>
+                    <pre class="nota" style="margin-left: 50px;"><code>&#60;<span class="rosado">p</span> <span class="px">class</span><span class="turqueza">=</span><span class="enlace">"rojo margen tamaño"</span>&#62; 
+texto 
+&#60;/<span class="rosado">p</span>&#62;</code></pre><br>
 
 
 
@@ -232,7 +239,7 @@ elementos con atributo class="aviso" de la página */
                     </ul>   
 
                     <pre class="nota" style="margin-left: 50px;">
-<code>&#60;<span class="rosado">p</span> <span class="px">id</span><span class="turqueza">=</span><span class="enlace">"estilo"</span>&#62; texto de ejemplo &#60;/<span class="rosado">p</span>&#62;</code></pre>
+<code>&#60;<span class="rosado">p</span> <span class="px">id</span><span class="turqueza">=</span><span class="enlace">"estilo"</span>&#62; texto &#60;/<span class="rosado">p</span>&#62;</code></pre>
                     
                     <pre class="nota" style="margin-left: 50px;">
 <code><span class="rosado">#estilo</span> {

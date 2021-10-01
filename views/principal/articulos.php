@@ -151,7 +151,42 @@
                 <p>Ver más artículos...</p>
             </section>
 
-            <section>
+            <section class="artículos__relacionados">
+                <div class="seccion">
+                    <a class="tema">
+                        <img src="../../img/prueba/html.png" alt="Html">
+                        <p>Html</p>
+                    </a>
+                    <a class="tema">
+                        <img src="../../img/prueba/javascript.png" alt="Javascript">
+                        <p>Javascript</p>
+                    </a>
+                    <a href="tema/articulos__tema.php" class="tema">
+                        <img src="../../img/prueba/css.png" alt="Css">
+                        <p>Css</p>
+                    </a>
+                    <a class="tema">
+                        <img src="../../img/prueba/react.png" alt="React">
+                        <p>React</p>
+                    </a>
+                    <a class="tema">
+                        <img src="../../img/prueba/php.png" alt="Php">
+                        <p>Php</p>
+                    </a>
+                    <a class="tema">
+                        <img src="../../img/prueba/java.png" alt="Java">
+                        <p>Java</p>
+                    </a>
+                </div>
+
+                <!-- <div class="seccion">
+                    
+                </div> -->
+
+            </section>
+
+            <!--
+            <section class="artículos__relacionados">
                 <p class="titulo">Artículos por temas</p>
                 <div class="seccion">
                     <a class="tema">
@@ -184,6 +219,8 @@
                 </div>
 
             </section>
+            -->
+            
 
         </main>
 

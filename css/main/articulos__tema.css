@@ -134,11 +134,7 @@ a {
     font-family: 'Merriweather';
 }
 
-/* .articulo:nth-child(3n) {
-    page-break-after: always; 
-    break-after: always; 
-    color: green;
-} */
+
 
 /*TODO: Entre 768px y 1023x */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -147,4 +143,26 @@ a {
         width: 80%;
     }
     
+}
+
+/*TODO: Entre 425px y 578px */
+@media screen and (min-width: 425px) and (max-width: 578px) {
+
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+
+        margin: 0;
+        padding: 30px 30px 0px 70px;
+    }
+
+    
+    .tema__informacion > p {
+        max-width: 100%;
+        padding: 2.5px;
+        text-align: justify;
+
+        font-family: 'Merriweather';
+    }
+
 }

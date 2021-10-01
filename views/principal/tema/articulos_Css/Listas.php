@@ -111,7 +111,7 @@
                             <td>Permite establecer el tipo de viñeta mostrada para una lista</td>
                         </tr>
 
-                    </table><br>
+                    </table>
 
                     <ul style="margin-left: 80px;">
                         <li>
@@ -172,7 +172,7 @@
                             <td>Permite establecer la posición de la viñeta de cada elemento de una lista</td>
                         </tr>
 
-                    </table><br>
+                    </table>
 
                     <div class="container__articulo-imagen">
                         <picture>
@@ -215,7 +215,7 @@
                             <td>	Permite reemplazar las viñetas automáticas por una imagen personalizadas</td>
                         </tr>
 
-                    </table><br>
+                    </table>
                     
                     <div class="container__articulo-imagen">
                         <picture>

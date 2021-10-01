@@ -78,7 +78,7 @@
                     </p>
 
                     <div class="container__articulo-imagen">
-                        <img src="../../../../img/tema/css/qué_es_css/Html + Css.png" alt="">
+                        <img class="imagen_tipo_6" src="../../../../img/tema/css/qué_es_css/Html + Css.png" alt="">
                     </div>
 
                     <div class="nota">
@@ -123,9 +123,11 @@
 <code>&#60;<span class="rosado">link</span> <span class="px">rel</span><span class="turqueza">=</span><span class="enlace">"stylesheet"</span> <span class="px">href</span><span class="turqueza">=</span><span class="enlace">"styles.css"</span>&#62;</code></pre>
 
                     <div class="nota">
-                        Este link le dice al navegador que tenemos una hoja de estilo, con el atributo href 
-                        podemos indicar la ubicación de nuestro archivo y el atributo rel indica a realción del 
-                        documento enlazado con el actual.
+                        <p>
+                            Este link le dice al navegador que tenemos una hoja de estilo, con el atributo href 
+                            podemos indicar la ubicación de nuestro archivo y el atributo rel indica a realción del 
+                            documento enlazado con el actual.
+                        </p>
                     </div>
 
                     <h3>¿Cuál es la estructura de Css?</h3>
@@ -173,8 +175,10 @@
                     </ul>
 
                     <div class="nota" style="margin-left: 50px;">
-                        En los archivos Css, se pueden hacer comentarios con los caracteres <code style="color: gray">/* */</code> con esto
-                        el navegador ignora todo lo que esté allí, mayormente usado para explicar pequeños fragmentos de código
+                        <p>
+                            En los archivos Css, se pueden hacer comentarios con los caracteres <code style="color: gray">/* */</code> con esto
+                            el navegador ignora todo lo que esté allí, mayormente usado para explicar pequeños fragmentos de código
+                        </p>
                     </div>
 
                 </div>

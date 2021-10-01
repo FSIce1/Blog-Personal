@@ -101,7 +101,7 @@
                             <td>Establece la altura de un elemento</td>
                         </tr>
 
-                    </table><br>
+                    </table>
 
 
                     <!--Ancho-->

@@ -90,7 +90,7 @@
                         </p>
                     </div>
 
-                    <div class="ejemplo" style="color: white; text-align: center; left:10%; top: 15%; position: fixed; background-color: var(--rosado); width: 70px; height: 70px;">
+                    <div class="ejemplo" style="color: white; text-align: center; left:10%; top: 15%; position: fixed; background-color: var(--rosado); width: 90px; height: 70px;">
                         Ejemplo
                     </div>
 

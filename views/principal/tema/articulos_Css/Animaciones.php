@@ -137,7 +137,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img width="500px" src="../../../../img/tema/css/animaciones/transform.png" alt="">
+                            <img class="imagen_tipo_7" src="../../../../img/tema/css/animaciones/transform.png" alt="">
                             <p class="figure">Ejemplos usados con la propiedad transform</p>
                         </picture>
                     </div>
@@ -216,7 +216,7 @@
                         <tr>
                             <th>Propiedad</th>
                             <th>Significado</th>
-                            <th>Inicio/Transcurso/Final</th>
+                            <th>Inicio/<br>Transcurso/<br>Final</th>
                         </tr>
 
                         <tr>
@@ -260,7 +260,7 @@
                         </tr>
                         
                         <tr>
-                            <td>cubic-bezier(X1,Y1,X2,Y2)</td>
+                            <td>cubic-bezier<br>(X1,Y1,<br>X2,Y2)</td>
                             <td>
                                 Le permite definir sus propios valores en una función cubic-bezier
                             </td>

@@ -140,3 +140,11 @@
         left: 100%;
     }
 }
+
+@media screen and (min-width: 425px) and (max-width: 578px) {
+
+    body {
+        margin-bottom: 630px;
+    }
+
+}

@@ -117,7 +117,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="500px" src="../../../../img/tema/css/grid/grid_css.png" alt="">
+                            <img class="imagen_tipo_1" src="../../../../img/tema/css/grid/grid_css.png" alt="">
                             <p class="figure">Tipos de letras</p>
                         </picture>
                     </div>
@@ -130,7 +130,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="500px" src="../../../../img/tema/css/grid/codigo_grid.png" alt="">
+                            <img class="imagen_tipo_1" width="500px" src="../../../../img/tema/css/grid/codigo_grid.png" alt="">
                             <p class="figure"></p>
                         </picture>
                     </div>
@@ -151,7 +151,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="400px" src="../../../../img/tema/css/grid/grid_template_columns.png" alt="">
+                            <img class="imagen_tipo_6" src="../../../../img/tema/css/grid/grid_template_columns.png" alt="">
                             <p class="figure"></p>
                         </picture>
                     </div>
@@ -169,7 +169,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="400px" src="../../../../img/tema/css/grid/grid_template_rows.png" alt="">
+                            <img class="imagen_tipo_6" src="../../../../img/tema/css/grid/grid_template_rows.png" alt="">
                             <p class="figure"></p>
                         </picture>
                     </div>
@@ -185,14 +185,14 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="400px" src="../../../../img/tema/css/grid/grid_template_atajo1.png" alt="">
+                            <img class="imagen_tipo_3" src="../../../../img/tema/css/grid/grid_template_atajo1.png" alt="">
                             <p class="figure"></p>
                         </picture>
                     </div>
                     
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="400px" src="../../../../img/tema/css/grid/grid_template_atajo2.png" alt="">
+                            <img class="imagen_tipo_6" src="../../../../img/tema/css/grid/grid_template_atajo2.png" alt="">
                             <p class="figure"></p>
                         </picture>
                     </div>
@@ -216,7 +216,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="300px" src="../../../../img/tema/css/grid/column_gap.png" alt="">
+                            <img class="imagen_tipo_1" src="../../../../img/tema/css/grid/column_gap.png" alt="">
                             <p class="figure"></p>
                         </picture>
                     </div>
@@ -233,7 +233,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="300px" src="../../../../img/tema/css/grid/row_gap.png" alt="">
+                            <img class="imagen_tipo_1" src="../../../../img/tema/css/grid/row_gap.png" alt="">
                             <p class="figure">Separación de 5<span class="px">px</span> entre filas</p>
                         </picture>
                     </div>
@@ -249,7 +249,7 @@
                     
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="300px" src="../../../../img/tema/css/grid/gap.png" alt="">
+                            <img class="imagen_tipo_1" src="../../../../img/tema/css/grid/gap.png" alt="">
                             <p class="figure">Separación de filas y columnas</p>
                         </picture>
                     </div>
@@ -265,14 +265,14 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="400px" src="../../../../img/tema/css/grid/grid_template_area.png" alt="">
+                            <img class="imagen_tipo_1" src="../../../../img/tema/css/grid/grid_template_area.png" alt="">
                             <p class="figure">Creamos el grid template area</p>
                         </picture>
                     </div>
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="300px" src="../../../../img/tema/css/grid/grid_template_area_items.png" alt="">
+                            <img class="imagen_tipo_1" src="../../../../img/tema/css/grid/grid_template_area_items.png" alt="">
                             <p class="figure">Definimos las áreas a los items</p>
                         </picture>
                     </div>
@@ -311,7 +311,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="400px" src="../../../../img/tema/css/grid/max_min.png" alt="">
+                            <img class="imagen_tipo_6" src="../../../../img/tema/css/grid/max_min.png" alt="">
                             <p class="figure"></p>
                         </picture>
                     </div>
@@ -330,7 +330,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="400px" src="../../../../img/tema/css/grid/auto_fit.png" alt="">
+                            <img class="imagen_tipo_6" src="../../../../img/tema/css/grid/auto_fit.png" alt="">
                             <p class="figure"></p>
                         </picture>
                     </div>
@@ -375,7 +375,7 @@
 
                     <div class="container__articulo-imagen">
                         <picture>
-                            <img class="imagen_tipo_3" width="400px" src="../../../../img/tema/css/grid/auto_fill.png" alt="">
+                            <img class="imagen_tipo_6" src="../../../../img/tema/css/grid/auto_fill.png" alt="">
                             <p class="figure"></p>
                         </picture>
                     </div>

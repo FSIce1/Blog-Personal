@@ -50,7 +50,7 @@
     require('../components/header.php');
 
     //! BARRA DE NAVEGACIÓN
-    //require('../components/barraNavegacion.php');
+    require('../components/barraNavegacion.php');
 
     ?>
 

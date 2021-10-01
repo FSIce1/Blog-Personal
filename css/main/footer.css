@@ -173,13 +173,11 @@ footer>.footer__info>.footer__servicios>ul>li>p {
 
 /*TODO: Entre 425px y 578px */
 @media screen and (min-width: 579px){
-    footer {
-        background-color: var(--rosado);
-    }
 
     .footer__servicios {
         padding-left: 100px;
     }
+
 }
 
 /*TODO: Entre 425px y 578px */
@@ -235,11 +233,21 @@ footer>.footer__info>.footer__servicios>ul>li>p {
         
             left: 0;
             bottom: 0;
-            padding: 5px 0;
+            padding: 5px 0 10px 0;
         }
 
         .footer__menu>ul {
             justify-content: center;
+        }
+
+        .footer__menu>ul>li {
+            margin-right: 7px;
+        }
+    
+        .footer__menu>ul>li>a {
+            letter-spacing: 1px;
+    
+            font-size: 12px;
         }
 
         .footer__redes {
@@ -247,11 +255,12 @@ footer>.footer__info>.footer__servicios>ul>li>p {
 
             bottom: 0px;
             right: 0;
-            padding: 5px 0;
+            padding: 0;
         }
 
         .footer__redes>ul {
             justify-content: space-evenly;
+            padding-inline: 25px;
         }
 
     .footer__info>p {
