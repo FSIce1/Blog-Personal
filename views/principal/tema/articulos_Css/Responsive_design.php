@@ -114,8 +114,8 @@
                     </p>
 
 <pre class="nota">
-<code>&#60;<span class="rosado">meta</span> <span class="px">name</span><span class="turqueza">=</span><span class="enlace">"viewport"</span> <span class="px">content</span><span class="turqueza">=</span><span class="enlace">"initial-scale=1, width=device-width"</span>&#62;
-</code></pre>
+<code><span class="caso_especial2">&#60;<span class="rosado">meta</span> <span class="px">name</span><span class="turqueza">=</span><span class="enlace">"viewport"</span> <span class="px">content</span><span class="turqueza">=</span><span class="enlace">"initial-scale=1, width=device-width"</span>&#62;
+</span></code></pre>
 
                     <div class="container__articulo-imagen">
                         <picture>

@@ -75,6 +75,8 @@
                         Las animaciones en css consiguen un efecto entre un estado inicial y un estado final
                     </p>
 
+
+
                     <!--TRANSFORMACIONES EN 2D y 3D-->
                     <h3>Transformaciones en 2D y 3D</h3>
             
@@ -85,7 +87,7 @@
                     <table class="tabla">
                         
                         <tr>
-                            <th>Transformaciones</th>
+                            <th>Transformación</th>
                             <th>Transiciones</th>
                             <th>Animaciones</th>
                         </tr>
@@ -97,34 +99,35 @@
                         </tr>
 
                         <tr>
-                            <td>transform-origin</td>
-                            <td>transition-property</td>
-                            <td>animation-name</td>
+                            <td>transform-<br>origin</td>
+                            <td>transition-<br>property</td>
+                            <td>animation-<br>name</td>
                         </tr>
 
                         <tr>
-                            <td>transform-style</td>
-                            <td>transition-duration</td>
-                            <td>animation-duration</td>
+                            <td>transform-<br>style</td>
+                            <td>transition-<br>duration</td>
+                            <td>animation-<br>duration</td>
                         </tr>
 
                         <tr>
                             <td>perspective</td>
-                            <td>transition-timing-function(opcional)</td>
-                            <td>animation-timing-function(opcional)</td>
+                            <td>transition-<br>timing-function<br>(opcional)</td>
+                            <td>animation-<br>timing-function<br>(opcional)</td>
                         </tr>
 
                         <tr>
-                            <td>perspective-origin</td>
-                            <td>transition-delay (opcional)</td>
-                            <td>animation-delay (opcional)</td>
+                            <td>perspective-<br>origin</td>
+                            <td>transition-<br>delay <br>(opcional)</td>
+                            <td>animation-<br>delay <br>(opcional)</td>
                         </tr>
 
                     </table>
 
 
+
                     <!--TRANSFORM-->
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Transform</strong>
                             <p>
@@ -193,11 +196,11 @@
                         </div>
 
                     </div><br><br>
-                    
-                    
+
+
 
                     <!--TRANSITION-->
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Transition</strong>
                             <p>
@@ -224,7 +227,7 @@
                             <td>
                                 Especifica un efecto de transición con un inicio lento, luego rápido, luego termina lentamente
                             </td>
-                            <td>Lento/Rápido/Lento</td>
+                            <td>Lento/<br>Rápido/<br>Lento</td>
                         </tr>
 
                         <tr>
@@ -232,7 +235,7 @@
                             <td>
                                 Especifica un efecto de transición con la misma velocidad de principio a fin
                             </td>
-                            <td>Normal/Normal/Normal</td>
+                            <td>Normal/<br>Normal/<br>Normal</td>
                         </tr>
 
                         <tr>
@@ -240,7 +243,7 @@
                             <td>
                                 Especifica un efecto de transición con un inicio lento
                             </td>
-                            <td>Lento/Normal/Normal</td>
+                            <td>Lento/<br>Normal/<br>Normal</td>
                         </tr>                        
 
                         <tr>
@@ -248,7 +251,7 @@
                             <td>
                                 Especifica un efecto de transición con un final lento
                             </td>                        
-                            <td>Normal/Normal/Lento</td>
+                            <td>Normal/<br>Normal/<br>Lento</td>
                         </tr>
                         
                         <tr>
@@ -256,7 +259,7 @@
                             <td>
                                 Especifica un efecto de transición con un inicio y un final lentos
                             </td>
-                            <td>Lento/Normal/Lento</td>
+                            <td>Lento/<br>Normal/<br>Lento</td>
                         </tr>
                         
                         <tr>

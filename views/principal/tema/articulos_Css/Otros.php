@@ -74,7 +74,7 @@
                     
                     <!-- Personalizar el cursor -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Personalizar el cursor</strong>
                             <p>
@@ -83,7 +83,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                     
                         <tr>
                             <th>Propiedad</th>

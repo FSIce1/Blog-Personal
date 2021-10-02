@@ -131,11 +131,41 @@ nav>li>a>img {
 
 }
 
-
+/*TODO: Entre 425px y 578px */
 @media screen and (min-width: 425px) and (max-width: 578px) {
 
     body {
         margin-bottom: 630px;
+    }
+
+}
+
+/*TODO: Entre 375px y 424px */
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    
+    body {
+        margin-bottom: 550px;
+    }
+
+    header>.icono>img {
+        width: 26px;
+        height: 26px;
+
+        margin: 5px 10px;
+    }
+
+    header>.icono>p {
+        font-size: 16px;
+    }
+
+    nav {
+        width: 50px;
+        height: 400px;
+    }
+
+    nav>li>a>img {
+        width: 26px;
+        height: 26px;
     }
 
 }

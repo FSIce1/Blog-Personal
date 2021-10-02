@@ -108,6 +108,7 @@ body.darkmode > main > .container > h3 {
 }
 
 
+
 /*TODO: Entre 768px y 1023x */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
@@ -118,12 +119,23 @@ body.darkmode > main > .container > h3 {
     
 }
 
-
 /*TODO: Entre 425px y 578px */ 
-/*! 705? */
-
 @media screen and (min-width: 425px) and (max-width: 578px) {
     
+    .proyectos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+/*TODO: Entre 375px y 424px */
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    
+    .container > h3 {
+        font-size: 36px;
+    }
+
     .proyectos {
         flex-wrap: wrap;
         justify-content: center;

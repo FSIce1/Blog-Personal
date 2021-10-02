@@ -117,7 +117,7 @@
 
                     </ul><br>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -141,7 +141,7 @@
 
                     </table><br>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>

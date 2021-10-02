@@ -83,11 +83,19 @@
 /*TODO: Entre 425px y 578px */
 @media screen and (min-width: 425px) and (max-width: 578px) {
 
-
     .container_wrapper__auto_fit, 
     .container_wrapper__auto_fill, 
     .container_wrapper__fit_content {
         width: 330px;
     }
 
+}
+
+/*TODO: Entre 375px y 424px */
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .container_wrapper__auto_fit, 
+    .container_wrapper__auto_fill, 
+    .container_wrapper__fit_content {
+        width: 280px;
+    }
 }

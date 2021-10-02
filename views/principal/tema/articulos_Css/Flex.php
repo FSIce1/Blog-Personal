@@ -99,7 +99,7 @@
 
                     <!-- Flex-Direction -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Flex Direction</strong>
                             <p>
@@ -223,7 +223,7 @@
 
                     <!--Flex Wrap-->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Flex Wrap</strong>
                             <p>
@@ -257,7 +257,7 @@
 
                     </table><br>
 
-                    <div class="margen_50" style="width: 100%">
+                    <div class="margen_50 caso_wrap" style="width: 100%">
                         <p><strong>flex-wrap: nowrap</strong></p>
                         <div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;" class="margen_50">                        
                             
@@ -266,11 +266,12 @@
                             <div class="caja_flex">Caja 3</div>
                             <div class="caja_flex">Caja 4</div>
                             <div class="caja_flex">Caja 5</div>
-                            <div class="caja_flex">Caja 6</div>
+                            
+                            <!--<div class="caja_flex">Caja 6</div> 
                             <div class="caja_flex">Caja 7</div>
                             <div class="caja_flex">Caja 8</div>
                             <div class="caja_flex">Caja 9</div>
-                            <div class="caja_flex">Caja 10</div>
+                            <div class="caja_flex">Caja 10</div> -->
 
                         </div><br>
                         
@@ -298,7 +299,7 @@
 
                     <!--Align Content-->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Align Content</strong>
                             <p>
@@ -386,7 +387,7 @@
 
                     <!--Justify Content-->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Justify Content</strong>
                             <p>
@@ -419,7 +420,7 @@
 
                     </table>
 
-                    <div class="margen_50" style="width: 100% ;display: flex; flex-direction: column; align-items: center;">
+                    <div class="margen_50 caso_wrap" style="width: 100% ;display: flex; flex-direction: column; align-items: center;">
                         
                         <div class="ejemplo">
                             
@@ -465,7 +466,7 @@
 
                     <!--Align Items-->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Align Items</strong>
                             <p>
@@ -498,7 +499,7 @@
 
                     </table>
 
-                    <div class="margen_50" style="width: 100% ;display: flex; flex-direction: column; align-items: center;">
+                    <div class="margen_50 caso_wrap" style="width: 100% ;display: flex; flex-direction: column; align-items: center;">
                         <div class="ejemplo2">
                             
                             <div style="margin-right: 10px; margin-top: 10px; background-color: lightcoral ;display: flex; flex-direction: row; width: 230px; height: 100px; align-items: flex-start;">
@@ -549,7 +550,7 @@
 
                     <!--Align Self-->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Align Self</strong>
                             <p>
@@ -582,7 +583,7 @@
 
                     </table>
 
-                    <div class="margen_50" style="width: 100% ;display: flex; flex-direction: column; align-items: center;">
+                    <div class="margen_50 caso_wrap" style="width: 100% ;display: flex; flex-direction: column; align-items: center;">
                         
                         <div class="ejemplo2">
                             

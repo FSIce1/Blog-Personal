@@ -166,3 +166,27 @@ a {
     }
 
 }
+
+/*TODO: Entre 375px y 424px */
+@media screen and (min-width: 375px) and (max-width: 424px) {
+
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+
+        margin: 0;
+        padding: 30px 30px 0px 70px;
+    }
+
+    
+    .tema__informacion > h3 {
+        font-size: 36px;
+    }
+
+    .tema__informacion > p {
+        max-width: 100%;
+        
+        font-size: 16px;
+    }
+
+}

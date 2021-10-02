@@ -77,9 +77,10 @@
                     <h3>Estilos Básicos</h3>
 
 
+
                     <!-- Viñeta personalizados -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Viñetas personalizadas</strong>
                             <p>
@@ -89,7 +90,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -139,9 +140,10 @@
                     </div>
 
 
+
                     <!-- Posición de Viñetas  -->
                     
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Posición de Viñetas</strong>
                             <p>
@@ -150,7 +152,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -180,11 +182,12 @@
                             <p class="figure">Outside vs Inside</p>
                         </picture>
                     </div>
-                    
+
+
 
                     <!-- Viñetas con imágenes  -->
                     
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Imagen en Viñeta</strong>
                             <p>
@@ -193,7 +196,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>

@@ -80,7 +80,7 @@
                     <!-- Funciones de filtros -->
                     <h3>Funciones de filtros</h3>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Función</th>
@@ -412,7 +412,7 @@
                         La fusión de dos elementos sumando la información de color de los píxeles de cada uno de ellos.
                     </p>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -458,7 +458,7 @@
                         
                     </table><br>
                     
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Valor</th>

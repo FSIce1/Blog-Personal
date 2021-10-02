@@ -80,10 +80,11 @@
                         Se encarga de modificar la apariencia del texto.
                     </p>
 
-                    
+
+
                     <!-- Color -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Color</strong>
                             <p>
@@ -92,7 +93,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -136,7 +137,7 @@
 
                     <!-- Font-Family -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Font Family</strong>
                             <p>
@@ -145,7 +146,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -178,9 +179,10 @@
                     </div><br>
 
 
+
                     <!-- Font-Size -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Font Size</strong>
                             <p>
@@ -189,7 +191,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -221,9 +223,10 @@
                     </div>
 
 
+
                     <!-- Font-Weight -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Font Weight</strong>
                             <p>
@@ -232,7 +235,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -265,7 +268,7 @@
 
                     <!-- Font-Style -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Font Style</strong>
                             <p>
@@ -274,7 +277,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>

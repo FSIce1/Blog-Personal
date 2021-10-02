@@ -69,11 +69,12 @@
                         </div>
                         
                     </div>
-                
-                    
+
+
+
                     <!-- Text Align -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Text Align</strong>
                             <p>
@@ -82,7 +83,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -114,9 +115,10 @@
                     </div>
 
 
+
                     <!-- Line Height -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Line Height</strong>
                             <p>
@@ -125,7 +127,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -157,9 +159,10 @@
                     </div>
 
 
+
                     <!-- Text Decoration -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Text Decoration</strong>
                             <p>
@@ -168,7 +171,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -200,9 +203,10 @@
                     </div>
 
 
+
                     <!-- Text Transform -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Text Transform</strong>
                             <p>
@@ -211,7 +215,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -236,9 +240,10 @@
                     </table><br>
 
 
+
                     <!-- Text Indent -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Text Indent</strong>
                             <p>
@@ -247,7 +252,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -279,9 +284,10 @@
                     </div>
 
 
+
                     <!-- White Space -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>White Space</strong>
                             <p>
@@ -290,7 +296,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -314,7 +320,7 @@
 
                     </table><br>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Valor</th>

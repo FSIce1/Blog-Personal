@@ -42,3 +42,15 @@ body.darkmode > main > .texto > p > span {
     }
 
 }
+
+/*TODO: Entre 375px y 424px */
+@media screen and (min-width: 375px) and (max-width: 424px) {
+
+    .texto > p {
+        line-height: 50px;
+        font-size: 40px;
+
+        margin-left: 80px;
+    }
+
+}

@@ -76,7 +76,7 @@
 
                     <h3>Estilos Básicos</h3>
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Establecer la altura y anchura de las imágenes</strong>
                             <p>
@@ -86,18 +86,18 @@
                         </li>
                     </ul>
 
-                    <pre style="margin-left:50px" class="nota">
+                    <pre class="nota margen_50">
 <code><span class="rosado">.enlace</span> {
     <span class="propiedad">width: </span><span class="valor">200<span class="px">px</span></span>;
     <span class="propiedad">height: </span><span class="valor">200<span class="px">px</span></span>;
 }</code></pre>
 
-<pre style="margin-left:50px" class="nota">
-<code>&#60;<span class="rosado">img</span> <span class="px">class</span><span class="turqueza">=</span><span class="enlace">"enlace"</span> <span class="px">src</span><span class="turqueza">=</span><span class="enlace">"img/imagen.jpg"</span>&#62;
-</code></pre>
+<pre class="nota margen_50">
+<code><span class="caso_especial2">&#60;<span class="rosado">img</span> <span class="px">class</span><span class="turqueza">=</span><span class="enlace">"enlace"</span> <span class="px">src</span><span class="turqueza">=</span><span class="enlace">"img/imagen.jpg"</span>&#62;
+</span></code></pre>
 
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Eliminar bode de las imágenes con enlaces</strong>
                             <p>
@@ -106,7 +106,7 @@
                         </li>
                     </ul>
 
-                    <pre style="margin-left:50px" class="nota">
+                    <pre class="nota margen_50">
 <code><span class="rosado">.enlace</span> {
     <span class="propiedad">border: </span><span class="valor">none</span>;
 }</code></pre>

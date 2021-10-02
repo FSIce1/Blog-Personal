@@ -73,8 +73,7 @@
                 
                     
                     <!-- Tamaño, color y decoración -->
-
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Tamaño, color y decoración</strong>
                             <p>
@@ -92,9 +91,9 @@
                     </div>
 
 
-                    <!-- Pseudo-clases -->
 
-                    <ul style="margin-left: 50px;">
+                    <!-- Pseudo-clases -->
+                    <ul class="margen_50">
                         <li>
                             <strong>Pseudo-clases</strong>
                             <p>

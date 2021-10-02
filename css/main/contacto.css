@@ -298,8 +298,6 @@ input:focus, textarea:focus{
 }
 
 /*TODO: Entre 425px y 578px */ 
-/*! 705? */
-
 @media screen and (min-width: 425px) and (max-width: 578px) {
 
     main {
@@ -345,6 +343,62 @@ input:focus, textarea:focus{
     .contacto > p {
         font-size: 12px;
         width: 90%;
+    }
+    
+    #boton {
+        width: 150px;
+        height: 40px;
+    }
+
+}
+
+/*TODO: Entre 375px y 424px */
+@media screen and (min-width: 375px) and (max-width: 424px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .container__contacto {
+        width: 80%;
+        padding-left: 60px;
+    }
+
+    .container__mapa {
+        padding-left: 70px;
+        height: 800px;
+    }
+
+    iframe {
+        margin-top: 20px; 
+        width: 100%;
+    }
+
+    code {
+        width: 100px;
+        font-size: 16px;
+    }
+
+    input, textarea {
+        font-size: 14px;
+    }
+
+    .formulario > .formulario__control > input{
+        height: 40px;
+    }
+    
+    .formulario > input{
+        height: 40px;
+    }
+
+    .contacto > h2 {
+        width: 220px;
+        font-size: 36px;
+    }
+
+    .contacto > p {
+        font-size: 12px;
+        width: 80%;
     }
     
     #boton {

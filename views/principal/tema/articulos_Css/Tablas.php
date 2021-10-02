@@ -78,7 +78,7 @@
 
                     <!-- Viñeta personalizados -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Tabla común</strong>
                             <p>
@@ -87,7 +87,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla_ejemplo">
+                    <table class="tabla_ejemplo margen_50">
                         <tr>
                             <th>1</th>
                             <th>2</th>
@@ -116,11 +116,11 @@
                         </tr>
 
                     </table><br><br>
-                    
+
 
                     <!-- Border Collapse -->
                     
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Border Collapse</strong>
                             <p>
@@ -129,7 +129,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla_ejemplo colapsa">
+                    <table class="tabla_ejemplo colapsa margen_50">
                         <tr>
                             <th>1</th>
                             <th>2</th>
@@ -159,8 +159,7 @@
 
                     </table>
 
-
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -185,10 +184,9 @@
                     </table><br>
 
 
-                    
                     <!-- Border Collapse -->
                     
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Border Spacing</strong>
                             <p>
@@ -199,7 +197,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla_ejemplo espacio">
+                    <table class="tabla_ejemplo espacio margen_50">
                         <tr>
                             <th>1</th>
                             <th>2</th>
@@ -229,7 +227,7 @@
 
                     </table>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -253,6 +251,8 @@
 
                     </table><br>
 
+
+
                     <!-- Estilos Avanzados -->
 
                     <h3>Estilos Avanzados</h3>
@@ -260,7 +260,7 @@
 
                     <!-- Empty Cells-->
                     
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Empty Cells</strong>
                             <p>
@@ -271,7 +271,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla_ejemplo celda">
+                    <table class="tabla_ejemplo celda margen_50">
                         <tr>
                             <th>1</th>
                             <th>2</th>
@@ -301,7 +301,7 @@
 
                     </table>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>
@@ -328,7 +328,7 @@
 
                     <!--Caption Side-->
                     
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Caption Side</strong>
                             <p>
@@ -338,7 +338,7 @@
                         </li>
                     </ul>
 
-                    <table style="margin-left: 50px;" class="tabla_ejemplo colapsa caption">
+                    <table class="tabla_ejemplo colapsa caption margen_50">
                         <caption>Tabla.- Tabla de ejemplo</caption>
                         <tr>
                             <th>1</th>
@@ -369,7 +369,7 @@
 
                     </table>
 
-                    <table style="margin-left: 50px;" class="tabla">
+                    <table class="tabla margen_50">
                         
                         <tr>
                             <th>Propiedad</th>

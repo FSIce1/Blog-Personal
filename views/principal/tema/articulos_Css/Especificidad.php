@@ -128,7 +128,7 @@
                             -Usa !important solo en declaraciones específicas de CSS que sobrescriban CSS externo (de librerías externas como Bootstrap o normalize.css).<br>
                             -Nunca uses !important cuando estés intentando escribir un plugin/mashup.<br>
                             -Nunca uses !important en todo el código CSS.<br><br>
-                            Fuente: <a style="color: black" target="__blanck" href="https://developer.mozilla.org/es/docs/Web/CSS/Specificity">https://developer.mozilla.org/es/docs/Web/CSS/Specificity</a>
+                            Fuente: <a class="caso_especial" style="color: black" target="__blanck" href="https://developer.mozilla.org/es/docs/Web/CSS/Specificity">https://developer.mozilla.org/es/docs/Web/CSS/Specificity</a>
                         </p>
                     </div>
 
