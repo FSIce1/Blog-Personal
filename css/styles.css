@@ -169,3 +169,33 @@ nav>li>a>img {
     }
 
 }
+
+/*TODO: Entre 320px y 374px */
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    
+    body {
+        margin-bottom: 550px;
+    }
+
+    header>.icono>img {
+        width: 26px;
+        height: 26px;
+
+        margin: 5px 10px;
+    }
+
+    header>.icono>p {
+        font-size: 16px;
+    }
+
+    nav {
+        width: 50px;
+        height: 400px;
+    }
+
+    nav>li>a>img {
+        width: 26px;
+        height: 26px;
+    }
+
+}

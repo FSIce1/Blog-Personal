@@ -257,9 +257,9 @@
 
                     </table><br>
 
-                    <div class="margen_50 caso_wrap" style="width: 100%">
+                    <div class="margen_50 caso_wrap" style="width: 100%; box-sizing: border-box;">
                         <p><strong>flex-wrap: nowrap</strong></p>
-                        <div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;" class="margen_50">                        
+                        <div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;" class="margen_50 caso-wrap">                        
                             
                             <div class="caja_flex">Caja 1</div>
                             <div class="caja_flex">Caja 2</div>
