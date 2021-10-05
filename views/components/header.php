@@ -15,7 +15,7 @@
 
         <!-- <img class="lol" src="<?php $ruta ?>" alt="Logo Principal"> -->
         
-        <p>Luis Felipe Siesquen Valdivia</p>
+        <p>El jardín del código</p>
     </div>
 
     <!-- <div class="switch">
