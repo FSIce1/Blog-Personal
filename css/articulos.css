@@ -273,3 +273,59 @@ section > .section > a, a:hover {
     }
 
 }
+
+/*TODO: Entre 320px y 374px */
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    /*? Para el los artículos*/
+    .body {
+        display: flex;
+        flex-direction:column;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    section {
+        height: auto;
+        
+        margin-left: 60px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }  
+
+    .articulo {
+        margin-right: 10px;
+    }
+
+    .articulo__imagen > img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .articulo__informacion > a {
+        font-size: 20px;
+    }
+    
+    .articulo__informacion > span {
+        font-size: 10px;
+    }
+    
+    .articulo__informacion > p {
+        font-size: 12px;
+    }
+
+    .tema {
+        margin-right: 8px;
+        margin-bottom: 8px;
+
+        height: 45px;
+        font-size: .9rem;
+    }
+
+    .seccion {
+        padding-right: 15px;
+    }
+
+}
+

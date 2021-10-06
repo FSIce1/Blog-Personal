@@ -119,13 +119,13 @@
                         </p>
                     </div>
                     <br>    
-                    <div class="caja" style="color: white; background: var(--rosado); width: 100px; height: 100px;">
+                    <div class="caja caja_flotante">
                         1
                     </div>
-                    <div class="caja" style="position: float; float: left; background: var(--rosado); color: white; width: 100px; height: 100px;">
+                    <div class="caja caja_flotante" style="position: float; float: left;">
                         2
                     </div>
-                    <div class="caja" style="background: var(--rosado); color: white; width: 100px; height: 100px;">
+                    <div class="caja caja_flotante">
                         3
                     </div>
 

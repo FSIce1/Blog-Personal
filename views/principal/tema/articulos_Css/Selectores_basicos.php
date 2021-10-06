@@ -77,7 +77,7 @@
 
                     <!--Selector Universal-->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Selector Universal:</strong>
                             <p>
@@ -97,10 +97,10 @@
 }</code></pre><br>
 
 
-    
+
                     <!--Selector de tipo-->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Selector de tipo:</strong>
                             <p>
@@ -112,16 +112,15 @@
                         </li>
                     </ul>
 
-                    <pre class="nota" style="margin-left: 50px;">
+                    <pre class="nota margen_50">
 <code><span class="rosado">p</span> {
     <span class="propiedad">color: </span><span class="valor">#FFFFFF</span>;
     <span class="propiedad">font-size: </span><span class="valor">10</span><span class="px">px</span>;
 }</code></pre>
 
-
-                    <ul style="list-style:none;" style="margin-left: 50px;">
+                    <ul style="list-style:none;" class="margen_50">
                         <li>
-                            <p style="margin-left: 30px;">
+                            <p>
                                 Css permite agrupar reglas individuales para así formar un selector múltiple, para 
                                 esto se debe separar por una coma ',' como se puede apreciar en el siguiente código:
                                 
@@ -129,15 +128,16 @@
                         </li>
                     </ul>
 
-                    <pre class="nota" style="margin-left: 50px;">
+                    <pre class="nota margen_50">
 <code><span class="rosado">h1, h2, h3</span> {
     <span class="propiedad">color: </span><span class="valor">#FFFFFF</span>;
     <span class="propiedad">font-family: </span><span class="valor">Arial, sans-serif</span>;
 }</code></pre><br>
 
 
+
                     <!--Selector descendente-->
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Selector descendente:</strong>
                             <p>
@@ -151,16 +151,17 @@
                         </li>
                     </ul>                    
 
-                    <pre class="nota" style="margin-left: 50px;">
+                    <pre class="nota margen_50">
 <code><span class="rosado">p a</span> {
     <span class="propiedad">color: </span><span class="valor">blue</span>;
     <span class="propiedad">font-family: </span><span class="valor">sans-serif</span>;
 }</code></pre><br>
 
 
+
                     <!--Selector de clase-->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Selector de clase:</strong>
                             <p> 
@@ -172,22 +173,22 @@
                         </li>
                     </ul>   
                     
-                    <pre class="nota" style="margin-left: 50px;">
+                    <pre class="nota margen_50">
 <code>&#60;<span class="rosado">body</span>&#62;
     &#60;<span class="rosado">p</span> <span class="px">class</span><span class="turqueza">=</span><span class="enlace">"rojo"</span>&#62; texto &#60;/<span class="rosado">p</span>&#62;
     &#60;<span class="rosado">p</span> <span class="px">class</span><span class="turqueza">=</span><span class="enlace">"rojo"</span>&#62;&#60;/<span class="rosado">p</span>&#62;
     &#60;<span class="rosado">p</span> <span class="px">class</span><span class="turqueza">=</span><span class="enlace">"rojo"</span>&#62;&#60;/<span class="rosado">p</span>&#62;
 &#60;<span class="rosado">/body</span>&#62;</code></pre>
 
-                    <ul style="list-style:none;" style="margin-left: 50px;">
+                    <ul style="list-style:none;" class="margen_50">
                         <li>
-                            <p style="margin-left: 30px;">
+                            <p>
                                 En el caso de querer especificar un elemento con una clase se debe hacer lo siguiente:
                             </p>
                         </li>
                     </ul>
 
-                    <pre class="nota" style="margin-left: 50px;">
+                    <pre class="nota margen_50">
 <code>/* Todos los elementos
 de tipo "p" con atributo 
 class="aviso" */
@@ -210,16 +211,16 @@ class="aviso" de la página */
 
     <span class="rosado">p</span>, <span class="selector">.aviso</span> { ... }</code></pre>
 
-                    <ul style="list-style:none;" style="margin-left: 30px;">
+                    <ul style="list-style:none;" class="margen_50">
                         <li>
-                            <p style="margin-left: 30px;">
+                            <p>
                                 También es posible aplicar diferentes selectores de clase solo aplicando un
                                 espacio en blanco entre ellos
                             </p>
                         </li>
                     </ul>
 
-                    <pre class="nota" style="margin-left: 50px;"><code>&#60;<span class="rosado">p</span> <span class="px">class</span><span class="turqueza">=</span><span class="enlace">"rojo margen tamaño"</span>&#62; 
+                    <pre class="nota margen_50"><code>&#60;<span class="rosado">p</span> <span class="px">class</span><span class="turqueza">=</span><span class="enlace">"rojo margen tamaño"</span>&#62; 
 texto 
 &#60;/<span class="rosado">p</span>&#62;</code></pre><br>
 
@@ -227,7 +228,7 @@ texto
 
                     <!--Selector de ID -->
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Selector de ID:</strong>
                             <p>
@@ -238,10 +239,10 @@ texto
                         </li>
                     </ul>   
 
-                    <pre class="nota" style="margin-left: 50px;">
+                    <pre class="nota margen_50">
 <code>&#60;<span class="rosado">p</span> <span class="px">id</span><span class="turqueza">=</span><span class="enlace">"estilo"</span>&#62; texto &#60;/<span class="rosado">p</span>&#62;</code></pre>
                     
-                    <pre class="nota" style="margin-left: 50px;">
+                    <pre class="nota margen_50">
 <code><span class="rosado">#estilo</span> {
     <span class="propiedad">color: </span><span class="valor">blue</span>;
     <span class="propiedad">font-family: </span><span class="valor">sans-serif</span>;

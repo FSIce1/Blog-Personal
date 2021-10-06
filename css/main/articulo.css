@@ -790,6 +790,13 @@ body.darkmode > .body > main > .container > .container__articulo > .ejemplo_filt
     justify-content: space-between;
 }
 
+.caja {
+    background: var(--rosado); 
+    color: white; 
+    width: 100px; 
+    height: 100px;
+}
+
 /*TODO: Entre 1024px y 1200px */
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
 
@@ -818,6 +825,11 @@ body.darkmode > .body > main > .container > .container__articulo > .ejemplo_filt
 
     .ejemplo, .ejemplo2 {
         flex-direction: column;
+    }
+
+    .lol.ejemplo { /*320px*/
+        display: flex;
+        flex-direction:row;
     }
 }
 
@@ -952,6 +964,10 @@ body.darkmode > .body > main > .container > .container__articulo > .ejemplo_filt
         margin-left: 20px;
     }
 
+    .lol.ejemplo { /*320px*/
+        display: flex;
+        flex-direction:row;
+    }
 }
 
 /*TODO: Entre 375px y 424px */
@@ -1114,13 +1130,199 @@ body.darkmode > .body > main > .container > .container__articulo > .ejemplo_filt
         margin-left: 0;
     }
 
+    .lol.ejemplo { /*320px*/
+        display: flex;
+        flex-direction:row;
+    }
+
 }
+
+/*TODO: Entre 320px y 374px */
+@media screen and (min-width: 320px) and (max-width: 374px) {
+
+    main {
+        width: 100%;
+    }
+
+    .body {
+        display: flex;
+        flex-direction:column;
+    }
+
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+
+        margin: 0;
+        padding: 30px 30px 30px 30px;
+    }
+    
+    .margen_50 {
+        margin-left: 40px;
+    }
+
+    ul.margen_50 {
+        padding-left: 30px;
+    }
+
+    .margen_50.caso_wrap {
+        margin-left: 20px;
+    }
+
+    .margen_50.caso_justify{
+        padding-left: 20px;
+    }
+
+    .tema > img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tema__informacion > h3 {
+        font-size: 20px;
+    }
+    
+    .tema__informacion > span {
+        font-size: 14px;
+    }
+
+    .container__articulo > h3 {
+        margin-top: 30px;
+    }
+
+    .container__articulo > p {
+        font-size: 12px;
+    }
+
+    .container__articulo > ul > li > strong {
+        font-size: 16px;
+    }
+    
+    .container__articulo > ul > li > p {
+        font-size: 12px;
+    }
+
+    .articulos-relacionados > a {
+        margin-right: 0;
+    }
+
+    .articulos-relacionados > a > h3 {
+        font-size: 16px;
+    }
+
+    .articulos-relacionados > a > p{
+        font-size: 12px;
+    }
+
+    .nota > p { 
+        font-size: 12px;
+    }
+    
+    .nota > p > strong { 
+        font-size: 12px;
+    }
+
+    .container__articulo-imagen > img {
+        width: 300px; 
+        height:100px;
+    }
+
+    .container__articulo-imagen .imagen_tipo_1 {
+        width: 250px; 
+        height: 200px;
+    }
+    
+    .container__articulo-imagen .imagen_tipo_3 { 
+        width: 270px; 
+        height: 170px;
+    }
+
+    .container__articulo-imagen .imagen_tipo_4 { 
+        width: 300px; 
+        height: 200px;
+    }
+
+    .container__articulo-imagen .imagen_tipo_6 { 
+        width: 320px; 
+        height: 120px;
+    }
+    
+    .container__articulo-imagen .imagen_tipo_7 { 
+        width: 270px; 
+        height: 80px;
+    }
+
+    .figure {
+        font-size: 10px;
+        text-align: center
+    }
+
+    .tabla td, .tabla th {
+        font-size: 12px;
+    }
+
+    #ejemplo_ancho {
+        font-size: 12px;
+    }
+
+    .caja {
+        width: 70px;
+        height: 70px;
+        font-size: 12px;
+    }
+
+    pre.nota span {
+        font-size: 10px;
+    }
+
+    .container__articulo-imagen {
+        padding-block: 20px; 
+    }
+
+    .ejemplo, .ejemplo2 {
+        flex-direction: column;
+    }
+
+    .caso_especial {
+        font-size: 10px;
+    }
+
+    .caso_especial2 > span{
+        font-size: 6px !important; 
+    }
+
+    .caja_transition:hover {
+        width: 230px;
+    }
+
+    .margen_50.caso-wrap {
+        margin-left: 0;
+    }
+
+    nav { /*320px*/
+        display: none;
+    }
+
+    code{ /*320px*/ 
+        font-size: 10px;
+    }
+
+    .tabla_ejemplo { /*320px*/
+        width: 220px;
+    }
+
+    .lol.ejemplo { /*320px*/
+        display: flex;
+        flex-direction:row;
+    }
+
+}
+
 
 
 /*! Entre 579px y 767px */
 @media screen and (min-width: 579px) and (max-width: 767px) {
 
-    
     main {
         width: 100%;
     }

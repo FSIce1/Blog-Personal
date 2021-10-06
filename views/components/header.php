@@ -15,7 +15,7 @@
 
         <!-- <img class="lol" src="<?php $ruta ?>" alt="Logo Principal"> -->
         
-        <p>El jardín del código</p>
+        <p>El Jardín Del Código</p>
     </div>
 
     <!-- <div class="switch">

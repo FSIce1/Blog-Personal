@@ -108,7 +108,7 @@
                     </table><br>
 
                     <div class="container__articulo-imagen">
-                        <div class="ejemplo" style="justify-content: center; flex-wrap:wrap ;margin-left: 50px; max-width: 300px; display: flex;">
+                        <div class="ejemplo lol" style="justify-content: center; flex-wrap:wrap ;margin-left: 50px; max-width: 300px; display: flex;">
                             
                             <div style="cursor: pointer; 
                             background-color: lightcoral; width:40px; height: 40px; font-size: 10px; color: black; text-align: center; margin-right: 10px; margin-top: 10px;">
