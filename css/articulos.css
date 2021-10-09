@@ -329,3 +329,53 @@ section > .section > a, a:hover {
 
 }
 
+
+
+/*TODO: Entre 579px y 765px */ 
+@media screen and (min-width: 579px) and (max-width: 765px) {
+    /*? Para el los artículos*/
+    .body {
+        display: flex;
+        flex-direction:column;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    section {
+        height: auto;
+        
+        margin-left: 80px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }  
+
+    .articulo {
+        margin-right: 10px;
+    }
+    
+    .articulo__informacion > a {
+        font-size: 26px;
+    }
+    
+    .articulo__informacion > span {
+        font-size: 10px;
+    }
+    
+    .articulo__informacion > p {
+        font-size: 12px;
+    }
+
+    .tema {
+        margin-right: 8px;
+        margin-bottom: 8px;
+
+        font-size: .9rem;
+    }
+
+    .seccion {
+        padding-right: 15px;
+    }
+
+}

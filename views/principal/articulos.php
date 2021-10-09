@@ -67,13 +67,13 @@
                 <article>
                     <div class="articulo">
                         <div class="articulo__imagen">
-                            <img src="../../img/prueba/javascript.png" alt="">
+                            <img src="../../img/prueba/css.png" alt="">
                         </div>
 
                         <div class="articulo__informacion">
-                            <a href="#">Npm tutorial add()</a>
-                            <span>Julio 12, 2019 . ☕️ 15 minutos de lectura</span>
-                            <p>Optimizaciones de renderizado que surgen...</p>
+                            <a href="../principal/tema/articulos_Css/Modelo_de_cajas">Modelo de cajas</a>
+                            <span>Septiembre 13, 2021 . ☕️ 5 minutos de lectura</span>
+                            <p>También conocido como "box model"...</p>
                         </div>
                     </div>
                 </article>
@@ -81,13 +81,13 @@
                 <article>
                     <div class="articulo">
                         <div class="articulo__imagen">
-                            <img src="../../img/prueba/javascript.png" alt="">
+                            <img src="../../img/prueba/css.png" alt="">
                         </div>
 
                         <div class="articulo__informacion">
-                            <a href="#">Agregar modelos en Laravel</a>
-                            <span>Julio 12, 2019 . ☕️ 15 minutos de lectura</span>
-                            <p>Tutorial de como agregar correctamente</p>
+                            <a href="../principal/tema/articulos_Css/Colores">Colores</a>
+                            <span>Septiembre 13, 2021 . ☕️ 10 minutos de lectura</span>
+                            <p>Veremos las formas diferentes en que se pueden identificar los colores</p>
                         </div>
                     </div>
                 </article>
@@ -95,26 +95,13 @@
                 <article>
                     <div class="articulo">
                         <div class="articulo__imagen">
-                            <img src="../../img/prueba/javascript.png" alt="">
+                            <img src="../../img/prueba/Css.png" alt="">
                         </div>
 
                         <div class="articulo__informacion">
-                            <a href="#">Función equals</a>
-                            <span>Julio 12, 2019 . ☕️ 15 minutos de lectura</span>
-                            <p>Optimizaciones de renderizado que surgen...</p>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="articulo">
-                        <div class="articulo__imagen">
-                            <img src="../../img/prueba/javascript.png" alt="">
-                        </div>
-
-                        <div class="articulo__informacion">
-                            <a href="#">This</a>
-                            <span>Julio 12, 2019 . ☕️ 15 minutos de lectura</span>
-                            <p>Optimizaciones de renderizado que surgen...</p>
+                            <a href="../principal/tema/articulos_Css/Margen_y_relleno">Margen y Relleno</a>
+                            <span>Septiembre 13, 2021 . ☕️ 15 minutos de lectura</span>
+                            <p>Veremos las propiedades margin y padding</p>
                         </div>
                     </div>
                 </article>
@@ -122,32 +109,45 @@
                 <article>
                     <div class="articulo">
                         <div class="articulo__imagen">
-                            <img src="../../img/prueba/javascript.png" alt="">
+                            <img src="../../img/prueba/Css.png" alt="">
                         </div>
 
                         <div class="articulo__informacion">
-                            <a href="#">Función equals</a>
-                            <span>Julio 12, 2019 . ☕️ 15 minutos de lectura</span>
-                            <p>Optimizaciones de renderizado que surgen...</p>
+                            <a href="../principal/tema/articulos_Css/Bordes">Bordes</a>
+                            <span>Septiembre 13, 2021 . ☕️ 10 minutos de lectura</span>
+                            <p>Permite modificar el aspecto de los 4 bordes de la caja de un elemento...</p>
                         </div>
                     </div>
                 </article>
-
-                <article>
-                    <div class="articulo">
-                        <div class="articulo__imagen">
-                            <img src="../../img/prueba/javascript.png" alt="">
-                        </div>
-
-                        <div class="articulo__informacion">
-                            <a href="#">Último Artículo</a>
-                            <span>Julio 12, 2019 . ☕️ 15 minutos de lectura</span>
-                            <p>Optimizaciones de renderizado que surgen...</p>
-                        </div>
-                    </div>
-                </article>
-
                 
+                <article>
+                    <div class="articulo">
+                        <div class="articulo__imagen">
+                            <img src="../../img/prueba/Css.png" alt="">
+                        </div>
+
+                        <div class="articulo__informacion">
+                            <a href="../principal/tema/articulos_Css/Fondos">Fondos</a>
+                            <span>Septiembre 13, 2021 . ☕️ 15 minutos de lectura</span>
+                            <p>El fondo puede ser un color simple o una imagen, en el caso de querer una página...</p>
+                        </div>
+                    </div>
+                </article>
+                
+                <article>
+                    <div class="articulo">
+                        <div class="articulo__imagen">
+                            <img src="../../img/prueba/Css.png" alt="">
+                        </div>
+
+                        <div class="articulo__informacion">
+                            <a href="../principal/tema/articulos_Css/Texto">Texto</a>
+                            <span>Septiembre 13, 2021 . ☕️ 15 minutos de lectura</span>
+                            <p>Veremos algunas propiedades para dar formato al texto...</p>
+                        </div>
+                    </div>
+                </article>
+
                 <p>Ver más artículos...</p>
             </section>
 

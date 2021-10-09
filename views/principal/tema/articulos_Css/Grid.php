@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid</title>
-
 
     <link rel="icon" type="image/png" href="../../../../img/logo_v1.png">
 
@@ -14,16 +14,15 @@
     <!-- <link rel="stylesheet" href="../../css/styles.css">
     <link rel="stylesheet" href="../../css/texto.css">
     -->
-    
+
     <link rel="stylesheet" href="../../../../css/styles.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../../../css/main/articulo.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../../../css/switch.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../../../css/main/aside.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../../../css/main/footer.css?v=<?php echo time(); ?>">
-    
+
     <link rel="stylesheet" href="../../../../css/main/grid.scss?v=<?php echo time(); ?>">
 
-    
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,33 +46,41 @@
 
     <?php
 
-    $nivel = 2;
+        $nivel = 2;
 
-    //! HEADER
-    require ('../../../components/header.php');
+        //! HEADER
+        require ('../../../components/header.php');
 
-    //! BARRA DE NAVEGACIÓN
-    require('../../../components/barraNavegacion.php');
+        //! BARRA DE NAVEGACIÓN
+        require('../../../components/barraNavegacion.php');
 
     ?>
 
     <div class="body">
+
         <main>
-            
+
             <div class="container">
-                
+
                 <div class="container__articulo">
+
+
+
+                    <!--TEMA-->
                     <div class="tema">
+
                         <img src="../../../../img/prueba/css.png" alt="Css">
-    
+
                         <div class="tema__informacion">
                             <h3>Grid Css</h3>
-                            <span>Septiembre 17, 2021. ☕ 15 minutos de lectura</span>
+                            <span>Septiembre 17, 2021. ☕ 25 minutos de lectura</span>
                         </div>
-                        
+
                     </div>
 
-                    <!--Que és Grid-->
+
+
+                    <!--QUE ES GRID-->
                     <h3>¿Qué es Grid?</h3>
 
                     <p>
@@ -81,7 +88,7 @@
                         las páginas web.   
                     </p>
 
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
 
                         <li>
                             <strong>Contenedor Padre (Flex Container)</strong>
@@ -137,10 +144,12 @@
 
 
 
+                    <!--DISPLAY-->
                     <h3>Display</h3>
 
-                    <!--Grid Template Columns-->
-                    <ul style="margin-left: 50px;">
+
+                    <!-- Grid Template Columns -->
+                    <ul class="margen_50">
                         <li>
                             <strong>Grid Template Columns</strong>
                             <p>
@@ -155,10 +164,10 @@
                             <p class="figure"></p>
                         </picture>
                     </div>
-                    
-                    
-                    <!--Grid Template Rows-->
-                    <ul style="margin-left: 50px;">
+
+
+                    <!-- Grid Template Rows -->
+                    <ul class="margen_50">
                         <li>
                             <strong>Grid Template Rows</strong>
                             <p>
@@ -189,7 +198,7 @@
                             <p class="figure"></p>
                         </picture>
                     </div>
-                    
+
                     <div class="container__articulo-imagen">
                         <picture>
                             <img class="imagen_tipo_6" src="../../../../img/tema/css/grid/grid_template_atajo2.png" alt="">
@@ -199,13 +208,14 @@
 
 
 
-                    <!--Gap-->
+                    <!--GAP-->
                     <h3>Gap</h3>
-                    
+
                     <p>Esta propiedad sirve para indicar cuanto será la separación entre filas y columnas</p>
 
+
                     <!--Column Gap-->
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Column Gap</strong>
                             <p>
@@ -221,8 +231,9 @@
                         </picture>
                     </div>
 
+
                     <!--Row Gap-->
-                    <ul style="margin-left: 50px;">
+                    <ul class="margen_50">
                         <li>
                             <strong>Row Gap</strong>
                             <p>
@@ -238,15 +249,15 @@
                         </picture>
                     </div>
 
-                    <!--Manera Abreviada-->
 
+                    <!--Manera Abreviada-->
                     <div class="nota margen_50">
                         <p>
                             Se puede hace de <strong>manera abreviada</strong> el row-gap y el
                             column-gap con colocar solamente la propiedad gap. 
                         </p>
                     </div>
-                    
+
                     <div class="container__articulo-imagen">
                         <picture>
                             <img class="imagen_tipo_1" src="../../../../img/tema/css/grid/gap.png" alt="">
@@ -256,9 +267,9 @@
 
 
 
-                    <!--Grid Template Areas-->
+                    <!--GRID TEMPLATE AREAS-->
                     <h3>Grid Template Areas</h3>
-                    
+
                     <p>
                         Con esta propiedad creamos un área y con ello podemos ubicar elementos de manera más sencilla
                     </p>
@@ -299,12 +310,12 @@
                         </div>
 
                     </div><br>
-                    
-                    
-                    
-                    <!--Mínimo y Máximo-->
+
+
+
+                    <!--MÍNIMO Y MÁXIMO-->
                     <h3>Mínimo y Máximo</h3>
-                    
+
                     <p>
                         Definimos un rango de tamaño mínimo y máximo tomar nuestro elemento
                     </p>
@@ -318,14 +329,13 @@
 
 
 
-                    <!--Auto Fit-->
+                    <!--AUTO FIT-->
                     <h3>Auto Fit</h3>
-                    
+
                     <p>
                         Si el contenedor (color turqueza) tiene un tamaño definido o máximo 
                         en el eje relevante, entonces el número de repeticiones es el mayor número posible
                         según las medidas.  
-
                     </p>
 
                     <div class="container__articulo-imagen">
@@ -334,7 +344,7 @@
                             <p class="figure"></p>
                         </picture>
                     </div>
-                    
+
                     <div class="nota">
                         <p>
                             Se utliza para definir <strong>grid-template-rows</strong> o <strong>grid-template-columns</strong>
@@ -364,9 +374,9 @@
 
 
 
-                    <!--Auto Fill-->
+                    <!--AUTO FILL-->
                     <h3>Auto Fill</h3>
-                    
+
                     <p>
                         Se comporta similar a auto-fit, excepto que después de colocar los elementos
                         de grid, se colapsan los tracks vacíos.<br>
@@ -379,7 +389,7 @@
                             <p class="figure"></p>
                         </picture>
                     </div>
-                    
+
                     <div class="ejemplo">
                     
                         <div class="container_wrapper__auto_fill">
@@ -401,89 +411,41 @@
                         </div> 
                     </div><br>
 
-
-
                 </div>
-                
-                <section>
-                    <p class="titulo">Artículos por temas</p>
-                        
-                    <div class="articulos-relacionados">
-                        <a href="#">
-                            <img src="../../../../img/prueba/css.png" alt="Imagen1">
-                            <h3>Selectores Css</h3>
-                            <p>
-                            Un selector de CSS selecciona los elementos HTML a los que desea aplicar estilo.
-                            </p>
 
-                        </a>
-                        
-                        <a href="#">
-                            <img src="../../../../img/prueba/css.png" alt="Imagen2">
-                            <h3>Css</h3>
-                            <p>Al centrar con el positión sidajasdk kasdkasnd aksdlsad alskdjaskd laskjdkjlasjd asjkdsad </p>
-                        </a>
-                        
-                        <a href="#">
-                            <img src="../../../../img/prueba/css.png" alt="Imagen3">
-                            <h3>Css</h3>
-                            <p>Al centrar con el positión sidajasdk kasdkasnd aksdlsad alskdjaskd laskjdkjlasjd asjkdsad </p>
-                        </a>
-                    </div>
-    
-                </section>
-    
-                
+                <?php
+
+                    $nivel = 2;
+
+                    //! ARTÍCULOS POR TEMAS
+                    require('../../../components/relacionados.php');
+
+                ?>    
+
             </div>
-        
+
         </main>
-    
-        
-        <aside>
-    
-            <h3>Últimos videos en youtube</h3>
-            <div class="video">
-                <a href="https://www.youtube.com/watch?v=6oKCZGeAH0c&ab_channel=ElJard%C3%ADndelc%C3%B3digo" target="__blanck" class="youtube-link" data-id="FMNuTj89RzU" rel="nofollow noopener noreferrer">
-                    <picture>
-                        <!-- <source srcset="https://i3.ytimg.com/vi_webp/FMNuTj89RzU/mqdefault.webp" type="image/webp"> -->
-                        <img class="cover" alt="Creando calculadora en JAVA 👀 - Parte 1 (Diseño)" src="../../../../img/videos-youtube/calculadora.jpg">
-                    </picture>
-                    <h4>Creando calculadora en JAVA 👀 - Parte 1 (Diseño)</h4>
-                </a>
-            </div>
-    
-            <div class="video">
-                <a href="https://www.youtube.com/watch?v=HVizjMAMLHc" target="__blanck" class="youtube-link" data-id="FMNuTj89RzU" rel="nofollow noopener noreferrer">
-                    <picture>
-                        <!-- <source srcset="https://i3.ytimg.com/vi_webp/FMNuTj89RzU/mqdefault.webp" type="image/webp"> -->
-                        <img class="cover" alt="Juego Piedra , Papel, Tijera, Lagarto, Spock 💻 hecho en JAVA" src="../../../../img/videos-youtube/piedra-papel-tijera.jpg">
-                    </picture>
-                    <h4>Juego Piedra , Papel, Tijera, Lagarto, Spock 💻 hecho en JAVA</h4>
-                </a>
-            </div>
-    
-            <div class="video">
-                <a href="https://www.youtube.com/watch?v=f6rP8eRafMY" target="__blanck" class="youtube-link" data-id="FMNuTj89RzU" rel="nofollow noopener noreferrer">
-                    <picture>
-                        <!-- <source srcset="https://i3.ytimg.com/vi_webp/FMNuTj89RzU/mqdefault.webp" type="image/webp"> -->
-                        <img class="cover" alt="Creando primer login en JAVA 💻" src="../../../../img/videos-youtube/primer-login.png">
-                    </picture>
-                    <h4>Creando primer login en JAVA 💻</h4>
-                </a>
-            </div>
-    
-        </aside>
-        
+
+        <?php
+
+            //! ÚLTIMOS VIDEOS RELACIONADOS
+            require('../../../components/videos.php');
+
+        ?>
+
     </div>
-    
 
     <?php
-    //! FOOTER
-    require('../../../components/footer.php');
+
+        //! FOOTER
+        require('../../../components/footer.php');
+
     ?>
 
+
+    <!--SCRIPTS-->
     <script src="../../../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>
-    
+
     <script>
         const $miCheckbox = document.querySelector("#punto__switch");
         $miCheckbox.checked = true;

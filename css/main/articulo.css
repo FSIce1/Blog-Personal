@@ -1443,4 +1443,10 @@ body.darkmode > .body > main > .container > .container__articulo > .ejemplo_filt
     .ejemplo, .ejemplo2 {
         flex-direction: column;
     }
+
+    .lol.ejemplo { /*320px*/
+        display: flex;
+        flex-direction:row;
+    }
+
 }

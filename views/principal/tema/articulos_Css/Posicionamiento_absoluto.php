@@ -45,32 +45,38 @@
 
     <?php
 
-    $nivel = 2;
+        $nivel = 2;
 
-    //! HEADER
-    require ('../../../components/header.php');
+        //! HEADER
+        require ('../../../components/header.php');
 
-    //! BARRA DE NAVEGACIÓN
-    require('../../../components/barraNavegacion.php');
+        //! BARRA DE NAVEGACIÓN
+        require('../../../components/barraNavegacion.php');
 
     ?>
 
     <div class="body">
+
         <main>
-            
+
             <div class="container">
-                
+
                 <div class="container__articulo">
+
+
+
+                    <!--TEMA-->
                     <div class="tema">
-                        <img src="../../../../img/prueba/css.png" alt="Css">
     
+                        <img src="../../../../img/prueba/css.png" alt="Css">
+
                         <div class="tema__informacion">
                             <h3>Posicionamiento Absoluto</h3>
-                            <span>Septiembre 14, 2021. ☕ 15 minutos de lectura</span>
+                            <span>Septiembre 14, 2021. ☕ 5 minutos de lectura</span>
                         </div>
-                        
+
                     </div>
-                    
+
                     <p>
                         Se emplea para establecer de forma exacta la posición en la que se muestra la
                         caja de un elemento. La nueva posición de la caja se indica mediante las 
@@ -102,86 +108,40 @@
                     </div>
 
                 </div>
-                
-                <section>
-                    <p class="titulo">Artículos por temas</p>
-                        
-                    <div class="articulos-relacionados">
-                        <a href="#">
-                            <img src="../../../../img/prueba/css.png" alt="Imagen1">
-                            <h3>Selectores Css</h3>
-                            <p>
-                            Un selector de CSS selecciona los elementos HTML a los que desea aplicar estilo.
-                            </p>
 
-                        </a>
-                        
-                        <a href="#">
-                            <img src="../../../../img/prueba/css.png" alt="Imagen2">
-                            <h3>Css</h3>
-                            <p>Al centrar con el positión sidajasdk kasdkasnd aksdlsad alskdjaskd laskjdkjlasjd asjkdsad </p>
-                        </a>
-                        
-                        <a href="#">
-                            <img src="../../../../img/prueba/css.png" alt="Imagen3">
-                            <h3>Css</h3>
-                            <p>Al centrar con el positión sidajasdk kasdkasnd aksdlsad alskdjaskd laskjdkjlasjd asjkdsad </p>
-                        </a>
-                    </div>
-    
-                </section>
-    
-                
+                <?php
+
+                    $nivel = 2;
+
+                    //! ARTÍCULOS POR TEMAS
+                    require('../../../components/relacionados.php');
+
+                ?>    
+
             </div>
-        
+
         </main>
-    
-        
-        <aside>
-    
-            <h3>Últimos videos en youtube</h3>
-            <div class="video">
-                <a href="https://www.youtube.com/watch?v=6oKCZGeAH0c&ab_channel=ElJard%C3%ADndelc%C3%B3digo" target="__blanck" class="youtube-link" data-id="FMNuTj89RzU" rel="nofollow noopener noreferrer">
-                    <picture>
-                        <!-- <source srcset="https://i3.ytimg.com/vi_webp/FMNuTj89RzU/mqdefault.webp" type="image/webp"> -->
-                        <img class="cover" alt="Creando calculadora en JAVA 👀 - Parte 1 (Diseño)" src="../../../../img/videos-youtube/calculadora.jpg">
-                    </picture>
-                    <h4>Creando calculadora en JAVA 👀 - Parte 1 (Diseño)</h4>
-                </a>
-            </div>
-    
-            <div class="video">
-                <a href="https://www.youtube.com/watch?v=HVizjMAMLHc" target="__blanck" class="youtube-link" data-id="FMNuTj89RzU" rel="nofollow noopener noreferrer">
-                    <picture>
-                        <!-- <source srcset="https://i3.ytimg.com/vi_webp/FMNuTj89RzU/mqdefault.webp" type="image/webp"> -->
-                        <img class="cover" alt="Juego Piedra , Papel, Tijera, Lagarto, Spock 💻 hecho en JAVA" src="../../../../img/videos-youtube/piedra-papel-tijera.jpg">
-                    </picture>
-                    <h4>Juego Piedra , Papel, Tijera, Lagarto, Spock 💻 hecho en JAVA</h4>
-                </a>
-            </div>
-    
-            <div class="video">
-                <a href="https://www.youtube.com/watch?v=f6rP8eRafMY" target="__blanck" class="youtube-link" data-id="FMNuTj89RzU" rel="nofollow noopener noreferrer">
-                    <picture>
-                        <!-- <source srcset="https://i3.ytimg.com/vi_webp/FMNuTj89RzU/mqdefault.webp" type="image/webp"> -->
-                        <img class="cover" alt="Creando primer login en JAVA 💻" src="../../../../img/videos-youtube/primer-login.png">
-                    </picture>
-                    <h4>Creando primer login en JAVA 💻</h4>
-                </a>
-            </div>
-    
-        </aside>
-        
+
+        <?php
+
+            //! ÚLTIMOS VIDEOS RELACIONADOS
+            require('../../../components/videos.php');
+
+        ?>
+
     </div>
-    
 
     <?php
-    //! FOOTER
-    require('../../../components/footer.php');
+
+        //! FOOTER
+        require('../../../components/footer.php');
+
     ?>
 
+
+    <!--SCRIPTS-->
     <script src="../../../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>
-    
+
     <script>
         const $miCheckbox = document.querySelector("#punto__switch");
         $miCheckbox.checked = true;
