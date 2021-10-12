@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfalio</title>
+    <title>Portafolio</title>
 
-
-    <link rel="icon" type="image/png" href="../../img/logo_v1.png">
+    <link rel="icon" type="image/png" href="../../img/iconos/icono2_negro.png">
 
     <!-- Estilos -->
 
@@ -57,29 +56,45 @@
 
 
     <main>
-        
+
         <div class="container">
             <h3>Portafolio</h3>
 
             <div class="proyectos">
                 
-                <a href="https://fsice1.github.io/MisCursos/" target="_blank" class="proyecto">
-
-                    <div class="capa"></div>
-                    <img src="../../img/repositorios/Platzi-cursos.png" alt="">
+                <a href="https://fsice1.github.io/Mis-Cursos/" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Platzi-cursos.png" alt="Platzi Cursos">
                     <p>Platzi Cursos</p>
                     <div></div>
                 </a>
 
-                <a href="https://fsice1.github.io/WebHomer/" target="_blank" class="proyecto">
-                    <img src="../../img/repositorios/Web-Homer.png" alt="">
+                <a href="https://fsice1.github.io/Web-Homer/" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Web-Homer.png" alt="Web Homer">
                     <p>Web Homer</p>
                     <div></div>
                 </a>
 
-                <a href="https://fsice1.github.io/Reto1Css/" target="_blank" class="proyecto">
-                    <img src="../../img/repositorios/Reto1-Css.png" alt="">
-                    <p>Reto Css</p>
+                <a href="https://fsice1.github.io/Taller-Practico-1-Css/" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Reto1-Css.png" alt="Taller Práctico Css">
+                    <p>Taller Práctico Css</p>
+                    <div></div>
+                </a>
+
+                <a href="https://codepen.io/LuisFelipe1/pen/QWgBMNj" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Mario-Bros.PNG" alt="Mario Bros">
+                    <p>Marios Bross</p>
+                    <div></div>
+                </a>
+
+                <a href="https://fsice1.github.io/Taller-Practico-Js/" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Taller-Práctico-Js.PNG" alt="Taller Práctico Js">
+                    <p>Taller Práctico Js</p>
+                    <div></div>
+                </a>
+                
+                <a href="https://github.com/FSIce1/Venta-Bebidas-Alcoholicas" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Venta-Bebidas-Alcoholicas.PNG" alt="Venta de bebidas alchólicas">
+                    <p>Venta Bebidas Alcohólicas</p>
                     <div></div>
                 </a>
 

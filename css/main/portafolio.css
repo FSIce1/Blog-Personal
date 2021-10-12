@@ -42,11 +42,11 @@ body.darkmode > main > .container > h3 {
 } 
 
 .proyecto:nth-child(1) > p{
-    color: #c2c2c2;
+    color: #C2F784;
 } 
 
 .proyecto:nth-child(1) > div {
-    border: 3px solid #c2c2c2;
+    border: 3px solid #C2F784;
 }
 
 
@@ -72,11 +72,56 @@ body.darkmode > main > .container > h3 {
 } 
 
 .proyecto:nth-child(3) > p{
-    color: #9c64a6;
+    color: #E2A9BA;
 } 
 
 .proyecto:nth-child(3) > div {
-    border: 3px solid #9c64a6;
+    border: 3px solid #E2A9BA;
+}
+
+
+/*? Proyecto 4 */
+
+.proyecto:nth-child(4){
+    background: #ce93d8;
+} 
+
+.proyecto:nth-child(4) > p{
+    color: #E64A6C;
+} 
+
+.proyecto:nth-child(4) > div {
+    border: 3px solid #E64A6C;
+}
+
+
+/*? Proyecto 5 */
+
+.proyecto:nth-child(5){
+    background: #ce93d8;
+} 
+
+.proyecto:nth-child(5) > p{
+    color: #FFFFFF;
+} 
+
+.proyecto:nth-child(5) > div {
+    border: 3px solid #FFFFFF;
+}
+
+
+/*? Proyecto 6 */
+
+.proyecto:nth-child(6){
+    background: #ce93d8;
+} 
+
+.proyecto:nth-child(6) > p{
+    color: #172333;
+} 
+
+.proyecto:nth-child(6) > div {
+    border: 3px solid #172333;
 }
 
 
@@ -107,38 +152,31 @@ body.darkmode > main > .container > h3 {
     border: 3px solid #bd3538;
 }
 
-
+.proyectos {
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 /*TODO: Entre 768px y 1023x */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
-    .proyectos {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
+}
+
+/*TODO: Entre 579px y 767px */ 
+@media screen and (min-width: 579px) and (max-width: 767px) {
+
 }
 
 /*TODO: Entre 425px y 578px */ 
 @media screen and (min-width: 425px) and (max-width: 578px) {
-    
-    .proyectos {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 
 }
 
 /*TODO: Entre 375px y 424px */
 @media screen and (min-width: 375px) and (max-width: 424px) {
-    
+
     .container > h3 {
         font-size: 36px;
-    }
-
-    .proyectos {
-        flex-wrap: wrap;
-        justify-content: center;
     }
 
 }
@@ -148,11 +186,6 @@ body.darkmode > main > .container > h3 {
 
     .container > h3 {
         font-size: 36px;
-    }
-
-    .proyectos {
-        flex-wrap: wrap;
-        justify-content: center;
     }
 
     .proyecto {

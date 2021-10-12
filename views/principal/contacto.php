@@ -7,7 +7,7 @@
     <title>Contacto</title>
 
 
-    <link rel="icon" type="image/png" href="../../img/logo_v1.png">
+    <link rel="icon" type="image/png" href="../../img/iconos/icono2_negro.png">
 
     <!-- Estilos -->
 

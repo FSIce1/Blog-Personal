@@ -11,7 +11,7 @@
 <header>
 
     <div class="icono">
-        <?php echo "<img class='lol' src='".$ruta."../../img/logo_v1.png' alt=''>" ?>
+        <?php echo "<img class='lol' src='".$ruta."../../img/iconos/icono2_blanco.png' alt=''>" ?>
 
         <!-- <img class="lol" src="<?php $ruta ?>" alt="Logo Principal"> -->
         
