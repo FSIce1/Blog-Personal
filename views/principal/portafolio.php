@@ -93,7 +93,7 @@
                 </a>
                 
                 <a href="https://github.com/FSIce1/Venta-Bebidas-Alcoholicas" target="_blank" class="proyecto">
-                    <img src="../../img/repositorios/Venta-Bebidas-Alcoholicas.PNG" alt="Venta de bebidas alchólicas">
+                    <img src="../../img/repositorios/Venta-Bebidas-Alcoholicas.png" alt="Venta de bebidas alchólicas">
                     <p>Venta Bebidas Alcohólicas</p>
                     <div></div>
                 </a>
@@ -110,11 +110,6 @@
     ?>
 
     <script src="../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>
-    
-    <script>
-        const $miCheckbox = document.querySelector("#punto__switch");
-        $miCheckbox.checked = true;
-    </script>
 
 </body>
 

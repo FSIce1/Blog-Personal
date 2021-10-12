@@ -24,9 +24,6 @@
     <link rel="stylesheet" href="../../../../css/main/grid.scss?v=<?php echo time(); ?>">
 
     <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link rel="stylesheet" href="../../../../css/fuentes/fuentes.css?v=<?php echo time(); ?>">
 
     <!-- Para la caché -->
@@ -445,11 +442,6 @@
 
     <!--SCRIPTS-->
     <script src="../../../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>
-
-    <script>
-        const $miCheckbox = document.querySelector("#punto__switch");
-        $miCheckbox.checked = true;
-    </script>
 
 </body>
 

@@ -21,8 +21,8 @@
 
     
     <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
 
     <link rel="stylesheet" href="../../css/fuentes/fuentes.css?v=<?php echo time(); ?>">
 
@@ -67,16 +67,16 @@
     </main>
 
     <?php
-    //! FOOTER
+        //! FOOTER
         require('../components/footer.php');
     ?>
 
     <script src="../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>
-    
-    <script>
+
+    <!-- <script>
         const $miCheckbox = document.querySelector("#punto__switch");
         $miCheckbox.checked = true;
-    </script>
+    </script> -->
 
 </body>
 

@@ -18,14 +18,10 @@
     <link rel="stylesheet" href="../../css/main/aside.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../css/main/footer.css?v=<?php echo time(); ?>">
 
-
     <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link rel="stylesheet" href="../../css/fuentes/fuentes.css?v=<?php echo time(); ?>">
 
-    
+
     <!-- Para la caché -->
     <meta http-equiv="Expires" content="0">
     <meta http-equiv="Last-Modified" content="0">
@@ -94,7 +90,7 @@
                 <article>
                     <div class="articulo">
                         <div class="articulo__imagen">
-                            <img src="../../img/prueba/Css.png" alt="">
+                            <img src="../../img/prueba/css.png" alt="">
                         </div>
 
                         <div class="articulo__informacion">
@@ -108,7 +104,7 @@
                 <article>
                     <div class="articulo">
                         <div class="articulo__imagen">
-                            <img src="../../img/prueba/Css.png" alt="">
+                            <img src="../../img/prueba/css.png" alt="">
                         </div>
 
                         <div class="articulo__informacion">
@@ -122,7 +118,7 @@
                 <article>
                     <div class="articulo">
                         <div class="articulo__imagen">
-                            <img src="../../img/prueba/Css.png" alt="">
+                            <img src="../../img/prueba/css.png" alt="">
                         </div>
 
                         <div class="articulo__informacion">
@@ -136,7 +132,7 @@
                 <article>
                     <div class="articulo">
                         <div class="articulo__imagen">
-                            <img src="../../img/prueba/Css.png" alt="">
+                            <img src="../../img/prueba/css.png" alt="">
                         </div>
 
                         <div class="articulo__informacion">
@@ -261,12 +257,13 @@
     </div>
 
     <?php
-    //! FOOTER
-    require('../components/footer.php');
+
+        //! FOOTER
+        require('../components/footer.php');
+
     ?>
 
     <script src="../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>
-
 
 </body>
 
