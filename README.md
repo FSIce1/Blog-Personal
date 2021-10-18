@@ -1,8 +1,6 @@
 # Blog Personal
 ## _Siesquen Valdivia, Luis Felipe_
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
 Bienvenido a mi blog personal, en este blog compartiré:
 
 - Tutoriales 💻 
@@ -14,7 +12,7 @@ Bienvenido a mi blog personal, en este blog compartiré:
 
 Debemos ir al siguiente enlace...
 
-```sh
+```
 https://luisfelipe1.herokuapp.com/views/principal/inicio
 ```
 
@@ -34,7 +32,7 @@ Para ir a cada uno de las categorías que tiene el blog
 
 MIT
 
-**Free Software, Hell Yeah!**
+**Free Software**
 
 [//]: # (Abreviaturas)
 
