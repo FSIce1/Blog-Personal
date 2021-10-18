@@ -54,14 +54,13 @@
 
     ?>
 
-
     <main>
 
         <div class="container">
             <h3>Portafolio</h3>
 
             <div class="proyectos">
-                
+
                 <a href="https://fsice1.github.io/Mis-Cursos/" target="_blank" class="proyecto">
                     <img src="../../img/repositorios/Platzi-cursos.png" alt="Platzi Cursos">
                     <p>Platzi Cursos</p>
@@ -91,10 +90,34 @@
                     <p>Taller Práctico Js</p>
                     <div></div>
                 </a>
-                
+
                 <a href="https://github.com/FSIce1/Venta-Bebidas-Alcoholicas" target="_blank" class="proyecto">
                     <img src="../../img/repositorios/Venta-Bebidas-Alcoholicas.png" alt="Venta de bebidas alchólicas">
                     <p>Venta Bebidas Alcohólicas</p>
+                    <div></div>
+                </a>
+
+                <a href="https://github.com/FSIce1/Sistema-Incidencias" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Sistemas-Incidencias.png" alt="Sistemas de incidencias">
+                    <p>Sistema De Incidencias</p>
+                    <div></div>
+                </a>
+
+                <a href="https://github.com/FSIce1/Sistema-Actividades" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Sistema-Actividades.png" alt="Sistemas de actividades">
+                    <p>Sistema De Actividades</p>
+                    <div></div>
+                </a>
+
+                <a href="https://fsice1.github.io/Taller-Practico-2-Css/index.html" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Taller-Práctico-2-Css.PNG" alt="Taller Práctico 2 Css">
+                    <p>Taller Práctico 2 - Css</p>
+                    <div></div>
+                </a>
+
+                <a href="https://github.com/FSIce1/Taller-Practico-3-Css/tree/master/public" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Taller-Práctico-3-Css.PNG" alt="Taller Práctico 3 Css">
+                    <p>Taller Práctico 3 - Css</p>
                     <div></div>
                 </a>
 

@@ -36,7 +36,6 @@ body.darkmode > main > .container > h3 {
 }
 
 /*? Proyecto 1 */
-
 .proyecto:nth-child(1){
     background: #f5f5f5;
 } 
@@ -49,9 +48,7 @@ body.darkmode > main > .container > h3 {
     border: 3px solid #C2F784;
 }
 
-
 /*? Proyecto 2 */
-
 .proyecto:nth-child(2) {
     background: #a4f0f2;
 }
@@ -64,9 +61,7 @@ body.darkmode > main > .container > h3 {
     border: 3px solid #408d8f;
 }
 
-
 /*? Proyecto 3 */
-
 .proyecto:nth-child(3){
     background: #ce93d8;
 } 
@@ -79,9 +74,7 @@ body.darkmode > main > .container > h3 {
     border: 3px solid #E2A9BA;
 }
 
-
 /*? Proyecto 4 */
-
 .proyecto:nth-child(4){
     background: #ce93d8;
 } 
@@ -94,9 +87,7 @@ body.darkmode > main > .container > h3 {
     border: 3px solid #E64A6C;
 }
 
-
 /*? Proyecto 5 */
-
 .proyecto:nth-child(5){
     background: #ce93d8;
 } 
@@ -109,26 +100,79 @@ body.darkmode > main > .container > h3 {
     border: 3px solid #FFFFFF;
 }
 
-
 /*? Proyecto 6 */
-
 .proyecto:nth-child(6){
     background: #ce93d8;
 } 
 
 .proyecto:nth-child(6) > p{
-    color: #172333;
+    color: #78A8FC;
 } 
 
 .proyecto:nth-child(6) > div {
-    border: 3px solid #172333;
+    border: 3px solid #78A8FC;
 }
 
+/*? Proyecto 7 */
+.proyecto:nth-child(7){
+    background: #ce93d8;
+} 
+
+.proyecto:nth-child(7) > p{
+    color: #77D970;
+} 
+
+.proyecto:nth-child(7) > div {
+    border: 3px solid #77D970;
+}
+
+/*? Proyecto 8 */
+.proyecto:nth-child(8){
+    background: #ce93d8;
+} 
+
+.proyecto:nth-child(8) > p{
+    color: #FF0075;
+} 
+
+.proyecto:nth-child(8) > div {
+    border: 3px solid #FF0075;
+}
+
+/*? Proyecto 9 */
+.proyecto:nth-child(9){
+    background: #ce93d8;
+} 
+
+.proyecto:nth-child(9) > p{
+    color: #FF5C58;
+} 
+
+.proyecto:nth-child(9) > div {
+    border: 3px solid #FF5C58;
+}
+
+/*? Proyecto 10 */
+.proyecto:nth-child(10){
+    background: #ce93d8;
+} 
+
+.proyecto:nth-child(10) > p{
+    color: #113CFC;
+} 
+
+.proyecto:nth-child(10) > div {
+    border: 3px solid #113CFC;
+}
 
 .proyecto > img {
     width: 250px;
     height: 250px;
     opacity: 0.5;
+}
+
+.proyecto > img:hover {
+    opacity: 1;
 }
 
 .proyecto > div, .proyecto > p {
