@@ -115,7 +115,7 @@
                     <div></div>
                 </a>
 
-                <a href="https://github.com/FSIce1/Taller-Practico-3-Css/tree/master/public" target="_blank" class="proyecto">
+                <a href="https://fsice1.github.io/Taller-Practico-3-Css/public/header.html" target="_blank" class="proyecto">
                     <img src="../../img/repositorios/Taller-Práctico-3-Css.PNG" alt="Taller Práctico 3 Css">
                     <p>Taller Práctico 3 - Css</p>
                     <div></div>
