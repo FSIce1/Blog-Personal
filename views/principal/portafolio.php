@@ -121,6 +121,24 @@
                     <div></div>
                 </a>
 
+                <a href="https://fsice1.github.io/Taller-Practico-4-Css/index.html" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Taller-Práctico-4-Css.PNG" alt="Taller Práctico 4 Css">
+                    <p>Taller Práctico 4 - Css</p>
+                    <div></div>
+                </a>
+
+                <a href="https://github.com/FSIce1/Lista-Platzi-Conf" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Lista-Platzi-Conf.PNG" alt="Lista PLatzi Conf">
+                    <p>Lista Platzi Conf</p>
+                    <div></div>
+                </a>
+
+                <a href="http://lista-cursos-tecnologia.herokuapp.com/" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Lista-Cursos-Aleatorios.PNG" alt="Lista Cursos Aleatorios">
+                    <p>Lista Cursos Aleatorios</p>
+                    <div></div>
+                </a>
+
             </div>
 
         </div>
