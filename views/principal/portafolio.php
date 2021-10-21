@@ -103,7 +103,7 @@
                     <div></div>
                 </a>
 
-                <a href="https://github.com/FSIce1/Sistema-Actividades" target="_blank" class="proyecto">
+                <a href="https://github.com/FSIce1/Sistema-De-Actividades" target="_blank" class="proyecto">
                     <img src="../../img/repositorios/Sistema-Actividades.png" alt="Sistemas de actividades">
                     <p>Sistema De Actividades</p>
                     <div></div>
