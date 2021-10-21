@@ -151,6 +151,12 @@
                     <div></div>
                 </a>
 
+                <a href="https://fsice1.github.io/Personajes-Rick-And-Morty/index" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Lista-Personajes.PNG" alt="Lista Rick and Morty">
+                    <p>Listado Personajes Rick and Morty</p>
+                    <div></div>
+                </a>
+
             </div>
 
         </div>

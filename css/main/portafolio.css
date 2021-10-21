@@ -204,6 +204,19 @@ body.darkmode > main > .container > h3 {
     border: 3px solid #FDA65D;
 }
 
+/*? Proyecto 16 */
+.proyecto:nth-child(16){
+    background: #ce93d8;
+} 
+
+.proyecto:nth-child(16) > p{
+    color: #950101;
+} 
+
+.proyecto:nth-child(16) > div {
+    border: 3px solid #950101;
+}
+
 .proyecto > img {
     width: 250px;
     height: 250px;
