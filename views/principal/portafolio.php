@@ -139,6 +139,18 @@
                     <div></div>
                 </a>
 
+                <a href="https://fsice1.github.io/Taller-Practico-2-Js" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Taller-Practico-2-Js.PNG" alt="Taller Práctico 2 Js">
+                    <p>Taller Práctico 2 - Js</p>
+                    <div></div>
+                </a>
+
+                <a href="http://listado-fakers.herokuapp.com/" target="_blank" class="proyecto">
+                    <img src="../../img/repositorios/Lista-Datos-Falsos.PNG" alt="Lista Datos Falsos">
+                    <p>Listado de Datos Falsos</p>
+                    <div></div>
+                </a>
+
             </div>
 
         </div>
