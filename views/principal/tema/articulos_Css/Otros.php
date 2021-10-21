@@ -75,16 +75,13 @@
 
 
                     <!-- Personalizar el cursor -->
-                    <ul class="margen_50">
-                        <li>
-                            <strong>Personalizar el cursor</strong>
-                            <p>
-                                Nos permite modificar el puntero del ratón, mediante la propiedad cursor
-                            </p>
-                        </li>
-                    </ul>
+                    <h3>Personalizar el cursor</h3>
 
-                    <table class="tabla margen_50">
+                    <p>
+                        Nos permite modificar el puntero del ratón, mediante la propiedad cursor
+                    </p>
+
+                    <table class="tabla">
                     
                         <tr>
                             <th>Propiedad</th>
@@ -109,7 +106,7 @@
                     </table><br>
 
                     <div class="container__articulo-imagen">
-                        <div class="ejemplo lol" style="justify-content: center; flex-wrap:wrap ;margin-left: 50px; max-width: 300px; display: flex;">
+                        <div class="ejemplo lol" style="justify-content: center; flex-wrap:wrap; max-width: 300px; display: flex;">
                             
                             <div style="cursor: pointer; 
                             background-color: lightcoral; width:40px; height: 40px; font-size: 10px; color: black; text-align: center; margin-right: 10px; margin-top: 10px;">
