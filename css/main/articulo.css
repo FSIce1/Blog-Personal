@@ -45,9 +45,9 @@ body.darkmode > .body > main > .container > .container__articulo > h3 {
     color: var(--turqueza);
 }
 
-body.darkmode > .body > main > .container > .container__articulo > .ejemplo {
+/* body.darkmode > .body > main > .container > .container__articulo > .ejemplo {
     background-color: var(--turqueza) !important;
-}
+} */
 
 body.darkmode > .body > main > .container > .container__articulo > .caja {
     background-color: var(--turqueza) !important;
