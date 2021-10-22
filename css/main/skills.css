@@ -259,9 +259,59 @@ body.darkmode>main>.container>.contenedor_habilidades>.habilidades>span:hover {
 
 }
 
+/*TODO: Entre 579px y 767px */
+@media screen and (min-width: 579px) and (max-width: 767px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .map {
+        display: flex;
+
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .container__map {
+        width: 380px;
+    }
+
+    .contenedor_habilidades {
+        padding-top: 50px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .habilidades {
+        width: 650px;
+        height: 300px;
+    }
+
+    .adorno-1 {
+        left: 0px;
+        top: 20px;
+
+        background: var(--rosadoBajo);
+    }
+
+    .adorno-2 {
+        left: 5px;
+        top: 40px;
+
+        background: var(--turqueza);
+    }
+
+}
+
 /*TODO: Entre 425px y 578px */ 
 @media screen and (min-width: 425px) and (max-width: 578px) {
-    
+
     .container {
         flex-direction: column;
 

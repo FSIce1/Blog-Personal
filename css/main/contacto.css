@@ -300,6 +300,37 @@ input:focus, textarea:focus{
 
 }
 
+/*TODO: Entre 579px y 767px */
+@media screen and (min-width: 579px) and (max-width: 767px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .container__contacto {
+        width: 80%;
+    }
+
+    .container__mapa {
+        padding-left: 70px;
+        height: 800px;
+    }
+
+    iframe {
+        margin-top: 20px; 
+        width: 100%;
+    }
+
+    code {
+        width: 100px;
+    }
+
+    .contacto > h2 {
+        width: 300px;
+    }
+
+}
+
 /*TODO: Entre 425px y 578px */ 
 @media screen and (min-width: 425px) and (max-width: 578px) {
 
