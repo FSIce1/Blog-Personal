@@ -264,33 +264,46 @@ body.darkmode>main>.container>.contenedor_habilidades>.habilidades>span:hover {
 
     .container {
         flex-direction: column;
+
+        margin: 0px;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .container__map>h3 {
+        font-size: 50px;
+    }
+
+    .container__map>p {
+        font-size: 16px;
     }
 
     .map {
         display: flex;
-
+        width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
     }
 
     .container__map {
-        width: 380px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 25px;
     }
 
     .contenedor_habilidades {
-        padding-top: 50px;
+        
         width: 100%;
+        height: auto;
+
+        padding-top: 20px;
 
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
-    }
-
-    .habilidades {
-        width: 650px;
-        height: 300px;
     }
 
     .adorno-1 {
@@ -305,6 +318,92 @@ body.darkmode>main>.container>.contenedor_habilidades>.habilidades>span:hover {
         top: 40px;
 
         background: var(--turqueza);
+    }
+
+    .habilidades {
+        width: 400px;
+        height: 300px;
+
+        box-sizing: border-box;
+        padding-inline: 60px;
+    }
+
+    .habilidades>.lugar-2,
+    .lugar-4,
+    .lugar-6,
+    .lugar-8,
+    .lugar-10 {
+        font-size: 38px;
+    }
+
+    .habilidades>.lugar-1,
+    .lugar-3,
+    .lugar-5,
+    .lugar-7,
+    .lugar-9,
+    .lugar-11,
+    .lugar-13 {
+        font-size: 20px;
+    }
+
+    .habilidades>.lugar-1 {
+        left: 70px;
+        top: 20px;
+    }
+
+    .habilidades>.lugar-2 {
+        left: 80px;
+        top: 80px;
+    }
+
+    .habilidades>.lugar-3 {
+        left: 300px;
+        top: 160px;
+    }
+
+    .habilidades>.lugar-4 {
+        left: 170px;
+        top: 230px;
+    }
+
+    .habilidades>.lugar-5 {
+        left: 110px;
+        top: 190px
+    }
+
+    .habilidades>.lugar-6 {
+        left: 140px;
+        top: 140px;
+    }
+
+    .habilidades>.lugar-7 {
+        left: 80px;
+        top: 160px;
+    }
+
+    .habilidades>.lugar-8 {
+        left: 50px;
+        top: 60px;
+    }
+
+    .habilidades>.lugar-9 {
+        left: 230px;
+        top: 80px;
+    }
+
+    .habilidades>.lugar-10 {
+        left: 300px;
+        top: 20px;
+    }
+
+    .habilidades>.lugar-11 {
+        left: 170px;
+        top: 20px;
+    }
+
+    .habilidades>.lugar-13 {
+        left: 80px;
+        top: 230px;
     }
 
 }
@@ -371,11 +470,11 @@ body.darkmode>main>.container>.contenedor_habilidades>.habilidades>span:hover {
     }
 
     .habilidades {
-        width: 100%;
+        width: 370px;
         height: 300px;
 
         box-sizing: border-box;
-        padding-inline: 60px;
+        /* padding-inline: 60px; */
     }
 
     .habilidades>.lugar-2,
@@ -609,7 +708,7 @@ body.darkmode>main>.container>.contenedor_habilidades>.habilidades>span:hover {
 
 /*TODO: Entre 320px y 374px */
 @media screen and (min-width: 320px) and (max-width: 374px) {
-    
+
     .container {
         flex-direction: column;
 
@@ -695,38 +794,38 @@ body.darkmode>main>.container>.contenedor_habilidades>.habilidades>span:hover {
     }
 
     .habilidades>.lugar-1 {
-        left: 70px;
+        left: 50px;
         top: 20px;
     }
 
     .habilidades>.lugar-2 {
-        left: 80px;
+        left: 60px;
         top: 80px;
     }
 
     .habilidades>.lugar-3 {
-        left: 270px; /*Cambio*/
+        left: 230px;
         top: 160px;
     }
 
     .habilidades>.lugar-4 {
-        left: 140px; /*Cambio*/
-        top: 230px;
+        left: 120px;
+        top: 210px;
     }
 
     .habilidades>.lugar-5 {
-        left: 110px;
-        top: 190px
+        left: 50px;
+        top: 180px;
     }
 
     .habilidades>.lugar-6 {
-        left: 140px;
+        left: 120px;
         top: 140px;
     }
 
     .habilidades>.lugar-7 {
-        left: 80px;
-        top: 160px;
+        left: 60px;
+        top: 130px;
     }
 
     .habilidades>.lugar-8 {
@@ -735,23 +834,26 @@ body.darkmode>main>.container>.contenedor_habilidades>.habilidades>span:hover {
     }
 
     .habilidades>.lugar-9 {
-        left: 230px;
+        left: 180px;
         top: 80px;
     }
 
     .habilidades>.lugar-10 {
-        left: 270px; /*Cambio*/
+        left: 210px; /*Cambio*/
         top: 20px;
     }
 
     .habilidades>.lugar-11 {
-        left: 170px;
+        left: 120px;
         top: 20px;
     }
 
     .habilidades>.lugar-13 {
-        left: 80px;
+        left: 60px;
         top: 230px;
     }
 
+    nav {
+        visibility: hidden
+    }
 }
