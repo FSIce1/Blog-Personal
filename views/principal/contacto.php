@@ -148,6 +148,13 @@
                         title: 'El correo no puso ser enviado'
                     });
                 break;
+            
+            case "cne": // Error
+                Toast.fire({
+                        icon: 'error',
+                        title: 'Ups! Error interno'
+                    });
+                break;
 
             default:
                 break;

@@ -524,13 +524,16 @@ function enviar(){
         $mail->Body = $message;
         $mail->AltBody = $message;
 
-        $mail->send();
+        if($mail->send()){
+            $mensaje = "ce";
+        } else {
+            $mensaje = "cne"
+        }
 
-        $mensaje = "ce";
 
     } catch (Exception $e) {
         //echo "Mensaje no enviado, el error fue: {$mail->ErrorInfo}";
-        $mensaje = "cne";
+        $mensaje = "er";
     }
 
     return $mensaje;
