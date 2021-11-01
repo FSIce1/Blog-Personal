@@ -530,7 +530,6 @@ function enviar(){
             $mensaje = "cne";
         }
 
-
     } catch (Exception $e) {
         //echo "Mensaje no enviado, el error fue: {$mail->ErrorInfo}";
         $mensaje = "er";
