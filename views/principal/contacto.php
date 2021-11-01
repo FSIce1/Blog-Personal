@@ -149,7 +149,7 @@
                     });
                 break;
             
-            case "cne": // Error
+            case "er": // Error
                 Toast.fire({
                         icon: 'error',
                         title: 'Ups! Error interno'
