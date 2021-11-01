@@ -527,7 +527,7 @@ function enviar(){
         if($mail->send()){
             $mensaje = "ce";
         } else {
-            $mensaje = "cne"
+            $mensaje = "cne";
         }
 
 
