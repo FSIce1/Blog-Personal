@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="../../../../css/switch.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../../../css/main/aside.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../../../css/main/footer.css?v=<?php echo time(); ?>">
-    
-    
+    <link rel="stylesheet" href="../../../../css/main/loading.css?v=<?php echo time(); ?>">
+
+
     <!-- Fuentes -->
     <link rel="stylesheet" href="../../../../css/fuentes/fuentes.css?v=<?php echo time(); ?>">
 

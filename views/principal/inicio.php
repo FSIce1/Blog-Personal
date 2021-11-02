@@ -13,13 +13,14 @@
     <!-- <link rel="stylesheet" href="../../css/styles.css">
     <link rel="stylesheet" href="../../css/texto.css">
     -->
-    
+
     <link rel="stylesheet" href="../../css/styles.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../css/texto.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../css/switch.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="../../css/main/footer.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../../css/main/loading.css?v=<?php echo time(); ?>">
 
-    
+
     <!-- Fuentes -->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
@@ -38,9 +39,9 @@
 <body>
 
     <?php
-        header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
-        header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
-    ?> 
+    header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
+    header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
+    ?>
 
     <?php
 
@@ -67,8 +68,8 @@
     </main>
 
     <?php
-        //! FOOTER
-        require('../components/footer.php');
+    //! FOOTER
+    require('../components/footer.php');
     ?>
 
     <script src="../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>

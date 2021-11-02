@@ -8,6 +8,15 @@
     $ruta = "$ruta";
 ?>
 
+<div class="contenedor-total">
+    <div class="contenedor">
+        <div class="middle">
+            <h1 class="title">Loading...</h1>
+            <div class="rainbow-marker-loader"></div>
+        </div>
+    </div>
+</div>
+
 <header>
 
     <div class="icono">

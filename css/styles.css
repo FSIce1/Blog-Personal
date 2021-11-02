@@ -112,8 +112,6 @@ nav>li>a>img {
     height: 32px;
 }
 
-
-
 /*TODO: Entre 425px y 578px */
 @media screen and (min-width: 425px) and (max-width: 578px) {
 
