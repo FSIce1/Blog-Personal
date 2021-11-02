@@ -8,6 +8,7 @@
     $ruta = "$ruta";
 ?>
 
+
 <div class="contenedor-total">
     <div class="contenedor">
         <div class="middle">
@@ -16,6 +17,7 @@
         </div>
     </div>
 </div>
+
 
 <header>
 
