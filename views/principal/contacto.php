@@ -72,7 +72,7 @@
 
                     <!-- action="mail/correo.php"  -->
                     <!-- action="?c=CorreoModel&a=enviar"  -->
-                    <form method="post" autocomplete="off" action="mail/correo.php" class="formulario">
+                    <form method="post" autocomplete="off" action="mail/correo.php" class="formulario"  onsubmit="return checkSubmit();">
 
                         <div class="formulario__control">
 
@@ -99,13 +99,12 @@
                 
 
             </div>
-            
+
         </div>
-        
+
         <div class="container__mapa">    
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.433821724102!2d-79.93659958776433!3d-6.8384786120442715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cfac0a2300ebf%3A0x94da28176c9f5224!2sMalec%C3%B3n%20de%20Pimentel!5e0!3m2!1ses!2spe!4v1631046430662!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-        
 
     </main>
 
@@ -118,7 +117,22 @@
 
     <script src="../../js/guardaModoOscuro.js?v=<?php echo time(); ?>"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <!-- Boton Carga-->
+    <script>
+        if(window.history.replaceState){
+            window.history.replaceState(null, null, window.location.href);
+        }
 
+        function checkSubmit() {
+            document.getElementById("boton").value = "Enviando...";
+            document.getElementById("boton").disabled = true;
+            return true;
+        }
+
+    </script>
+
+    <!-- Alertas -->
     <script type="text/javascript">
 
         const Toast = Swal.mixin({
@@ -159,7 +173,6 @@
             default:
                 break;
         }
-
 
     </script>
 
